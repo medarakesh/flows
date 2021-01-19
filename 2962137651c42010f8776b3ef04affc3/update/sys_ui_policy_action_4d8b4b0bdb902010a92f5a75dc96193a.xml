@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>who_else_was_affected</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>rakesh</sys_created_by>
+        <sys_created_on>2020-11-10 12:08:16</sys_created_on>
+        <sys_id>4d8b4b0bdb902010a92f5a75dc96193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>who_else_was_affected</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ui_policy_action_4d8b4b0bdb902010a92f5a75dc96193a</sys_update_name>
+        <sys_updated_by>rakesh</sys_updated_by>
+        <sys_updated_on>2020-11-10 12:08:16</sys_updated_on>
+        <table>x_snc_emergency_al_status_report</table>
+        <ui_policy display_value="Emergency Alert Others affected">615bc70bdb902010a92f5a75dc961957</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

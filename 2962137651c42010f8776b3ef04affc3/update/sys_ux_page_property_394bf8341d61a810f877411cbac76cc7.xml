@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>adminlistID</name>
+        <page display_value="Emergency Workspace">4efbb889dbc52010945cf9c31d9619e9</page>
+        <required_translations>[]</required_translations>
+        <route display_value="List">fcb21d16dbcda010945cf9c31d961994</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-01-04 05:09:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>394bf8341d61a810f877411cbac76cc7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>adminlistID</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_page_property_394bf8341d61a810f877411cbac76cc7</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-01-04 09:27:08</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_emergency_al.4efbb889dbc52010945cf9c31d9619e9.route.adminlistID.fcb21d16dbcda010945cf9c31d961994</unique_name>
+        <value>e06ab0341d61a810f877411cbac76c84</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=394bf8341d61a810f877411cbac76cc7"/>
+</record_update>

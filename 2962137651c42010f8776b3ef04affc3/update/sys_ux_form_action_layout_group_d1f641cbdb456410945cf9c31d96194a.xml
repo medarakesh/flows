@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_group">
+    <sys_ux_form_action_layout_group action="INSERT_OR_UPDATE">
+        <actions>5a960d0bdb456410945cf9c31d961962,c25526d3db89e810945cf9c31d96194f</actions>
+        <active>true</active>
+        <description/>
+        <name>Approve/Reject</name>
+        <sys_class_name>sys_ux_form_action_layout_group</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-17 09:19:02</sys_created_on>
+        <sys_id>d1f641cbdb456410945cf9c31d96194a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Approve/Reject</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_group_d1f641cbdb456410945cf9c31d96194a</sys_update_name>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-18 10:48:43</sys_updated_on>
+        <table>x_snc_emergency_al_status_report</table>
+        <type>0</type>
+    </sys_ux_form_action_layout_group>
+</record_update>

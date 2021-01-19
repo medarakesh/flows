@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Status Matrix" max_length="40" name="x_snc_emergency_al_status_matrix" type="collection">
+        <element label="Color" mandatory="true" max_length="40" name="color" read_only="true" type="string"/>
+        <element label="Conditions" max_length="4000" name="conditions" type="conditions"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Status" mandatory="true" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Danger" value="danger"/>
+                <element inactive_on_update="false" label="OK" value="ok"/>
+                <element inactive_on_update="false" label="Warning" value="warning"/>
+            </choice>
+        </element>
+    </element>
+</database>

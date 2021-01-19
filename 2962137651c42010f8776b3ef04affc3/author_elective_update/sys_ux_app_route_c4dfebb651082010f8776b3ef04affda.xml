@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Emergency Alert - admin">07c21b7651c42010f8776b3ef04afff2</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>spikepage</name>
+        <optional_parameters>refresh</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Portal AppShell">9533bf435b130010b913cbd59b81c7c6</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>relatedcomponenet</route_type>
+        <screen_type display_value="spikepage">40df6bb651082010f8776b3ef04aff30</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-28 09:51:49</sys_created_on>
+        <sys_id>c4dfebb651082010f8776b3ef04affda</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>spikepage</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_app_route_c4dfebb651082010f8776b3ef04affda</sys_update_name>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-11-25 03:48:33</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>77918959db406c50c6e711f84896196b</instance_id>
+        <instance_name>emergencydevportal</instance_name>
+        <name>sys_ux_app_route_c4dfebb651082010f8776b3ef04affda</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Emergency Alert - admin">07c21b7651c42010f8776b3ef04afff2</app_config><description/><fields/><icon/><name>spikepage</name><optional_parameters>refresh</optional_parameters><order>0</order><parent_macroponent display_value="UXR Portal AppShell">9533bf435b130010b913cbd59b81c7c6</parent_macroponent><parent_macroponent_composition_element_id/><route_type>relatedcomponenet</route_type><screen_type display_value="spikepage">40df6bb651082010f8776b3ef04aff30</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-28 09:51:49</sys_created_on><sys_id>c4dfebb651082010f8776b3ef04affda</sys_id><sys_mod_count>4</sys_mod_count><sys_name>spikepage</sys_name><sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package><sys_policy/><sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope><sys_update_name>sys_ux_app_route_c4dfebb651082010f8776b3ef04affda</sys_update_name><sys_updated_by>raviteja</sys_updated_by><sys_updated_on>2020-11-25 03:48:33</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>-1824865581</payload_hash>
+        <record_name>spikepage</record_name>
+        <reverted_from/>
+        <source>91ed6751db1820105de6f9751d961952</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-11-25 03:48:33</sys_created_on>
+        <sys_id>b7292273db2820105de6f9751d961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175fd8463660000001</sys_recorded_at>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-11-25 03:48:33</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>ff29227322282010c45d72fdc926415f</update_guid>
+        <update_guid_history>ff29227322282010c45d72fdc926415f:-1824865581,71b522ff0ae4201027070ac0ebb335a4:-1097182387,b9df94e5082420107521bc1c219ca60e:-1824865581,85aa2821b3982010243bf9ac0360b627:1739130749,6ba723014e5020108de92bf38003fa18:-208186225</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-11-27 12:31:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>7002bcd42b4743d6bb2dd2cc5d1eb711</sys_id>
+        <sys_metadata>c4dfebb651082010f8776b3ef04affda</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spikepage</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_c4dfebb651082010f8776b3ef04affda</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_c4dfebb651082010f8776b3ef04affda">b7292273db2820105de6f9751d961960</sys_update_version>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-11-27 12:31:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

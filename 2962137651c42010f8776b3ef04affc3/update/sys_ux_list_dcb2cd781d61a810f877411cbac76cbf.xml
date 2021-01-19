@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Employee status">877a34341d61a810f877411cbac76c8d</category>
+        <columns>number,name,type_of_emergency,your_health_status,your_work_status,status,emergency_details,were_other_employees_affected_by_this_emergency,start_date,end_date,work_status_reason</columns>
+        <condition table="x_snc_emergency_al_status_report">start_date&lt;=javascript:gs.beginningOfLast30Days()^status!=closed^EQ<item endquery="false" field="start_date" goto="false" newquery="false" operator="&lt;=" or="false" value="javascript:gs.beginningOfLast30Days()"/>
+            <item display_value="Closed" endquery="false" field="status" goto="false" newquery="false" operator="!=" or="false" value="closed"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <configuration display_value="Emergency Alert Admin list ">e06ab0341d61a810f877411cbac76c84</configuration>
+        <groups/>
+        <list_attributes/>
+        <order>300</order>
+        <roles/>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-01-04 05:43:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dcb2cd781d61a810f877411cbac76cbf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Reports older than 30 days</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_list_dcb2cd781d61a810f877411cbac76cbf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-07 14:26:02</sys_updated_on>
+        <table>x_snc_emergency_al_status_report</table>
+        <title>Reports older than 30 days</title>
+    </sys_ux_list>
+</record_update>

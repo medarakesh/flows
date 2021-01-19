@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Emergency Alert - admin">07c21b7651c42010f8776b3ef04afff2</app_config>
+        <description/>
+        <fields>table,sysId</fields>
+        <icon/>
+        <name>Update Status</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>updatereport</route_type>
+        <screen_type display_value="Update Status">dbeec861db5820105de6f9751d961936</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-11-05 06:32:34</sys_created_on>
+        <sys_id>2bee4c61db5820105de6f9751d96195a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Update Status</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_app_route_2bee4c61db5820105de6f9751d96195a</sys_update_name>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-04 07:09:48</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=2bee4c61db5820105de6f9751d96195a"/>
+</record_update>

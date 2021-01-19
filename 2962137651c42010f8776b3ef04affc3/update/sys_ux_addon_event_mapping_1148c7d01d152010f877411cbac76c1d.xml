@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>List New button to List page's Open Modal</description>
+        <name>Send Emergency Alert Admin</name>
+        <parent_macroponent display_value="List">14b535b81de1a810f877411cbac76c27</parent_macroponent>
+        <source_da display_value="send emergency alert">59b99b62dbc5a810945cf9c31d961987</source_da>
+        <source_element_id>list</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-21 15:52:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1148c7d01d152010f877411cbac76c1d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Send Emergency Alert Admin</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_1148c7d01d152010f877411cbac76c1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-18 12:58:04</sys_updated_on>
+        <target_event display_value="LIST#NAV_ITEM_SELECTED">8c1321d50f1310107d20409dc4767e52</target_event>
+        <target_payload_mapping>{&#13;
+  "type": "MAP_CONTAINER",&#13;
+  "container": {&#13;
+    "route": {&#13;
+      "type": "EVENT_PAYLOAD_BINDING",&#13;
+      "binding": {&#13;
+        "address": [&#13;
+          "route"&#13;
+        ]&#13;
+      }&#13;
+    },&#13;
+    "fields": {&#13;
+      "type": "EVENT_PAYLOAD_BINDING",&#13;
+      "binding": {&#13;
+        "address": [&#13;
+          "fields"&#13;
+        ]&#13;
+      }&#13;
+    },&#13;
+    "multiInstField": "sysId",&#13;
+    "params": {&#13;
+      "type": "EVENT_PAYLOAD_BINDING",&#13;
+      "binding": {&#13;
+        "address": [&#13;
+          "params"&#13;
+        ]&#13;
+      }&#13;
+    },&#13;
+    "redirect": {&#13;
+      "type": "EVENT_PAYLOAD_BINDING",&#13;
+      "binding": {&#13;
+        "address": [&#13;
+          "redirect"&#13;
+        ]&#13;
+      }&#13;
+    },&#13;
+    "passiveNavigation": {&#13;
+      "type": "EVENT_PAYLOAD_BINDING",&#13;
+      "binding": {&#13;
+        "address": [&#13;
+          "passiveNavigation"&#13;
+        ]&#13;
+      }&#13;
+    },&#13;
+    "title": {&#13;
+      "type": "EVENT_PAYLOAD_BINDING",&#13;
+      "binding": {&#13;
+        "address": [&#13;
+          "title"&#13;
+        ]&#13;
+      }&#13;
+    },&#13;
+    "external": {&#13;
+      "type": "EVENT_PAYLOAD_BINDING",&#13;
+      "binding": {&#13;
+        "address": [&#13;
+          "external"&#13;
+        ]&#13;
+      }&#13;
+    }&#13;
+  }&#13;
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

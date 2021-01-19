@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="e11e8e201dd92010f877411cbac76cfa" sys_domain="global" table="x_snc_emergency_al_emergency_alert" version="3" view="sendemergencyalertws">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emergency_alert_title</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-23 14:32:27</sys_created_on>
+            <sys_id>8d198d811dd96010f877411cbac76cc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_emergency_al_emergency_alert" sys_domain="global" view="a51e8e201dd92010f877411cbac76cf5">e11e8e201dd92010f877411cbac76cfa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-23 14:32:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emergency_alert_message</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-23 14:32:27</sys_created_on>
+            <sys_id>49198d811dd96010f877411cbac76cc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_emergency_al_emergency_alert" sys_domain="global" view="a51e8e201dd92010f877411cbac76cf5">e11e8e201dd92010f877411cbac76cfa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-23 14:32:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-23 14:32:27</sys_created_on>
+            <sys_id>cd198d811dd96010f877411cbac76cc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_emergency_al_emergency_alert" sys_domain="global" view="a51e8e201dd92010f877411cbac76cf5">e11e8e201dd92010f877411cbac76cfa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-23 14:32:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_emergency_al_emergency_alert</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-22 06:17:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e11e8e201dd92010f877411cbac76cfa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_emergency_al_emergency_alert</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+            <sys_update_name>sys_ui_section_e11e8e201dd92010f877411cbac76cfa</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-22 06:17:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="SendEmergencyAlertWS" name="sendemergencyalertws">a51e8e201dd92010f877411cbac76cf5</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

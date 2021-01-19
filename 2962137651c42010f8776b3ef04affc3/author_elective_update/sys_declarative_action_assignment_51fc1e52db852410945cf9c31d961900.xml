@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="DELETE">
+        <action/>
+        <action_attributes/>
+        <action_name>Send Emergency Alert</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <button_type>secondary</button_type>
+        <client_action display_value="Open Emergency Alert Form">1b1e1e96db852410945cf9c31d9619b4</client_action>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_render_mode/>
+        <declarative_action_type>dispatch_action</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description/>
+        <design_icon/>
+        <enabled>true</enabled>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_fields_required>false</form_fields_required>
+        <form_position/>
+        <group/>
+        <group_by>false</group_by>
+        <icon/>
+        <label>Send Emergency Alert</label>
+        <model display_value="List">c3547169534723003eddddeeff7b126c</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>0</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>false</record_selection_required>
+        <required_roles/>
+        <requires_value>false</requires_value>
+        <script_condition/>
+        <server_script/>
+        <specificity>11</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-15 07:42:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>51fc1e52db852410945cf9c31d961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send Emergency Alert</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_51fc1e52db852410945cf9c31d961900</sys_update_name>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-15 07:42:53</sys_updated_on>
+        <table>x_snc_emergency_al_status_report</table>
+        <tooltip/>
+        <ui_component/>
+        <view/>
+        <workspace/>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+    <sys_translated_text action="DELETE" query="documentkey=51fc1e52db852410945cf9c31d961900"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>ae1b3926db70ec184b5c50b6f49619bd</instance_id>
+        <instance_name>empalertapp</instance_name>
+        <name>sys_declarative_action_assignment_51fc1e52db852410945cf9c31d961900</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment"><sys_declarative_action_assignment action="INSERT_OR_UPDATE"><action/><action_attributes/><action_name>Send Emergency Alert</action_name><action_payload/><action_type>type</action_type><active>true</active><button_type>secondary</button_type><client_action display_value="Open Emergency Alert Form">1b1e1e96db852410945cf9c31d9619b4</client_action><client_conditions/><client_conditions_on_fields/><confirmation_message/><confirmation_required>false</confirmation_required><create_access>false</create_access><declarative_action_render_mode/><declarative_action_type>dispatch_action</declarative_action_type><delete_access>false</delete_access><dependency/><description/><design_icon/><enabled>true</enabled><field_name/><field_type>glide_date</field_type><form_fields_required>false</form_fields_required><form_position/><group/><group_by>false</group_by><icon/><label>Send Emergency Alert</label><model display_value="List">c3547169534723003eddddeeff7b126c</model><model_conditions/><model_field_required/><order>0</order><payload_map/><read_access>false</read_access><record_conditions/><record_selection_required>false</record_selection_required><required_roles/><requires_value>false</requires_value><script_condition/><server_script/><specificity>11</specificity><sys_class_name>sys_declarative_action_assignment</sys_class_name><sys_created_by>raviteja</sys_created_by><sys_created_on>2020-12-15 07:42:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>51fc1e52db852410945cf9c31d961900</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Send Emergency Alert</sys_name><sys_overrides/><sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package><sys_policy/><sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope><sys_update_name>sys_declarative_action_assignment_51fc1e52db852410945cf9c31d961900</sys_update_name><sys_updated_by>raviteja</sys_updated_by><sys_updated_on>2020-12-15 07:42:53</sys_updated_on><table>x_snc_emergency_al_status_report</table><tooltip/><ui_component/><view/><workspace/><write_access>false</write_access></sys_declarative_action_assignment><sys_translated_text action="delete_multiple" query="documentkey=51fc1e52db852410945cf9c31d961900"/></record_update>]]></payload>
+        <payload_hash>-1095085796</payload_hash>
+        <record_name>Send Emergency Alert</record_name>
+        <reverted_from/>
+        <source>47abf489dbc52010945cf9c31d961911</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-15 07:42:53</sys_created_on>
+        <sys_id>e79e1e5adb852410945cf9c31d961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176655a1f490000001</sys_recorded_at>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-15 07:42:53</sys_updated_on>
+        <type>Action Assignment</type>
+        <update_guid>239e1e5ade852410ffa363f424d36f77</update_guid>
+        <update_guid_history>239e1e5ade852410ffa363f424d36f77:-1095085796</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-15 10:25:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_declarative_action_assignment">sys_declarative_action_assignment</sys_db_object>
+        <sys_id>2b1ec288dde64fd68ea5fc2815d1f064</sys_id>
+        <sys_metadata>51fc1e52db852410945cf9c31d961900</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send Emergency Alert</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_declarative_action_assignment_51fc1e52db852410945cf9c31d961900</sys_update_name>
+        <sys_update_version display_value="sys_declarative_action_assignment_51fc1e52db852410945cf9c31d961900">e79e1e5adb852410945cf9c31d961977</sys_update_version>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-15 10:25:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

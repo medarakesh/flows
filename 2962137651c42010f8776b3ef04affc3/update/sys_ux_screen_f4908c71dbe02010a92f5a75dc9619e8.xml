@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Emergency Alert - admin">07c21b7651c42010f8776b3ef04afff2</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "ckhvwdyyffaaaaeeaaccaiidddosnshhhs",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_emergency_al.MODAL_SELECTED_RELAY_38908c71dbe02010a92f5a75dc9619e5",
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_emergency_al.MODAL_SELECTED_RELAY_38908c71dbe02010a92f5a75dc9619e5",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.MODAL_SELECTED",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : "882eed4091382d3a41f1bb3f382ae089"
+    },
+    "operation" : null,
+    "targetId" : "ckhvwdyyffaaaaddzccaiidpfiidhxpq",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="Report Summary">38908c71dbe02010a92f5a75dc9619e5</macroponent>
+        <macroponent_config>{
+  "updateEmergency" : "",
+  "table" : "",
+  "sysId" : "",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "none",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Report Summary Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="">9533bf435b130010b913cbd59b81c7c6</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Report Summary">3c908c71dbe02010a92f5a75dc9619e1</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-11-18 10:24:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f4908c71dbe02010a92f5a75dc9619e8</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Report Summary Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_screen_f4908c71dbe02010a92f5a75dc9619e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-13 13:09:39</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=f4908c71dbe02010a92f5a75dc9619e8"/>
+</record_update>

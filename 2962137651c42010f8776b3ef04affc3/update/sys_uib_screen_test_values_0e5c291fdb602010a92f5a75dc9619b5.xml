@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "table" : "x_snc_emergency_al_status_report",
+  "sysId" : "61b8cad8db3420105de6f9751d9619fa"
+}</macroponent_config>
+        <screen display_value="Emergency Report Update Default">573ca51fdb602010a92f5a75dc96190f</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-11-23 10:05:46</sys_created_on>
+        <sys_id>0e5c291fdb602010a92f5a75dc9619b5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_0e5c291fdb602010a92f5a75dc9619b5</sys_update_name>
+        <sys_updated_by>rakesh</sys_updated_by>
+        <sys_updated_on>2020-11-27 04:49:06</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="DELETE">
+        <active>true</active>
+        <applicability display_value="Emergency Alert Admin">47743d781de1a810f877411cbac76cc9</applicability>
+        <order>0</order>
+        <screen display_value="Admin List">d654f9781de1a810f877411cbac76c0b</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-01-04 09:20:29</sys_created_on>
+        <sys_id>80c4f5f01da1a810f877411cbac76c2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_80c4f5f01da1a810f877411cbac76c2f</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-01-04 09:20:29</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>60cf090fd0012010adfc9c0fe0a9419b</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_applicability_m2m_screen_80c4f5f01da1a810f877411cbac76c2f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen"><sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="Emergency Alert Admin">47743d781de1a810f877411cbac76cc9</applicability><order>0</order><screen display_value="Admin List">d654f9781de1a810f877411cbac76c0b</screen><sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name><sys_created_by>maint</sys_created_by><sys_created_on>2021-01-04 09:20:29</sys_created_on><sys_id>80c4f5f01da1a810f877411cbac76c2f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package><sys_policy/><sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope><sys_update_name>sys_ux_applicability_m2m_screen_80c4f5f01da1a810f877411cbac76c2f</sys_update_name><sys_updated_by>maint</sys_updated_by><sys_updated_on>2021-01-04 09:20:29</sys_updated_on></sys_ux_applicability_m2m_screen></record_update>]]></payload>
+        <payload_hash>-1762976434</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b28cecb81d21a810f877411cbac76c73</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-01-04 09:20:29</sys_created_on>
+        <sys_id>c8c4f5f01da1a810f877411cbac76c31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176ccb2a9a90000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-01-04 09:20:29</sys_updated_on>
+        <type>Screen Applicability</type>
+        <update_guid>04c4f5f0faa1a8104be68904763cc231</update_guid>
+        <update_guid_history>04c4f5f0faa1a8104be68904763cc231:-1762976434</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-01-04 09:42:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_screen">sys_ux_applicability_m2m_screen</sys_db_object>
+        <sys_id>2cef9a820a2b4a998519e65681f426e9</sys_id>
+        <sys_metadata>80c4f5f01da1a810f877411cbac76c2f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_screen_80c4f5f01da1a810f877411cbac76c2f</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_screen_80c4f5f01da1a810f877411cbac76c2f">c8c4f5f01da1a810f877411cbac76c31</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-01-04 09:42:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

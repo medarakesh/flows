@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout/>
+        <description/>
+        <layout><![CDATA[<p><br /></p>
+<table style="border: 1px solid gray; width: 602px; position: relative;">
+<tbody>
+<tr>
+<td style="background-color: #293e40; color: #ffffff; padding-top: 15px; padding-bottom: 15px; border-top-right-radius: 5px; border-top-left-radius: 5px; width: 608px; text-align: center;">
+<h3 style="padding-left: 20px; font-size: 16pt; color: #ffffff;"><span style="font-family: 'trebuchet ms', geneva;">${mail_script:emergency_alert_company_name}</span></h3>
+</td>
+</tr>
+<tr>
+<td style="padding-left: 5px; padding-right: 5px; padding-top: 20px;">
+<p class="p1" style="font-family: arial, helvetica, 'sans serif'; font-size: 16pt; color: #ffffff; text-align: center;"><span style="color: #000000; font-family: 'trebuchet ms', geneva;">${notification:body}</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><img style="align: middle;" src="Emergency_Notification_base_image.pngx" width="600" height="312" align="middle" /></p>
+<p>${mail_script:emergency_alert_footer}</p>
+<p><br /></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>]]></layout>
+        <name>Emergency Alert Notification</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-29 08:49:25</sys_created_on>
+        <sys_id>4972fe7a1d5d6410f877411cbac76cf2</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Emergency Alert Notification</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_email_layout_4972fe7a1d5d6410f877411cbac76cf2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-30 06:47:24</sys_updated_on>
+    </sys_email_layout>
+</record_update>

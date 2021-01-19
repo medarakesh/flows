@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-02 08:59:23</sys_created_on>
+        <sys_id>01c3d128511ce010f8776b3ef04aff8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_emergency_al_self_report.admin</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_security_acl display_value="x_snc_emergency_al_self_report">85c3d128511ce010f8776b3ef04aff88</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_01c3d128511ce010f8776b3ef04aff8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-02 08:59:23</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>77918959db406c50c6e711f84896196b</instance_id>
+        <instance_name>emergencydevportal</instance_name>
+        <name>sys_security_acl_role_01c3d128511ce010f8776b3ef04aff8b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-02 08:59:23</sys_created_on>
+        <sys_id>01c3d128511ce010f8776b3ef04aff8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_emergency_al_self_report.admin</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_security_acl display_value="x_snc_emergency_al_self_report">85c3d128511ce010f8776b3ef04aff88</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_01c3d128511ce010f8776b3ef04aff8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-02 08:59:23</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-2077923</payload_hash>
+        <record_name>x_snc_emergency_al_self_report.admin</record_name>
+        <reverted_from/>
+        <source>af872bcddb102010a92f5a75dc9619d7</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>rakesh</sys_created_by>
+        <sys_created_on>2020-11-04 09:02:32</sys_created_on>
+        <sys_id>5ea7afcddb102010a92f5a75dc9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175927e4e460000001</sys_recorded_at>
+        <sys_updated_by>rakesh</sys_updated_by>
+        <sys_updated_on>2020-11-04 09:02:32</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>1ea7afcd1e10201040c21e20f1bf4af1</update_guid>
+        <update_guid_history>1ea7afcd1e10201040c21e20f1bf4af1:-2077923</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">f303182fdb902010a92f5a75dc9619b9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-11-11 11:58:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0e4839bca4804554a16242fb29d1a5d9</sys_id>
+        <sys_metadata>01c3d128511ce010f8776b3ef04aff8b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_emergency_al_self_report.admin</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent display_value="">85c3d128511ce010f8776b3ef04aff88</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_01c3d128511ce010f8776b3ef04aff8b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_01c3d128511ce010f8776b3ef04aff8b">5ea7afcddb102010a92f5a75dc9619f1</sys_update_version>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-11-11 11:58:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

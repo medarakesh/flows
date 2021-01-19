@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_emergency_al.Get Kb Article Title Details</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Get Kb Article Title Details</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+  "name": "table",&#13;
+  "label": "Table",&#13;
+  "description": "Table to look up",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "table_name",&#13;
+  "mandatory": true&#13;
+},&#13;
+{&#13;
+  "name": "recordId",&#13;
+  "label": "Record",&#13;
+  "description": "Record to look up (sys_id or display value)",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": true,&#13;
+  "defaultValue": ""&#13;
+}&#13;
+]</props>
+        <required_translations>[{"message":"Table","comment":""},{"message":"Table to look up","comment":""},{"message":"Record","comment":""},{"message":"Record to look up (sys_id or display value)","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    var tableName = input['table'],
+        alertID = input['recordId'];
+    var output = {};
+    var communityAlert = new GlideRecord(tableName);
+    if (communityAlert.get(alertID)) {
+        var kb = new GlideRecord('kb_knowledge');
+        if (kb.get(communityAlert.kb_article)) {
+            var type = ((communityAlert.type).getDisplayValue()).toString();
+            var title = (kb.short_description).toString();
+            var date = new GlideDateTime(kb.sys_created_on);
+            var nowDate = new GlideDateTime();
+            var duration = GlideDateTime.subtract(date, nowDate);
+            var days = (duration.getDisplayValue()).split(' ');
+            var result = "";
+            var rem = "";
+            if (days[0] > 365) {
+                rem = days[0] / 365;
+                result = ["Created", Math.round(rem), "years ago"].join(' ');
+            } else if (days[0] > 30) {
+                rem = days[0] / 30;
+                result = ["Created", Math.round(rem), "months ago"].join(' ');
+            } else {
+                result = ["Created", Math.round(days[0]), "days ago"].join(' ');
+            }
+            var created = result;
+			var breadcrumb = [{"label":"Home","href":"now/emergency/home"},{"label":type}];
+        }
+        var articleID = (communityAlert.kb_article).toString();
+        output = {
+            "type": type,
+            "title": title,
+            "created": created,
+			"path":breadcrumb
+        };
+    }
+    return output;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-07 13:08:58</sys_created_on>
+        <sys_id>4d5c923f48702010f87773258ebb6159</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Get Kb Article Title Details</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_4d5c923f48702010f87773258ebb6159</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-11 14:02:25</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=4d5c923f48702010f87773258ebb6159"/>
+</record_update>

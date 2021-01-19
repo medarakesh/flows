@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="portal-landing">5264db7651c42010f8776b3ef04aff8b</macroponent>
+        <name>alertRedirection</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    console.log('@MRT API'+JSON.stringify(api));
+  
+    helpers.navigate.to('relatedcomponenet',null,{
+         'refresh':Date.now()
+     });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-11-16 11:50:30</sys_created_on>
+        <sys_id>0031ce49dba0a010a92f5a75dc9619f0</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>alertRedirection</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_client_script_0031ce49dba0a010a92f5a75dc9619f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-24 11:04:05</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

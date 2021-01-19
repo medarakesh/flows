@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="DELETE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>db34287fdbd82010a92f5a75dc96191c</image>
+        <name>lift.svg</name>
+        <size_bytes>8823</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 07:02:08</sys_created_on>
+        <sys_id>66c8dcf7dbd82010a92f5a75dc9619c7</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>lift.svg</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>db_image_66c8dcf7dbd82010a92f5a75dc9619c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 07:52:00</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="DELETE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>image</file_name>
+        <hash>ffe9b1e60f60d8d61a4c66bb5362ae5e7e666224f50e56e5d833209e05ba881b</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>8823</size_bytes>
+        <size_compressed>2668</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 07:52:00</sys_created_on>
+        <sys_id>db34287fdbd82010a92f5a75dc96191c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-11-12 07:52:00</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>66c8dcf7dbd82010a92f5a75dc9619c7</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="DELETE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="db34287fdbd82010a92f5a75dc96191c">db34287fdbd82010a92f5a75dc96191c</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 07:52:00</sys_created_on>
+        <sys_id>1f34287fdbd82010a92f5a75dc96191c</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="DELETE">
+        <data>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</data>
+        <length>3544</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="db34287fdbd82010a92f5a75dc96191c">db34287fdbd82010a92f5a75dc96191c</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 07:52:00</sys_created_on>
+        <sys_id>9f34287fdbd82010a92f5a75dc96191c</sys_id>
+    </sys_attachment_doc>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>77918959db406c50c6e711f84896196b</instance_id>
+        <instance_name>emergencydevportal</instance_name>
+        <name>db_image_66c8dcf7dbd82010a92f5a75dc9619c7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image"><db_image action="INSERT_OR_UPDATE"><active>true</active><category/><format/><height/><image>db34287fdbd82010a92f5a75dc96191c</image><name>lift.svg</name><size_bytes>8823</size_bytes><sys_class_name>db_image</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-12 07:02:08</sys_created_on><sys_id>66c8dcf7dbd82010a92f5a75dc9619c7</sys_id><sys_mod_count>9</sys_mod_count><sys_name>lift.svg</sys_name><sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package><sys_policy/><sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope><sys_update_name>db_image_66c8dcf7dbd82010a92f5a75dc9619c7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-12 07:52:00</sys_updated_on><thumbnail/><width/></db_image><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes>700000</chunk_size_bytes><compressed>true</compressed><content_type>image/svg+xml</content_type><file_name>image</file_name><hash>ffe9b1e60f60d8d61a4c66bb5362ae5e7e666224f50e56e5d833209e05ba881b</hash><image_height/><image_width/><size_bytes>8823</size_bytes><size_compressed>2668</size_compressed><state>available</state><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-12 07:52:00</sys_created_on><sys_id>db34287fdbd82010a92f5a75dc96191c</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>system</sys_updated_by><sys_updated_on>2020-11-12 07:52:00</sys_updated_on><table_name>ZZ_YYdb_image</table_name><table_sys_id>66c8dcf7dbd82010a92f5a75dc9619c7</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="image" sys_id="db34287fdbd82010a92f5a75dc96191c">db34287fdbd82010a92f5a75dc96191c</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-12 07:52:00</sys_created_on><sys_id>1f34287fdbd82010a92f5a75dc96191c</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>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</data><length>3544</length><position>1</position><sys_attachment display_value="image" sys_id="db34287fdbd82010a92f5a75dc96191c">db34287fdbd82010a92f5a75dc96191c</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-12 07:52:00</sys_created_on><sys_id>9f34287fdbd82010a92f5a75dc96191c</sys_id></sys_attachment_doc></record_update>]]></payload>
+        <payload_hash>0</payload_hash>
+        <record_name>lift.svg</record_name>
+        <reverted_from/>
+        <source>91ed6751db1820105de6f9751d961952</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 07:52:01</sys_created_on>
+        <sys_id>1734a0bfdbd82010a92f5a75dc961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175bb709d580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 07:52:01</sys_updated_on>
+        <type>Images</type>
+        <update_guid>5f34a0bf5cd820106f3566143ff50595</update_guid>
+        <update_guid_history>5f34a0bf5cd820106f3566143ff50595:1981935430,df34287f3fd82010bf26261705f0031f:2007554664,3934a0bf8ad82010f0296419be217b54:365367300,cf40603fabd820108508ae857b7d7e37:-1636095680,8340603f5ed820104cd06f7e6b03af34:2055859432,4f40ac3b59d82010c66652cc292fb121:-1463819942,f84a9c3b64d82010b8fe4f0073483414:-810684758,bc4a9c3be1d820104a68707420424510:-671259102,344a9c3b2ed82010f36c404e2c6f8c0e:312624852,5f3a583b7fd82010eb0ac18d5975617d:797543417,4e89d43bcdd820101c54d72061f4b647:-498239845,4e89d43b1fd8201023ede1d77c517543:1167101027,c289d43bb0d82010fdb949b21233f641:2011358805,b489943b54d820109d29df1e01ed68e7:1244607476,4bd8103b5ad820107cc90c3343733dd8:339814692,cfd8103bd1d820100e31771b55bc72d4:-285115192,c3d8103b6dd82010a54d653602014dd2:-1181144006,70d8dcf7f0d82010236702d59c5443af:611109060</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e52e525bdbe02010a92f5a75dc961931</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-11-23 13:43:23</sys_created_on>
+        <sys_db_object display_value="" name="db_image">db_image</sys_db_object>
+        <sys_id>042e62bc05524483acd4dc7462e27071</sys_id>
+        <sys_metadata>66c8dcf7dbd82010a92f5a75dc9619c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>lift.svg</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>db_image_66c8dcf7dbd82010a92f5a75dc9619c7</sys_update_name>
+        <sys_update_version display_value="db_image_66c8dcf7dbd82010a92f5a75dc9619c7">1734a0bfdbd82010a92f5a75dc961996</sys_update_version>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-11-23 13:43:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

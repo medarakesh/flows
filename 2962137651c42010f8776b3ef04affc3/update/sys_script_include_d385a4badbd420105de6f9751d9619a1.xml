@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_emergency_al.selfReportQueryService</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>selfReportQueryService</name>
+        <script><![CDATA[var selfReportQueryService = Class.create();
+selfReportQueryService.prototype = {
+    initialize: function() {},
+
+    updateStatusData: function(table, sysID, returnFields) {
+        var output = {};
+        var labelWithValues = [];
+        var description = '';
+        var glideObject = new GlideRecord(table);
+        glideObject.get(sysID);
+
+        labelWithValues.push({
+            "label": gs.getMessage("Emergency start"),
+            "value": {
+                "type": "string",
+                "value": glideObject.getDisplayValue("start_date")
+            }
+        });
+        labelWithValues.push({
+            "label": gs.getMessage("Emergency"),
+            "value": {
+                "type": "string",
+                "value": glideObject.getDisplayValue("type_of_emergency")
+            }
+        });
+        labelWithValues.push({
+            "label": gs.getMessage("Location"),
+            "value": {
+                "type": "string",
+                "value": glideObject.name.location.getDisplayValue()
+            }
+        });
+        labelWithValues.push({
+            "label": gs.getMessage("Manger"),
+            "value": {
+                "type": "string",
+                "value": glideObject.name.manager.getDisplayValue()
+            }
+        });
+        output['sidebarContent'] = labelWithValues;
+        output['description'] = glideObject.emergency_details.toString() || '';
+        return output;
+    },
+
+    alertQueryService: function() {
+        var output = {};
+        var loggedInUser = gs.getUserID();
+        var gr = new GlideRecord('x_snc_emergency_al_status_report');
+        gr.addQuery('name', loggedInUser);
+        gr.addQuery('status', 'status_requested');
+        gr.orderByDesc('sys_updated_on');
+        gr.query();
+        if (gr.next()) {
+            var href = ["updatereport/x_snc_emergency_al_status_report/", gr.sys_id].join('');
+            output['action'] = {
+                "type": "open",
+                "href": href,
+                "label": gs.getMessage("Update status")
+            };
+            output['invisible'] = false;
+        } else {
+            output['invisible'] = true;
+            output['action'] = null;
+        }
+        output['newAlertInvisible'] = true;
+        output['newAlertAction'] = null;
+        var alerts = new GlideRecord('x_snc_emergency_al_emergency_alert');
+        alerts.addActiveQuery();
+        alerts.orderByDesc('sys_updated_on');
+        alerts.query();
+
+        while (alerts.next()) {
+            var recordURL = ["emergency-information/x_snc_emergency_al_emergency_alert/", alerts.sys_id, "/", alerts.kb_article].join('');
+            var readUsers = (alerts.list_of_read_users).toString();
+            if (readUsers.indexOf(loggedInUser) == -1) {
+                output['newAlertInvisible'] = false;
+                output['newAlertAction'] = {
+                    "type": "open",
+                    "href": recordURL,
+                    "label": gs.getMessage("Read")
+                };
+                break;
+            }
+        }
+        return output;
+    },
+
+    checkSelfReportsCreated: function(current) {
+        var othersAffected = current.who_else_was_affected;
+        var staRepReq = new GlideRecord('x_snc_emergency_al_status_report_requests');
+        staRepReq.addQuery('self_report', current.sys_id);
+        staRepReq.query();
+        if (staRepReq.next()) {
+            var staRep = new GlideRecord('x_snc_emergency_al_status_report');
+            staRep.addQuery('status_report_request', staRepReq.sys_id);
+            staRep.addQuery('name.sys_id', 'IN', othersAffected);
+            staRep.query();
+            return staRep.getRowCount() != othersAffected.split(',').length;
+        } else {
+            return true;
+        }
+    },
+
+    checkWorkRequestStatus: function(current) {
+        var workStatusReq = new GlideRecord('x_snc_emergency_al_work_status_request_task');
+        workStatusReq.addQuery('self_report', current.sys_id);
+        workStatusReq.addQuery('state', 'Requested');
+        workStatusReq.query();
+        if (workStatusReq.getRowCount() > 0) {
+            return 'true';
+        } else {
+            return 'false';
+        }
+    },
+
+    type: 'selfReportQueryService'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-11-09 05:24:11</sys_created_on>
+        <sys_id>d385a4badbd420105de6f9751d9619a1</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>selfReportQueryService</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_script_include_d385a4badbd420105de6f9751d9619a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-15 11:02:09</sys_updated_on>
+    </sys_script_include>
+</record_update>

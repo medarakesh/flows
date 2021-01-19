@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>chrome</category>
+        <component_dependencies/>
+        <composition/>
+        <da_relay_models/>
+        <data/>
+        <dispatched_events/>
+        <extends display_value="UXR Blank AppShell">fee17a0f5b130010b913cbd59b81c7c2</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings/>
+        <layout/>
+        <macroponent_dependencies/>
+        <name>UXR Emergency Alerts</name>
+        <props/>
+        <required_translations>[]</required_translations>
+        <root_component display_value="sn-canvas-root">e6998d46f0f73feb65ab1b4898301e90</root_component>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-23 08:57:46</sys_created_on>
+        <sys_id>8a7c9957db2c2010a92f5a75dc9619a1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>UXR Emergency Alerts</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_macroponent_8a7c9957db2c2010a92f5a75dc9619a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-23 09:05:53</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

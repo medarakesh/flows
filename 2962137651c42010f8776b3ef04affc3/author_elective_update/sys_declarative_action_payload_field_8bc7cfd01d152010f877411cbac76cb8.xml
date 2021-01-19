@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_field">
+    <sys_declarative_action_payload_field action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <configurable>true</configurable>
+        <create_roles/>
+        <default_value>{{query}}</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>params@query</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>query</label>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <model display_value="Record Open New Tab">a3d01766db05a810945cf9c31d9619a9</model>
+        <model_id>a3d01766db05a810945cf9c31d9619a9</model_id>
+        <model_table/>
+        <name>var__m_sys_declarative_action_payload_field_a3d01766db05a810945cf9c31d9619a9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_declarative_action_payload_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-21 15:50:39</sys_created_on>
+        <sys_id>8bc7cfd01d152010f877411cbac76cb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>query</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_field_8bc7cfd01d152010f877411cbac76cb8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-21 15:50:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_declarative_action_payload_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>60cf090fd0012010adfc9c0fe0a9419b</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_declarative_action_payload_field_8bc7cfd01d152010f877411cbac76cb8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_declarative_action_payload_field"&gt;&lt;sys_declarative_action_payload_field action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;configurable&gt;true&lt;/configurable&gt;&lt;create_roles/&gt;&lt;default_value&gt;{{query}}&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;params@query&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;query&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;100&lt;/max_length&gt;&lt;model display_value="Record Open New Tab"&gt;a3d01766db05a810945cf9c31d9619a9&lt;/model&gt;&lt;model_id&gt;a3d01766db05a810945cf9c31d9619a9&lt;/model_id&gt;&lt;model_table/&gt;&lt;name&gt;var__m_sys_declarative_action_payload_field_a3d01766db05a810945cf9c31d9619a9&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_declarative_action_payload_field&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-21 15:50:39&lt;/sys_created_on&gt;&lt;sys_id&gt;8bc7cfd01d152010f877411cbac76cb8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;query&lt;/sys_name&gt;&lt;sys_package display_value="Emergency Alert" source="x_snc_emergency_al"&gt;2962137651c42010f8776b3ef04affc3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Emergency Alert"&gt;2962137651c42010f8776b3ef04affc3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_declarative_action_payload_field_8bc7cfd01d152010f877411cbac76cb8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-21 15:50:39&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_declarative_action_payload_field&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-148021659</payload_hash>
+        <record_name>query</record_name>
+        <reverted_from/>
+        <source>9b127a141dd12010f877411cbac76c2b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-21 15:50:39</sys_created_on>
+        <sys_id>0fc7cfd01d152010f877411cbac76ccf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17685fed8060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-21 15:50:39</sys_updated_on>
+        <type>Action Payload Field</type>
+        <update_guid>07c7cfd0521520106b5738aae56ea2cf</update_guid>
+        <update_guid_history>07c7cfd0521520106b5738aae56ea2cf:-148021659,8fc7cfd0781520103d6df9773a0d98cb:-632980348,0fc7cfd02a1520100e53d305a49df6c7:-148021659</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-22 07:02:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_declarative_action_payload_field">sys_declarative_action_payload_field</sys_db_object>
+        <sys_id>4aba9f275c3a4f8087a3f81014121000</sys_id>
+        <sys_metadata>8bc7cfd01d152010f877411cbac76cb8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>query</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_declarative_action_payload_field_8bc7cfd01d152010f877411cbac76cb8</sys_update_name>
+        <sys_update_version display_value="sys_declarative_action_payload_field_8bc7cfd01d152010f877411cbac76cb8">0fc7cfd01d152010f877411cbac76ccf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-22 07:02:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

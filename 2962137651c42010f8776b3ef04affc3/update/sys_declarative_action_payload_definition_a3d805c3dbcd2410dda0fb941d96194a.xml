@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>UPDATE_EMERGENCY_REC</action_key>
+        <applicable_to>360935e9534723003eddddeeff7b127d</applicable_to>
+        <description/>
+        <label>Update Emergency Rec</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_a3d805c3dbcd2410dda0fb941d96194a</payload_field_table>
+        <payload_template>{"route":"record","fields":{"table":"{{table}}","sysId":"{{sysId}}"}}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>rakesh.meda</sys_created_by>
+        <sys_created_on>2020-12-17 09:23:41</sys_created_on>
+        <sys_id>a3d805c3dbcd2410dda0fb941d96194a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Update Emergency Rec</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_a3d805c3dbcd2410dda0fb941d96194a</sys_update_name>
+        <sys_updated_by>rakesh.meda</sys_updated_by>
+        <sys_updated_on>2020-12-17 09:23:54</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

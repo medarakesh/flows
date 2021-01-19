@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>false</active>
+        <app_config display_value="Emergency Alert - admin">07c21b7651c42010f8776b3ef04afff2</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "ckhwunpjjggaaaabbeeddghhxxiibbgliigg",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_601ea1f851542410f8776b3ef04aff30",
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_601ea1f851542410f8776b3ef04aff30",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckhwunpjjggaaaabbddddghhxhddrgghhmgk",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckhbbthhuukaaaabbjjddhhhiiypezsjaar",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_601ea1f851542410f8776b3ef04aff30",
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_601ea1f851542410f8776b3ef04aff30",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckhbbthhuujaaaabbiiddhhhiifhhjiiiijjqy",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckguiitffbaaaabbbbddhhhafjjckffryf",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_8acc2ff251082010f8776b3ef04aff3c",
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_8acc2ff251082010f8776b3ef04aff3c",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckguiitffbaaaabbaaddhhhamoeeeesjjddt",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="defaultportallanding">601ea1f851542410f8776b3ef04aff30</macroponent>
+        <macroponent_config>{
+  "refresh" : "",
+  "reportSubmitted" : "",
+  "statusUpdated" : "",
+  "label" : "",
+  "bare" : false,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Default Screen</name>
+        <order>10</order>
+        <parent_macroponent display_value="UXR Portal AppShell">9533bf435b130010b913cbd59b81c7c6</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Landing Screen">06cc2ff251082010f8776b3ef04aff38</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 05:32:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>601ea1f851542410f8776b3ef04aff34</sys_id>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_name>Default Screen</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_screen_601ea1f851542410f8776b3ef04aff34</sys_update_name>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-11-25 03:48:12</sys_updated_on>
+    </sys_ux_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>77918959db406c50c6e711f84896196b</instance_id>
+        <instance_name>emergencydevportal</instance_name>
+        <name>sys_ux_screen_601ea1f851542410f8776b3ef04aff34</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>false</active><app_config display_value="Emergency Alert - admin">07c21b7651c42010f8776b3ef04afff2</app_config><description/><event_mappings>[ {
+  "eventMappingId" : "ckhwunpjjggaaaabbeeddghhxxiibbgliigg",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_601ea1f851542410f8776b3ef04aff30",
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_601ea1f851542410f8776b3ef04aff30",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckhwunpjjggaaaabbddddghhxhddrgghhmgk",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckhbbthhuukaaaabbjjddhhhiiypezsjaar",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_601ea1f851542410f8776b3ef04aff30",
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_601ea1f851542410f8776b3ef04aff30",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckhbbthhuujaaaabbiiddhhhiifhhjiiiijjqy",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckguiitffbaaaabbbbddhhhafjjckffryf",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_8acc2ff251082010f8776b3ef04aff3c",
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_8acc2ff251082010f8776b3ef04aff3c",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckguiitffbaaaabbaaddhhhamoeeeesjjddt",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings><macroponent display_value="defaultportallanding">601ea1f851542410f8776b3ef04aff30</macroponent><macroponent_config>{
+  "refresh" : "",
+  "reportSubmitted" : "",
+  "statusUpdated" : "",
+  "label" : "",
+  "bare" : false,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config><name>Default Screen</name><order>10</order><parent_macroponent display_value="UXR Portal AppShell">9533bf435b130010b913cbd59b81c7c6</parent_macroponent><required_translations>[]</required_translations><screen_condition/><screen_type display_value="Landing Screen">06cc2ff251082010f8776b3ef04aff38</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-03 05:32:48</sys_created_on><sys_domain>global</sys_domain><sys_id>601ea1f851542410f8776b3ef04aff34</sys_id><sys_mod_count>45</sys_mod_count><sys_name>Default Screen</sys_name><sys_overrides/><sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package><sys_policy/><sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope><sys_update_name>sys_ux_screen_601ea1f851542410f8776b3ef04aff34</sys_update_name><sys_updated_by>raviteja</sys_updated_by><sys_updated_on>2020-11-25 03:48:12</sys_updated_on></sys_ux_screen></record_update>]]></payload>
+        <payload_hash>-627324069</payload_hash>
+        <record_name>Default Screen</record_name>
+        <reverted_from/>
+        <source>91ed6751db1820105de6f9751d961952</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-11-25 03:48:13</sys_created_on>
+        <sys_id>b619ee33db2820105de6f9751d9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175fd8414370000001</sys_recorded_at>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-11-25 03:48:13</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>fe19ee33ce28201047d9d25a54cb21ae</update_guid>
+        <update_guid_history>fe19ee33ce28201047d9d25a54cb21ae:-627324069,3bc562ff3fe420103ed7c87ebf73b7a6:1196601665,b2e46abfeae420108aaa466b24e6b014:-627324069,70e42abf9fe42010f3325c60c1b6b689:1525832953,a7cbd6b3cfa82010296429abd6d2fb31:1254344144,92212e9b41e02010fd57007ac5cfef35:1525832953,48795a97f0e020108bf619876f0d3d39:1254344144,df68de578ee02010a203e387d1ccd8c3:1525832953,d545104a3a2c201053a01cd90c6ce236:-25538235,4481a4b523242010ec551e553711d42e:-2132005828,016fd4fdd6242010dd5139bb9e8b6270:1649331731,9751036d6f202010c129b9e698e5c1e8:-2132005828,0b875b5dc360201008c353d7267cebb1:1915537909,c94c9e9d2e64201091452ec78dcb8623:1721480292,d199165d9e642010d5107285eb233c5f:960977083,8c2c88fca86460109d55938dd181b253:1721480292,3367cc3c2364601095076ae7774cef2e:960977083,95628c7869646010bbb3b8d4c6528077:1721480292,4a5e4177e65c201084fbf0cd7fc82352:952649408,a65d45373d5c2010dfc22c73394c1516:1064798345,bcb2aadfb3582010cf21af96e7b832c2:952649408,69be1a5f8658201089c777e5d57c7810:1064798345,fb8313b9561420103b6c3603291ebf26:952649408,0e5e03f5e1142010833b20ac2a5c806e:836848270,ef1503b17d142010d437bbd9f6df156b:-1548590473,cd2b26f108d02010e391ec32d5f36735:156690781,57b995f1ec582010a85ba747ee4ed1bc:-1910464602,12a955f1c558201082f5560f11fc9464:156690781,2cb59171895820105386e2dcbcf327e0:-1763970875,fb551171a65820106199f384986a3a7b:770307342,0615d931bc58201017a282d7b5fe7c50:-1763970875,d2f45d319c58201094ca5d1069c2c81c:-778253607,79ebc5f19018201003d07ffda533ca2d:1174586761,151c3c397fd4201034fd6ec0f76dd1f4:1517279328,6028783974d4201093e17eaa7ae4154f:1453786936,78b7630169502010956a838d1d505419:-574158594</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-11-26 13:16:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>474cb5c723e94f70821bc666b4dd4900</sys_id>
+        <sys_metadata>601ea1f851542410f8776b3ef04aff34</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default Screen</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_601ea1f851542410f8776b3ef04aff34</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_601ea1f851542410f8776b3ef04aff34">b619ee33db2820105de6f9751d9619af</sys_update_version>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-11-26 13:16:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

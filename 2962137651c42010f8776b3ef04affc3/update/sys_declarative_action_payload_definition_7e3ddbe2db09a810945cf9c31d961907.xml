@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>REQ_A_REPORT</action_key>
+        <applicable_to>c3547169534723003eddddeeff7b126c</applicable_to>
+        <description/>
+        <label>Request a report</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_7e3ddbe2db09a810945cf9c31d961907</payload_field_table>
+        <payload_template>{&#13;
+  "route": "record", &#13;
+  "fields": {  &#13;
+"table":"x_snc_emergency_al_status_report_requests",&#13;
+"sysId":"-1"&#13;
+  }, &#13;
+  "params": { &#13;
+&#13;
+  }&#13;
+}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>rakesh.meda</sys_created_by>
+        <sys_created_on>2020-12-16 06:55:50</sys_created_on>
+        <sys_id>7e3ddbe2db09a810945cf9c31d961907</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Request a report</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_7e3ddbe2db09a810945cf9c31d961907</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-23 09:46:15</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

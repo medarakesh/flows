@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="DELETE">
+        <action_key>REQUEST_REPORT</action_key>
+        <applicable_to>360935e9534723003eddddeeff7b127d</applicable_to>
+        <description/>
+        <label>Request report</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_4d2812b01d65a810f877411cbac76c6e</payload_field_table>
+        <payload_template/>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-04 11:57:57</sys_created_on>
+        <sys_id>4d2812b01d65a810f877411cbac76c6e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Request report</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_4d2812b01d65a810f877411cbac76c6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-04 12:04:04</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>60cf090fd0012010adfc9c0fe0a9419b</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_declarative_action_payload_definition_4d2812b01d65a810f877411cbac76c6e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition"><sys_declarative_action_payload_definition action="INSERT_OR_UPDATE"><action_key>REQUEST_REPORT</action_key><applicable_to>360935e9534723003eddddeeff7b127d</applicable_to><description/><label>Request report</label><payload_field_table>var__m_sys_declarative_action_payload_field_4d2812b01d65a810f877411cbac76c6e</payload_field_table><payload_template/><sys_class_name>sys_declarative_action_payload_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-04 11:57:57</sys_created_on><sys_id>4d2812b01d65a810f877411cbac76c6e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Request report</sys_name><sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package><sys_policy/><sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope><sys_update_name>sys_declarative_action_payload_definition_4d2812b01d65a810f877411cbac76c6e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-04 12:04:04</sys_updated_on></sys_declarative_action_payload_definition></record_update>]]></payload>
+        <payload_hash>665653439</payload_hash>
+        <record_name>Request report</record_name>
+        <reverted_from/>
+        <source>a51d38261d116410f877411cbac76cd6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-04 12:04:05</sys_created_on>
+        <sys_id>203a1ab01d65a810f877411cbac76cd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176cd486f1c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-04 12:04:05</sys_updated_on>
+        <type>Action Payload Definition</type>
+        <update_guid>283a1ab0e565a8107960f722d24dd7d5</update_guid>
+        <update_guid_history>283a1ab0e565a8107960f722d24dd7d5:665653439,76c896b0a865a810a8d0fec494cb46f8:1008905743</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-04 12:04:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_declarative_action_payload_definition">sys_declarative_action_payload_definition</sys_db_object>
+        <sys_id>c3db20c77b4a48cd9203fad20fc500e1</sys_id>
+        <sys_metadata>4d2812b01d65a810f877411cbac76c6e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request report</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_declarative_action_payload_definition_4d2812b01d65a810f877411cbac76c6e</sys_update_name>
+        <sys_update_version display_value="sys_declarative_action_payload_definition_4d2812b01d65a810f877411cbac76c6e">203a1ab01d65a810f877411cbac76cd6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-04 12:04:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Default workspace view used by admin record page</description>
+        <name>view</name>
+        <page display_value="Emergency Workspace">4efbb889dbc52010945cf9c31d9619e9</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>rakesh</sys_created_by>
+        <sys_created_on>2020-12-11 09:27:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>93105a0ddb892010945cf9c31d96196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_page_property_93105a0ddb892010945cf9c31d96196a</sys_update_name>
+        <sys_updated_by>rakesh</sys_updated_by>
+        <sys_updated_on>2020-12-11 09:27:27</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_emergency_al.4efbb889dbc52010945cf9c31d9619e9.root.view</unique_name>
+        <value>workspace</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=93105a0ddb892010945cf9c31d96196a"/>
+</record_update>

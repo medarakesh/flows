@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_snc_emergency_al_status_report</basic_apply_to>
+        <basic_query_from>sys_user</basic_query_from>
+        <insert_callback/>
+        <name>Employees affected</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	current.addQuery('sys_id','IN',parent.who_else_was_affected);
+
+})(current, parent);]]></query_with>
+        <reference_field>building</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-18 10:32:32</sys_created_on>
+        <sys_id>d5b1aa13db49e810945cf9c31d961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employees affected</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_relationship_d5b1aa13db49e810945cf9c31d961940</sys_update_name>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-18 10:32:32</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=d5b1aa13db49e810945cf9c31d961940"/>
+</record_update>

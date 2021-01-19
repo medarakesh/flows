@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_workspace_header_ux_header_config">
+    <sys_ux_m2m_workspace_header_ux_header_config action="INSERT_OR_UPDATE">
+        <header_config display_value="Emergency Alert Header Config">7783af62db89a810945cf9c31d961985</header_config>
+        <sys_class_name>sys_ux_m2m_workspace_header_ux_header_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-28 07:03:37</sys_created_on>
+        <sys_id>3e4219621d516410f877411cbac76c82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_m2m_workspace_header_ux_header_config_3e4219621d516410f877411cbac76c82</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-28 07:03:37</sys_updated_on>
+        <workspace_form_header display_value="x_snc_emergency_al_work_status_request_task">fd2cc56e1d116410f877411cbac76c7c</workspace_form_header>
+    </sys_ux_m2m_workspace_header_ux_header_config>
+</record_update>

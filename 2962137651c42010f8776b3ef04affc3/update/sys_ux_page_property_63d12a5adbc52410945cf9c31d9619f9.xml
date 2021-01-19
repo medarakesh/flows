@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>actionConfigId</name>
+        <page display_value="Emergency Workspace">4efbb889dbc52010945cf9c31d9619e9</page>
+        <required_translations>[]</required_translations>
+        <route display_value="record">e494921adbc12410945cf9c31d9619cd</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-15 07:59:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>63d12a5adbc52410945cf9c31d9619f9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>actionConfigId</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_page_property_63d12a5adbc52410945cf9c31d9619f9</sys_update_name>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-15 10:30:09</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_emergency_al.4efbb889dbc52010945cf9c31d9619e9.route.actionConfigId.e494921adbc12410945cf9c31d9619cd</unique_name>
+        <value>027fa60edb05ec10dda0fb941d9619fd</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=63d12a5adbc52410945cf9c31d9619f9"/>
+</record_update>

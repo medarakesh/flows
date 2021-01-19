@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="DELETE">
+        <action_key>LIST_OPEN_NEW_TAB</action_key>
+        <applicable_to>c3547169534723003eddddeeff7b126c</applicable_to>
+        <description/>
+        <label>list open new tab</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_f5b67b5adb01a410945cf9c31d9619d8</payload_field_table>
+        <payload_template>{"route":"list_modal_page","fields":{"table":"{{table}}"}}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-15 14:08:43</sys_created_on>
+        <sys_id>f5b67b5adb01a410945cf9c31d9619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list open new tab</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_f5b67b5adb01a410945cf9c31d9619d8</sys_update_name>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-15 14:08:43</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>ae1b3926db70ec184b5c50b6f49619bd</instance_id>
+        <instance_name>empalertapp</instance_name>
+        <name>sys_declarative_action_payload_definition_f5b67b5adb01a410945cf9c31d9619d8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition"><sys_declarative_action_payload_definition action="INSERT_OR_UPDATE"><action_key>LIST_OPEN_NEW_TAB</action_key><applicable_to>c3547169534723003eddddeeff7b126c</applicable_to><description/><label>list open new tab</label><payload_field_table>var__m_sys_declarative_action_payload_field_f5b67b5adb01a410945cf9c31d9619d8</payload_field_table><payload_template>{"route":"list_modal_page","fields":{"table":"{{table}}"}}</payload_template><sys_class_name>sys_declarative_action_payload_definition</sys_class_name><sys_created_by>raviteja</sys_created_by><sys_created_on>2020-12-15 14:08:43</sys_created_on><sys_id>f5b67b5adb01a410945cf9c31d9619d8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>list open new tab</sys_name><sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package><sys_policy/><sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope><sys_update_name>sys_declarative_action_payload_definition_f5b67b5adb01a410945cf9c31d9619d8</sys_update_name><sys_updated_by>raviteja</sys_updated_by><sys_updated_on>2020-12-15 14:08:43</sys_updated_on></sys_declarative_action_payload_definition></record_update>]]></payload>
+        <payload_hash>-682204894</payload_hash>
+        <record_name>list open new tab</record_name>
+        <reverted_from/>
+        <source>47abf489dbc52010945cf9c31d961911</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-15 14:08:44</sys_created_on>
+        <sys_id>dfe6fb9adb01a410945cf9c31d9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17666bb5e290000001</sys_recorded_at>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-15 14:08:44</sys_updated_on>
+        <type>Action Payload Definition</type>
+        <update_guid>1be6fb9a7d01a410dc87e8ca588ecba0</update_guid>
+        <update_guid_history>1be6fb9a7d01a410dc87e8ca588ecba0:-682204894</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-16 05:51:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_declarative_action_payload_definition">sys_declarative_action_payload_definition</sys_db_object>
+        <sys_id>05ab80253aa144948a8859ccdf165971</sys_id>
+        <sys_metadata>f5b67b5adb01a410945cf9c31d9619d8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list open new tab</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_declarative_action_payload_definition_f5b67b5adb01a410945cf9c31d9619d8</sys_update_name>
+        <sys_update_version display_value="sys_declarative_action_payload_definition_f5b67b5adb01a410945cf9c31d9619d8">dfe6fb9adb01a410945cf9c31d9619a0</sys_update_version>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-16 05:51:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

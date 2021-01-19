@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_m2m_asset">
+    <sys_ux_theme_m2m_asset action="DELETE">
+        <asset display_value="emergency_App_logo">9e7baff1dbb020105de6f9751d9619d2</asset>
+        <properties>{"position":"header_logo"}</properties>
+        <sys_class_name>sys_ux_theme_m2m_asset</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-01 13:49:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fc4c6735dbb020105de6f9751d961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_theme_m2m_asset_fc4c6735dbb020105de6f9751d961921</sys_update_name>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-01 13:49:49</sys_updated_on>
+        <theme display_value="emergency portal theme">8b23aa7fdbe420105de6f9751d961913</theme>
+        <type/>
+    </sys_ux_theme_m2m_asset>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>77918959db406c50c6e711f84896196b</instance_id>
+        <instance_name>emergencydevportal</instance_name>
+        <name>sys_ux_theme_m2m_asset_fc4c6735dbb020105de6f9751d961921</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_m2m_asset"><sys_ux_theme_m2m_asset action="INSERT_OR_UPDATE"><asset display_value="emergency_App_logo">9e7baff1dbb020105de6f9751d9619d2</asset><properties>{"position":"header_logo"}</properties><sys_class_name>sys_ux_theme_m2m_asset</sys_class_name><sys_created_by>raviteja</sys_created_by><sys_created_on>2020-12-01 13:49:49</sys_created_on><sys_domain>global</sys_domain><sys_id>fc4c6735dbb020105de6f9751d961921</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package><sys_policy/><sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope><sys_update_name>sys_ux_theme_m2m_asset_fc4c6735dbb020105de6f9751d961921</sys_update_name><sys_updated_by>raviteja</sys_updated_by><sys_updated_on>2020-12-01 13:49:49</sys_updated_on><theme display_value="emergency portal theme">8b23aa7fdbe420105de6f9751d961913</theme><type/></sys_ux_theme_m2m_asset></record_update>]]></payload>
+        <payload_hash>915793945</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>91ed6751db1820105de6f9751d961952</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-01 13:49:49</sys_created_on>
+        <sys_id>795c6735dbb020105de6f9751d9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1761e91067b0000001</sys_recorded_at>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-01 13:49:49</sys_updated_on>
+        <type>UX Theme Assets</type>
+        <update_guid>b15c673532b0201003d81924e658cfd1</update_guid>
+        <update_guid_history>b15c673532b0201003d81924e658cfd1:915793945</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-01 13:51:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_theme_m2m_asset">sys_ux_theme_m2m_asset</sys_db_object>
+        <sys_id>138f584ea7cf4a089851a6e21cb687f9</sys_id>
+        <sys_metadata>fc4c6735dbb020105de6f9751d961921</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_ux_theme_m2m_asset_fc4c6735dbb020105de6f9751d961921</sys_update_name>
+        <sys_update_version display_value="sys_ux_theme_m2m_asset_fc4c6735dbb020105de6f9751d961921">795c6735dbb020105de6f9751d9619d1</sys_update_version>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-01 13:51:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

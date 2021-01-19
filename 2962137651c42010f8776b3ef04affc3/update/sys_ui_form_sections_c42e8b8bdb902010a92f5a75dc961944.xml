@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c42e8b8bdb902010a92f5a75dc961944" sys_domain="global" table="x_snc_emergency_al_status_report" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>raviteja</sys_created_by>
+            <sys_created_on>2020-11-10 12:18:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c2e8b8bdb902010a92f5a75dc961945</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_emergency_al_status_report" name="x_snc_emergency_al_status_report" sys_domain="global" view="Default view">c42e8b8bdb902010a92f5a75dc961944</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_emergency_al_status_report" sys_domain="global" view="Default view">1e2efbd1dbe02010a92f5a75dc961945</sys_ui_section>
+            <sys_updated_by>raviteja.manchikanti@snc</sys_updated_by>
+            <sys_updated_on>2020-12-04 06:16:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_emergency_al_status_report</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>raviteja</sys_created_by>
+            <sys_created_on>2020-11-10 12:18:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c42e8b8bdb902010a92f5a75dc961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_emergency_al_status_report</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c42e8b8bdb902010a92f5a75dc961944</sys_update_name>
+            <sys_updated_by>raviteja</sys_updated_by>
+            <sys_updated_on>2020-11-10 12:18:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Respond to request">ab560d0bdb456410945cf9c31d961959</action_payload_definition>
+        <label>Respond to request Form</label>
+        <model display_value="Form">360935e9534723003eddddeeff7b127d</model>
+        <payload_map>EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-17 09:13:19</sys_created_on>
+        <sys_id>e776850bdb456410945cf9c31d961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Respond to request Form</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_e776850bdb456410945cf9c31d961963</sys_update_name>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-17 09:13:19</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>
