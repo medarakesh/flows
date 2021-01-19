@@ -13,7 +13,6 @@
         <confirmation_message/>
         <confirmation_required>false</confirmation_required>
         <create_access>false</create_access>
-        <declarative_action_render_mode/>
         <declarative_action_type>uxf_client_action</declarative_action_type>
         <delete_access>false</delete_access>
         <dependency/>
@@ -22,7 +21,6 @@
         <enabled>true</enabled>
         <field_name/>
         <field_type>glide_date</field_type>
-        <form_fields_required>false</form_fields_required>
         <form_position/>
         <group/>
         <group_by>false</group_by>

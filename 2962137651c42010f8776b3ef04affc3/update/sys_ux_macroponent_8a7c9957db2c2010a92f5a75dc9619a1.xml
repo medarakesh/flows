@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <category>chrome</category>
         <component_dependencies/>
         <composition/>
-        <da_relay_models/>
         <data/>
-        <dispatched_events/>
-        <extends display_value="UXR Blank AppShell">fee17a0f5b130010b913cbd59b81c7c2</extends>
-        <handled_events/>
+        <events/>
+        <extends display_value="">fee17a0f5b130010b913cbd59b81c7c2</extends>
         <interactions/>
-        <interfaces/>
-        <internal_event_mappings/>
         <layout/>
         <macroponent_dependencies/>
         <name>UXR Emergency Alerts</name>
         <props/>
-        <required_translations>[]</required_translations>
-        <root_component display_value="sn-canvas-root">e6998d46f0f73feb65ab1b4898301e90</root_component>
+        <root_component display_value="">e6998d46f0f73feb65ab1b4898301e90</root_component>
         <root_component_config/>
-        <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties/>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-23 08:57:46</sys_created_on>

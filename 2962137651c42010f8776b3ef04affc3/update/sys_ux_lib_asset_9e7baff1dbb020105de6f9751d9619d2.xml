@@ -2,7 +2,6 @@
     <sys_ux_lib_asset action="INSERT_OR_UPDATE">
         <category>image</category>
         <checksum/>
-        <config_option/>
         <content/>
         <content_meta/>
         <is_attachment>false</is_attachment>

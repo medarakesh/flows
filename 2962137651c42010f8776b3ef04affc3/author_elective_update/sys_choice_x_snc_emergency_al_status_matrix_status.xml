@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-10 09:29:13</sys_created_on>
-            <sys_id>734726cbdbd820105de6f9751d96190c</sys_id>
+            <sys_id>7f3ee621dbbde85026bbc16c1396193e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>status</sys_name>
             <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
@@ -25,7 +25,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_matrix</name>
             <sequence/>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-10 09:29:13</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -45,7 +44,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_matrix</name>
             <sequence/>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-10 09:29:30</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -65,7 +63,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_matrix</name>
             <sequence/>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-10 09:29:20</sys_created_on>
             <sys_domain>global</sys_domain>

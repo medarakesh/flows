@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-09 11:25:54</sys_created_on>
-            <sys_id>5b68b5f6db9020105de6f9751d96198c</sys_id>
+            <sys_id>0c4ee621dbbde85026bbc16c1396198a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>your_work_status</sys_name>
             <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
@@ -25,7 +25,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence>1</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-10 09:15:21</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -45,7 +44,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence>2</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-09 11:25:54</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -65,7 +63,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence>3</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-09 11:26:03</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -85,7 +82,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence>4</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-10 09:15:56</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -105,7 +101,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence>5</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-10 09:16:12</sys_created_on>
             <sys_domain>global</sys_domain>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <category>page</category>
         <component_dependencies/>
         <composition>[ {
   "elementId" : "container_1",
@@ -1207,7 +1206,6 @@
   "isNonDestructive" : false,
   "styles" : { }
 } ]</composition>
-        <da_relay_models/>
         <data>[ {
   "definition" : {
     "id" : "cd45dfb651c42010f8776b3ef04affc5",
@@ -1299,24 +1297,9 @@
   "inputValues" : { },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <dispatched_events>38360b2bdba02010a92f5a75dc96197a,6c1dbe3ddbd02010a92f5a75dc9619be</dispatched_events>
-        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <handled_events/>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <interactions/>
-        <interfaces/>
-        <internal_event_mappings>{
-  "MACROPONENT_READY" : [ {
-    "broker" : null,
-    "clientScript" : {
-      "sysId" : "d01f2ec1db24a010a92f5a75dc96192b"
-    },
-    "declarativeAction" : null,
-    "event" : null,
-    "operation" : null,
-    "targetId" : "ckhkpinwuaaaaddeddhhhmjjjjkiffvfh",
-    "type" : "CLIENT_SCRIPT"
-  } ]
-}</internal_event_mappings>
         <layout>{
   "default" : {
     "children" : null,
@@ -1331,23 +1314,9 @@
         <macroponent_dependencies/>
         <name>portal-landing</name>
         <props>[ ]</props>
-        <required_translations>[{"message":"Heads up","comment":""},{"message":"Close this report","comment":""},{"message":"Report an emergency","comment":""},{"message":"Community Alerts","comment":""},{"message":"This needs your attention","comment":""},{"message":"Update your emergency status","comment":""},{"message":"Read","comment":""},{"message":"Close Test","comment":""},{"message":"Custom ok","comment":""},{"message":"Your status report","comment":""},{"message":"Link label","comment":""},{"message":"Your manager is requesting emergency status from you","comment":""},{"message":"COVID-19 pandemic: due to the raise in number in NM, please self report","comment":""},{"message":"Enter a label","comment":""},{"message":"No content to display","comment":""}]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
-        <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ {
-  "name" : "hideSubmittedAlert",
-  "label" : "hideSubmittedAlert",
-  "fieldType" : "boolean",
-  "valueType" : "boolean",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : true
-  }
-} ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 07:52:05</sys_created_on>

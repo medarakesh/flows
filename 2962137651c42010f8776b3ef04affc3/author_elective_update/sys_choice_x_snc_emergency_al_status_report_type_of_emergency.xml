@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-09 11:11:22</sys_created_on>
-            <sys_id>5215f176db9020105de6f9751d961979</sys_id>
+            <sys_id>4c4ee621dbbde85026bbc16c13961983</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>type_of_emergency</sys_name>
             <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
@@ -25,7 +25,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence/>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-10 09:19:02</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -45,7 +44,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence/>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-09 11:13:02</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -65,7 +63,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence/>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-09 11:12:30</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -85,7 +82,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence/>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-09 11:11:40</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -105,7 +101,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence/>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-09 11:13:16</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -125,7 +120,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence/>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-09 11:12:47</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -145,7 +139,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence/>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-10 09:18:47</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -165,7 +158,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence/>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-09 11:11:22</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -185,7 +177,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence/>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-09 11:13:23</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -205,7 +196,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence/>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-09 11:12:04</sys_created_on>
             <sys_domain>global</sys_domain>

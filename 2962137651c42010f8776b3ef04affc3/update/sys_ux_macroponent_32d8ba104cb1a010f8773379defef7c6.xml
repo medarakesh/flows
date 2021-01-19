@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <category>page</category>
         <component_dependencies/>
         <composition>[ {
   "elementId" : "list_1",
@@ -268,108 +267,10 @@
   "isNonDestructive" : false,
   "styles" : { }
 } ]</composition>
-        <da_relay_models/>
         <data>[ ]</data>
-        <dispatched_events>4515f3e853031010ffa5ddeeff7b12a7,1515f3e853031010ffa5ddeeff7b12ad,9515f3e853031010ffa5ddeeff7b12de</dispatched_events>
-        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <handled_events>a3b05c2f9868a010f877170d6e7d656a</handled_events>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <interactions/>
-        <interfaces/>
-        <internal_event_mappings>{
-  "MACROPONENT_PROPERTY_CHANGED" : [ {
-    "broker" : null,
-    "clientScript" : {
-      "sysId" : "8fd83e104cb1a010f8773379defef781"
-    },
-    "declarativeAction" : null,
-    "event" : null,
-    "operation" : null,
-    "targetId" : "ckiggybubbffaaaabbuddgiihhrzquyjhhf",
-    "type" : "CLIENT_SCRIPT"
-  } ],
-  "MACROPONENT_READY" : [ {
-    "broker" : null,
-    "clientScript" : {
-      "sysId" : "8fd83e104cb1a010f8773379defef781"
-    },
-    "declarativeAction" : null,
-    "event" : null,
-    "operation" : null,
-    "targetId" : "ckiggybjjtcaaaabbhddgiihhbzltaaafff",
-    "type" : "CLIENT_SCRIPT"
-  } ],
-  "sn_uib_base_aw.SIMPLE_LIST#NAV_ITEM_SELECTED" : [ {
-    "broker" : null,
-    "clientScript" : null,
-    "declarativeAction" : null,
-    "event" : {
-      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
-      "payload" : {
-        "type" : "MAP_CONTAINER",
-        "container" : {
-          "route" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "route" ]
-            }
-          },
-          "fields" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "fields" ]
-            }
-          },
-          "params" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "params" ]
-            }
-          },
-          "redirect" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "redirect" ]
-            }
-          },
-          "passiveNavigation" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "passiveNavigation" ]
-            }
-          },
-          "title" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "title" ]
-            }
-          },
-          "multiInstField" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "multiInstField" ]
-            }
-          },
-          "targetRoute" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "targetRoute" ]
-            }
-          },
-          "external" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "external" ]
-            }
-          }
-        }
-      },
-      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
-    },
-    "operation" : null,
-    "targetId" : "ckgcbbbvpjaaaaaagddghhanwwsqhsk",
-    "type" : "EVENT"
-  } ]
-}</internal_event_mappings>
         <layout>{
   "default" : {
     "children" : null,
@@ -439,25 +340,11 @@
   "readOnly" : false,
   "selectable" : false
 } ]</props>
-        <required_translations>[]</required_translations>
         <root_component/>
         <root_component_config>{
   "bare" : true
 }</root_component_config>
-        <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ {
-  "name" : "wrapListText",
-  "label" : "wrapListText",
-  "fieldType" : "boolean",
-  "valueType" : "boolean",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : false
-  }
-} ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-15 11:16:47</sys_created_on>

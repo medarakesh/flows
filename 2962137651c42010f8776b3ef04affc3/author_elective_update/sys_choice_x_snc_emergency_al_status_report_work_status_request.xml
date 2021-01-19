@@ -25,7 +25,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence>1</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-09 11:17:54</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -45,7 +44,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence>2</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-09 11:18:09</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -65,7 +63,6 @@
             <language>en</language>
             <name>x_snc_emergency_al_status_report</name>
             <sequence>3</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-09 11:18:24</sys_created_on>
             <sys_domain>global</sys_domain>

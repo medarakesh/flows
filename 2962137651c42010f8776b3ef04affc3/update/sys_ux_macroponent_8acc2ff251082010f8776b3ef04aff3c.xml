@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <category>page</category>
         <component_dependencies/>
         <composition>[ {
   "elementId" : "container_13",
@@ -1541,7 +1540,6 @@
     "background" : "linear-gradient(to left, rgb(234, 236, 236) 50%, #F6F7F7 50%)"
   }
 } ]</composition>
-        <da_relay_models/>
         <data>[ {
   "definition" : {
     "id" : "cd45dfb651c42010f8776b3ef04affc5",
@@ -1612,136 +1610,9 @@
   "inputValues" : { },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <dispatched_events>ef6dde7fdb682010a92f5a75dc96192e</dispatched_events>
-        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <handled_events>082a3ab5dbd02010a92f5a75dc96194e,79b3f135db582010a92f5a75dc96195c</handled_events>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <interactions/>
-        <interfaces/>
-        <internal_event_mappings>{
-  "MACROPONENT_PROPERTY_CHANGED" : [ {
-    "broker" : null,
-    "clientScript" : {
-      "sysId" : "850b4755db602010a92f5a75dc96190a"
-    },
-    "declarativeAction" : null,
-    "event" : null,
-    "operation" : null,
-    "targetId" : "ckhpbbnsffxaaaaddnddghhrnziiaavwuee",
-    "type" : "CLIENT_SCRIPT"
-  } ],
-  "x_snc_emergency_al.DATA_SET_UPDATE_EMERGENCY" : [ {
-    "broker" : null,
-    "clientScript" : null,
-    "declarativeAction" : null,
-    "event" : {
-      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
-      "payload" : {
-        "type" : "JSON_LITERAL",
-        "value" : { }
-      },
-      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
-    },
-    "operation" : null,
-    "targetId" : "ckhggbzcglaaaahhqddhhhiqoejgiieeff",
-    "type" : "EVENT"
-  }, {
-    "broker" : null,
-    "clientScript" : null,
-    "declarativeAction" : null,
-    "event" : {
-      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
-      "payload" : {
-        "type" : "JSON_LITERAL",
-        "value" : { }
-      },
-      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
-    },
-    "operation" : null,
-    "targetId" : "ckjbbbbhhlksaaaabbrddghhyaarllezjs",
-    "type" : "EVENT"
-  }, {
-    "broker" : null,
-    "clientScript" : {
-      "sysId" : "716615891dd96010f877411cbac76c60"
-    },
-    "declarativeAction" : null,
-    "event" : null,
-    "operation" : null,
-    "targetId" : "ckjbbknwkcaaaacciddghhyeburmdgs",
-    "type" : "CLIENT_SCRIPT"
-  }, {
-    "broker" : null,
-    "clientScript" : null,
-    "declarativeAction" : null,
-    "event" : {
-      "apiName" : null,
-      "payload" : {
-        "type" : "JSON_LITERAL",
-        "value" : { }
-      },
-      "sysId" : null
-    },
-    "operation" : null,
-    "targetId" : "ckjbbktkroaaaaddffddghhyggebbtjjnaii",
-    "type" : "EVENT"
-  } ],
-  "x_snc_emergency_al.DATA_SET_CARD_CLICKED" : [ {
-    "broker" : null,
-    "clientScript" : null,
-    "declarativeAction" : null,
-    "event" : {
-      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
-      "payload" : {
-        "type" : "JSON_LITERAL",
-        "value" : { }
-      },
-      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
-    },
-    "operation" : null,
-    "targetId" : "ckiehmbveeaaaaaaoccaiiddbhhomhcclf",
-    "type" : "EVENT"
-  }, {
-    "broker" : null,
-    "clientScript" : {
-      "sysId" : "30b95fbc1d956010f877411cbac76c57"
-    },
-    "declarativeAction" : null,
-    "event" : null,
-    "operation" : null,
-    "targetId" : "ckiehrifnaaaabbaccaiiddjjaaakrccyv",
-    "type" : "CLIENT_SCRIPT"
-  }, {
-    "broker" : null,
-    "clientScript" : null,
-    "declarativeAction" : null,
-    "event" : {
-      "apiName" : null,
-      "payload" : {
-        "type" : "JSON_LITERAL",
-        "value" : { }
-      },
-      "sysId" : null
-    },
-    "operation" : null,
-    "targetId" : "ckjbbbbggqbmaaaabbqddghhyzreggdsar",
-    "type" : "EVENT"
-  }, {
-    "broker" : null,
-    "clientScript" : null,
-    "declarativeAction" : null,
-    "event" : {
-      "apiName" : null,
-      "payload" : {
-        "type" : "JSON_LITERAL",
-        "value" : { }
-      },
-      "sysId" : null
-    },
-    "operation" : null,
-    "targetId" : "ckjbbbbajjqbbaaaacccddghhyhhmbjjweehhcc",
-    "type" : "EVENT"
-  } ]
-}</internal_event_mappings>
         <layout>{
   "default" : {
     "children" : null,
@@ -1789,89 +1660,9 @@
   "readOnly" : true,
   "selectable" : false
 } ]</props>
-        <required_translations>[{"message":"You have new alert from your community","comment":""},{"message":"Report an emergency ","comment":""},{"message":"You successfully submitted this emergency report.","comment":""},{"message":"Report an emergency","comment":""},{"message":"Your manager is requesting your emergency status update from you","comment":""},{"message":"Community alerts","comment":""},{"message":"Update your emergency status","comment":""},{"message":"Emergency report submitted","comment":""},{"message":"Your status reports","comment":""},{"message":"New Emergency Alert","comment":""},{"message":"No status updates yet","comment":""},{"message":"No content to display","comment":""},{"message":"You successfully submitted this status update","comment":""},{"message":"Status updated","comment":""}]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
-        <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ {
-  "name" : "pageCursor",
-  "label" : "pageCursor",
-  "fieldType" : "",
-  "valueType" : "",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  }
-}, {
-  "name" : "pageSize",
-  "label" : "pageSize",
-  "fieldType" : "number",
-  "valueType" : "number",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : 9
-  }
-}, {
-  "name" : "pageNumber",
-  "label" : "pageNumber",
-  "fieldType" : "number",
-  "valueType" : "number",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : 1
-  }
-}, {
-  "name" : "availableFilter",
-  "label" : "availableFilter",
-  "fieldType" : "string",
-  "valueType" : "string",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  }
-}, {
-  "name" : "dataQuery",
-  "label" : "dataQuery",
-  "fieldType" : "",
-  "valueType" : "",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : "d70b5d2c511ce010f8776b3ef04aff62"
-  }
-}, {
-  "name" : "hideStatusUpdateAlert",
-  "label" : "hideStatusUpdateAlert",
-  "fieldType" : "boolean",
-  "valueType" : "boolean",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : true
-  }
-}, {
-  "name" : "hideReportSubmitAlert",
-  "label" : "hideReportSubmitAlert",
-  "fieldType" : "boolean",
-  "valueType" : "boolean",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : true
-  }
-} ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 09:38:34</sys_created_on>

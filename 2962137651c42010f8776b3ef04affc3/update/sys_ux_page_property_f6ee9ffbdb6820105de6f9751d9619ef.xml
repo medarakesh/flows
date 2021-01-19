@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_property">
     <sys_ux_page_property action="INSERT_OR_UPDATE">
         <choices/>
         <description/>
         <name>chrome_header</name>
         <page display_value="Emergency Alert">f5a2d77651c42010f8776b3ef04aff80</page>
-        <required_translations>[{"message":"Logout","comment":""},{"message":"UserMenu","comment":""}]</required_translations>
-        <route/>
         <suffix/>
         <sys_class_name>sys_ux_page_property</sys_class_name>
         <sys_created_by>raviteja</sys_created_by>
         <sys_created_on>2020-11-25 07:43:31</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>global</sys_domain_path>
         <sys_id>f6ee9ffbdb6820105de6f9751d9619ef</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name>chrome_header</sys_name>
@@ -27,55 +23,7 @@
     "privatePage":{&#13;
       "searchEnabled": false,&#13;
        "userPrefsEnabled":true,&#13;
-       "currentScreenLinkConfiguration": {&#13;
-            "roles": ["admin"],&#13;
-            "position": 250&#13;
-        },&#13;
-       "globalTools":{&#13;
-          "collapsingMenuId":0,&#13;
-          "primaryItems":[&#13;
-             {&#13;
-                "label":"UserMenu",&#13;
-                "icon":"user",&#13;
-                "type":"menu",&#13;
-                "primaryDisplay":"icon",&#13;
-                "value":{&#13;
-                   "children":[&#13;
-                      &#13;
-                      {&#13;
-                         "label": {&#13;
-                            "translatable": true,&#13;
-                            "message":"Logout"&#13;
-                          },&#13;
-                         "position":500,&#13;
-                         "type":"navigation",&#13;
-                                "value":{&#13;
-                                  "type": "AUTH_ROUTE_BINDING",&#13;
-                                        "binding": {&#13;
-                                            "address": ["logout"],&#13;
-                                            "params": {"reload": true},&#13;
-                                            "default": "/logout.do"&#13;
-                                }&#13;
-                        }&#13;
-                      }&#13;
-                   ]&#13;
-                }&#13;
-             }&#13;
-          ],&#13;
-          "secondaryItems":[]&#13;
-       }&#13;
-    },&#13;
-    "publicPage":{&#13;
-      "menuEnabled": true,&#13;
-      "logoRoute": {&#13;
-        "type": "route",&#13;
-        "value": {&#13;
-          "route": "landing",&#13;
-          "fields":{}&#13;
-        }&#13;
-      }&#13;
-    }&#13;
- }</value>
+       "curr</value>
     </sys_ux_page_property>
     <sys_translated_text action="delete_multiple" query="documentkey=f6ee9ffbdb6820105de6f9751d9619ef"/>
 </record_update>

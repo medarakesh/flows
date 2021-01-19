@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <category>page</category>
         <component_dependencies/>
         <composition>[ {
   "elementId" : "list_menu_1",
@@ -342,14 +341,10 @@
   "isNonDestructive" : false,
   "styles" : { }
 } ]</composition>
-        <da_relay_models/>
         <data>[ ]</data>
-        <dispatched_events>99ec62c6dbc1ec10dda0fb941d96194f</dispatched_events>
-        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <handled_events>176ba6cadb01ec10dda0fb941d961981</handled_events>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <interactions/>
-        <interfaces/>
-        <internal_event_mappings>{ }</internal_event_mappings>
         <layout>{
   "default" : {
     "children" : null,
@@ -364,25 +359,11 @@
         <macroponent_dependencies/>
         <name>List</name>
         <props>[ ]</props>
-        <required_translations>[]</required_translations>
         <root_component/>
         <root_component_config>{
   "bare" : true
 }</root_component_config>
-        <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ {
-  "name" : "wrapListText",
-  "label" : "wrapListText",
-  "fieldType" : "boolean",
-  "valueType" : "boolean",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : false
-  }
-} ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>raviteja</sys_created_by>
         <sys_created_on>2020-12-14 08:22:41</sys_created_on>

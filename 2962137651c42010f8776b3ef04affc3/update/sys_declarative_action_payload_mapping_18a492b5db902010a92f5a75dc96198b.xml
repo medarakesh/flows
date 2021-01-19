@@ -2,7 +2,7 @@
     <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
         <action_payload_definition display_value="Update Status">f16412b5db902010a92f5a75dc96196f</action_payload_definition>
         <label>Update Status Evam</label>
-        <model display_value="Evam">035d270073151010c342d5fdbdf6a715</model>
+        <model display_value="">035d270073151010c342d5fdbdf6a715</model>
         <payload_map>sysId={{sys_id}}^table={{table}}^EQ</payload_map>
         <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
         <sys_created_by>rakesh</sys_created_by>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <category>page</category>
         <component_dependencies/>
         <composition>[ {
   "elementId" : "modalContainerViewport",
@@ -715,7 +714,6 @@
   "isNonDestructive" : false,
   "styles" : { }
 } ]</composition>
-        <da_relay_models/>
         <data>[ {
   "definition" : {
     "id" : "367f89e30b102010a8b1c96237673a85",
@@ -816,127 +814,9 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <dispatched_events>83bb30741d61a810f877411cbac76cf9,5dd4f4050f121010036a83fa68767eb6,f008951d0fc21010036a83fa68767e1c,b408951d0fc21010036a83fa68767e21,7008951d0fc21010036a83fa68767e37</dispatched_events>
-        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <handled_events>f7d18e2cb7735010cd8af8e32e11a90b,8c1321d50f1310107d20409dc4767e52,2640a5150f1310107d20409dc4767e8a</handled_events>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <interactions/>
-        <interfaces/>
-        <internal_event_mappings>{
-  "MACROPONENT_PROPERTY_CHANGED" : [ {
-    "broker" : null,
-    "clientScript" : {
-      "sysId" : "e2e4fcfc1d21a810f877411cbac76c60"
-    },
-    "declarativeAction" : null,
-    "event" : null,
-    "operation" : null,
-    "targetId" : "ckhnzdnaaaaaaaasddhiiggsiibhabuii",
-    "type" : "CLIENT_SCRIPT"
-  }, {
-    "broker" : null,
-    "clientScript" : {
-      "sysId" : "dae4fcfc1d21a810f877411cbac76c3b"
-    },
-    "declarativeAction" : null,
-    "event" : null,
-    "operation" : null,
-    "targetId" : "ckiggyggbwhhaaaaaaoddgiihhqddbeehhsngg",
-    "type" : "CLIENT_SCRIPT"
-  } ],
-  "sn_uib_base_aw.LIST#NAV_ITEM_SELECTED" : [ {
-    "broker" : null,
-    "clientScript" : null,
-    "declarativeAction" : null,
-    "event" : {
-      "apiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_1ae47cfc1d21a810f877411cbac76cc8",
-      "payload" : {
-        "type" : "MAP_CONTAINER",
-        "container" : {
-          "route" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "route" ]
-            }
-          },
-          "fields" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "fields" ]
-            }
-          },
-          "params" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "params" ]
-            }
-          },
-          "redirect" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "redirect" ]
-            }
-          },
-          "passiveNavigation" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "passiveNavigation" ]
-            }
-          },
-          "title" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "title" ]
-            }
-          },
-          "multiInstField" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "multiInstField" ]
-            }
-          },
-          "targetRoute" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "targetRoute" ]
-            }
-          },
-          "external" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "external" ]
-            }
-          }
-        }
-      },
-      "sysId" : "83bb30741d61a810f877411cbac76cf9"
-    },
-    "operation" : null,
-    "targetId" : "ckgcbbbvpjaaaaaagddghhanwwsqhsk",
-    "type" : "EVENT"
-  } ],
-  "MACROPONENT_READY" : [ {
-    "broker" : null,
-    "clientScript" : {
-      "sysId" : "dae4fcfc1d21a810f877411cbac76c3b"
-    },
-    "declarativeAction" : null,
-    "event" : null,
-    "operation" : null,
-    "targetId" : "ckiggyggccuhhaaaaaanddgiihhddhhmlpiilk",
-    "type" : "CLIENT_SCRIPT"
-  } ],
-  "sn_uib_base_aw.LIST#OPEN_MODAL" : [ {
-    "broker" : null,
-    "clientScript" : {
-      "sysId" : "16e4fcfc1d21a810f877411cbac76c4d"
-    },
-    "declarativeAction" : null,
-    "event" : null,
-    "operation" : null,
-    "targetId" : "ckgcbbbvpjaaaaaafddghhaaaggwhqbbnx",
-    "type" : "CLIENT_SCRIPT"
-  } ]
-}</internal_event_mappings>
         <layout>{
   "default" : {
     "children" : null,
@@ -995,113 +875,11 @@
   "readOnly" : false,
   "selectable" : false
 } ]</props>
-        <required_translations>[]</required_translations>
         <root_component/>
         <root_component_config>{
   "bare" : true
 }</root_component_config>
-        <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ {
-  "name" : "contents",
-  "label" : "contents",
-  "fieldType" : "json",
-  "valueType" : "json",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : { }
-  }
-}, {
-  "name" : "displayOptions",
-  "label" : "displayOptions",
-  "fieldType" : "json",
-  "valueType" : "json",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : { }
-  }
-}, {
-  "name" : "bare",
-  "label" : "bare",
-  "fieldType" : "boolean",
-  "valueType" : "boolean",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : true
-  }
-}, {
-  "name" : "CRUD",
-  "label" : "CRUD",
-  "fieldType" : "json",
-  "valueType" : "json",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  }
-}, {
-  "name" : "listMenuOpen",
-  "label" : "listMenuOpen",
-  "fieldType" : "boolean",
-  "valueType" : "boolean",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : true
-  }
-}, {
-  "name" : "tinyId",
-  "label" : "tinyId",
-  "fieldType" : "",
-  "valueType" : "",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  }
-}, {
-  "name" : "listId",
-  "label" : "listId",
-  "fieldType" : "",
-  "valueType" : "",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  }
-}, {
-  "name" : "listRefresh",
-  "label" : "listRefresh",
-  "fieldType" : "json",
-  "valueType" : "json",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : { }
-  }
-}, {
-  "name" : "wrapListText",
-  "label" : "wrapListText",
-  "fieldType" : "boolean",
-  "valueType" : "boolean",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : false
-  }
-} ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2021-01-04 04:41:33</sys_created_on>

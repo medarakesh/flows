@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <category>page</category>
         <component_dependencies/>
         <composition>[ {
   "elementId" : "container_1",
@@ -771,7 +770,6 @@
     "margin-bottom" : "82px"
   }
 } ]</composition>
-        <da_relay_models/>
         <data>[ {
   "definition" : {
     "id" : "dc6e87a5232200100e4bc50947bf654b",
@@ -932,12 +930,9 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <dispatched_events>ffe2860fdb582010a92f5a75dc9619e5</dispatched_events>
-        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <handled_events/>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <interactions/>
-        <interfaces/>
-        <internal_event_mappings>{ }</internal_event_mappings>
         <layout>{
   "default" : {
     "children" : null,
@@ -985,12 +980,9 @@
   "readOnly" : true,
   "selectable" : false
 } ]</props>
-        <required_translations>[{"message":"Emergency information","comment":""},{"message":"Details","comment":""},{"message":"Back to home","comment":""},{"message":"Register your status","comment":""},{"message":"Submit","comment":""},{"message":"Cancel","comment":""},{"message":"Status requested","comment":""}]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
-        <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>raviteja</sys_created_by>
         <sys_created_on>2020-11-05 06:32:33</sys_created_on>

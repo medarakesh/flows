@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-10 09:07:19</sys_created_on>
-        <sys_id>c86131d41d112010f877411cbac76c54</sys_id>
+        <sys_id>8c4ee621dbbde85026bbc16c13961996</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Emergency</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_emergency_al_work_status_request_task_emergency</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-21 10:57:46</sys_updated_on>
+        <sys_updated_on>2021-01-19 07:43:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

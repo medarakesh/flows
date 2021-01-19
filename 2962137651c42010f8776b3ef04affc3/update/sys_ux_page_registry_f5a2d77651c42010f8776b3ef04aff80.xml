@@ -3,10 +3,8 @@
         <active>true</active>
         <admin_panel>07c21b7651c42010f8776b3ef04afff2</admin_panel>
         <admin_panel_table>sys_ux_app_config</admin_panel_table>
-        <auth_routes>{"login": "login","logout": "login","custom404":"custom404"}</auth_routes>
         <page/>
         <path>emergency</path>
-        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
         <sys_class_name>sys_ux_page_registry</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 07:45:20</sys_created_on>

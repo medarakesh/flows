@@ -3,10 +3,8 @@
         <active>true</active>
         <admin_panel>894cbc89dbc52010945cf9c31d96192e</admin_panel>
         <admin_panel_table>sys_ux_app_config</admin_panel_table>
-        <auth_routes/>
         <page/>
         <path>emergency_workspace</path>
-        <root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
         <sys_class_name>sys_ux_page_registry</sys_class_name>
         <sys_created_by>rakesh</sys_created_by>
         <sys_created_on>2020-12-11 03:21:05</sys_created_on>

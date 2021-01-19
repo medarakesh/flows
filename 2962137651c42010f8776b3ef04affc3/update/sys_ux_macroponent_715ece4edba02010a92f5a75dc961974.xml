@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <category>macroponent</category>
         <component_dependencies/>
         <composition>[ {
   "elementId" : "container_3",
@@ -448,7 +447,6 @@
     "padding-top" : "20px"
   }
 } ]</composition>
-        <da_relay_models/>
         <data>[ {
   "definition" : {
     "id" : "cd45dfb651c42010f8776b3ef04affc5",
@@ -630,12 +628,9 @@
   "inputValues" : { },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <dispatched_events>c526dd24dbf820105de6f9751d9619c3</dispatched_events>
-        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <handled_events/>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <interactions/>
-        <interfaces/>
-        <internal_event_mappings>{ }</internal_event_mappings>
         <layout>{
   "default" : {
     "children" : null,
@@ -683,48 +678,9 @@
   "readOnly" : false,
   "selectable" : false
 } ]</props>
-        <required_translations>[{"message":"like","comment":""}]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
-        <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ {
-  "name" : "comments",
-  "label" : "comments",
-  "fieldType" : "json",
-  "valueType" : "json",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  }
-}, {
-  "name" : "articleId",
-  "label" : "articleId",
-  "fieldType" : "",
-  "valueType" : "",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "CONTEXT_BINDING",
-    "binding" : {
-      "address" : [ "sysId" ],
-      "category" : "props"
-    }
-  }
-}, {
-  "name" : "currentCommentId",
-  "label" : "currentCommentId",
-  "fieldType" : "",
-  "valueType" : "",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  }
-} ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>amitkumar.shukla@snc</sys_created_by>
         <sys_created_on>2020-11-19 15:21:54</sys_created_on>

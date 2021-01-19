@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_workspace_declarative_action_exclusion">
     <sys_workspace_declarative_action_exclusion action="INSERT_OR_UPDATE">
-        <action_assignment display_value="create-new-uxf">17c13e7273131010a0a79329faf6a794</action_assignment>
+        <action_assignment display_value="">17c13e7273131010a0a79329faf6a794</action_assignment>
         <exclude_all_child_tables>false</exclude_all_child_tables>
         <exclude_self>true</exclude_self>
         <sys_class_name>sys_workspace_declarative_action_exclusion</sys_class_name>
