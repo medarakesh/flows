@@ -13,20 +13,20 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>59a05e0ddb892010945cf9c31d9619b5</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>chrome_header</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_ux_page_property_59a05e0ddb892010945cf9c31d9619b5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-18 13:30:31</sys_updated_on>
+        <sys_updated_on>2021-01-20 11:54:05</sys_updated_on>
         <type>json</type>
         <unique_name>x_snc_emergency_al.4efbb889dbc52010945cf9c31d9619e9.root.chrome_header</unique_name>
         <value>{&#13;
   "privatePage": {&#13;
     "notificationsEnabled": false,&#13;
-    "searchEnabled": false,&#13;
+    "searchEnabled": true,&#13;
     "userPrefsEnabled": true,&#13;
     "contextualConfigurationItems": {&#13;
       "_roles": [&#13;

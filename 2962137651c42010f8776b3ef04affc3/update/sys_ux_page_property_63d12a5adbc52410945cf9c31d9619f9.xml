@@ -5,7 +5,7 @@
         <name>actionConfigId</name>
         <page display_value="Emergency Workspace">4efbb889dbc52010945cf9c31d9619e9</page>
         <required_translations>[]</required_translations>
-        <route display_value="record">e494921adbc12410945cf9c31d9619cd</route>
+        <route/>
         <suffix/>
         <sys_class_name>sys_ux_page_property</sys_class_name>
         <sys_created_by>raviteja</sys_created_by>

@@ -65,7 +65,7 @@
             }
           },
           "eventMappings" : [ {
-            "eventMappingId" : "ckhbzaaaohhaaaaddsddhhhiuwjjhhjgehh",
+            "eventMappingId" : "ckkeejjccmwpaaaaavddhhhwcceffjjcvgg",
             "isConfiguration" : false,
             "offRowStorageId" : null,
             "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
@@ -83,7 +83,7 @@
               "declarativeAction" : null,
               "event" : null,
               "operation" : null,
-              "targetId" : "ckhbzaaaohhaaaaddtddhhhiaaaayaimvo",
+              "targetId" : "ckkeejjccmwpaaaaawddhhhwjjflzbimaa",
               "type" : "CLIENT_SCRIPT"
             } ]
           } ],
@@ -412,7 +412,7 @@
                 },
                 "maxHeight" : {
                   "type" : "JSON_LITERAL",
-                  "value" : null
+                  "value" : "100"
                 }
               },
               "eventMappings" : [ {
@@ -1876,13 +1876,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 09:38:34</sys_created_on>
         <sys_id>8acc2ff251082010f8776b3ef04aff3c</sys_id>
-        <sys_mod_count>415</sys_mod_count>
+        <sys_mod_count>417</sys_mod_count>
         <sys_name>contentportallanding</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_ux_macroponent_8acc2ff251082010f8776b3ef04aff3c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 11:02:10</sys_updated_on>
+        <sys_updated_on>2021-01-19 17:25:40</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

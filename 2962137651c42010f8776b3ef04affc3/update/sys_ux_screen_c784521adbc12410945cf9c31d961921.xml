@@ -20,7 +20,7 @@
         <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[]</required_translations>
         <screen_condition/>
-        <screen_type display_value="Record">72849ed2dbc12410945cf9c31d9619ed</screen_type>
+        <screen_type/>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>raviteja</sys_created_by>
         <sys_created_on>2020-12-15 06:58:54</sys_created_on>

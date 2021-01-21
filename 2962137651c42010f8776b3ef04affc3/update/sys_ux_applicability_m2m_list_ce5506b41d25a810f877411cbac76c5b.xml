@@ -2,7 +2,7 @@
     <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <applicability display_value="Emergency Alert - Manager">99947d781de1a810f877411cbac76c85</applicability>
-        <list display_value="My Team reports">55341a0adb4dac10dda0fb941d961948</list>
+        <list display_value="My team reports">55341a0adb4dac10dda0fb941d961948</list>
         <order>0</order>
         <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
         <sys_created_by>admin</sys_created_by>

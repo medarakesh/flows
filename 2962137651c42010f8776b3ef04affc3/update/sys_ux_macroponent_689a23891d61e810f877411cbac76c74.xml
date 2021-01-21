@@ -892,7 +892,50 @@
                               "value" : ""
                             }
                           },
-                          "eventMappings" : [ ],
+                          "eventMappings" : [ {
+                            "eventMappingId" : "ckkffcbaixaaaaaaaccaiiddpujjnjjkpz",
+                            "isConfiguration" : false,
+                            "offRowStorageId" : null,
+                            "sourceEventApiName" : "sn_uxf_viz_connect.ITEM_SELECTED",
+                            "sourceEventDefinition" : {
+                              "apiName" : "sn_uxf_viz_connect.ITEM_SELECTED",
+                              "id" : null,
+                              "type" : "UXEVENT"
+                            },
+                            "sourceEventSysId" : null,
+                            "targets" : [ {
+                              "broker" : null,
+                              "clientScript" : null,
+                              "declarativeAction" : null,
+                              "event" : {
+                                "apiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_689a23891d61e810f877411cbac76c74",
+                                "payload" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : {
+                                    "route" : "dynamic-list",
+                                    "fields" : {
+                                      "table" : "x_snc_emergency_al_status_report"
+                                    },
+                                    "params" : {
+                                      "query" : "status_matrix!=null",
+                                      "listTitle" : "Severity of open requests",
+                                      "column" : "number,name,status_matrix, your_health_status"
+                                    },
+                                    "redirect" : null,
+                                    "passiveNavigation" : null,
+                                    "title" : null,
+                                    "multiInstField" : null,
+                                    "targetRoute" : "current",
+                                    "external" : null
+                                  }
+                                },
+                                "sysId" : "39aae3c51d61e810f877411cbac76cfe"
+                              },
+                              "operation" : null,
+                              "targetId" : "ckkffcbaixaaaaaabccaiiddndbfftnku",
+                              "type" : "EVENT"
+                            } ]
+                          } ],
                           "slot" : "Main",
                           "definition" : {
                             "id" : "67cf18a377c70010cb834a2a6910619a",
@@ -2092,13 +2135,13 @@
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2021-01-05 12:33:43</sys_created_on>
         <sys_id>689a23891d61e810f877411cbac76c74</sys_id>
-        <sys_mod_count>103</sys_mod_count>
+        <sys_mod_count>105</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_ux_macroponent_689a23891d61e810f877411cbac76c74</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-18 10:11:40</sys_updated_on>
+        <sys_updated_on>2021-01-20 11:34:27</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

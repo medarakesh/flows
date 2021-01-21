@@ -9,7 +9,7 @@
   "propertyValues" : {
     "headerLabel" : {
       "type" : "JSON_LITERAL",
-      "value" : "Are you sure you want to close this report?"
+      "value" : "Close this report ?"
     },
     "content" : {
       "type" : "JSON_LITERAL",
@@ -564,42 +564,28 @@
                     "left" : "12px"
                   }
                 }, {
-                  "elementId" : "record_header_1",
-                  "elementLabel" : "Record Header 1",
+                  "elementId" : "heading_1",
+                  "elementLabel" : "Heading 1",
                   "propertyValues" : {
-                    "table" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : null
-                    },
-                    "sysId" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : null
-                    },
-                    "workspaceConfigId" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : ""
-                    },
-                    "primaryValue" : {
+                    "label" : {
                       "type" : "DATA_OUTPUT_BINDING",
                       "binding" : {
                         "address" : [ "self_report_summary_1", "output", "emergencyType" ]
                       }
                     },
-                    "subHeadingValue" : {
-                      "type" : "DATA_OUTPUT_BINDING",
-                      "binding" : {
-                        "address" : [ "self_report_summary_1", "output", "emergencyDetails" ]
-                      }
-                    },
-                    "secondaryItems" : {
+                    "level" : {
                       "type" : "JSON_LITERAL",
-                      "value" : null
+                      "value" : "1"
                     },
-                    "headerImageItem" : {
+                    "variant" : {
                       "type" : "JSON_LITERAL",
-                      "value" : null
+                      "value" : "header-primary"
                     },
-                    "hideTagsValue" : {
+                    "wontWrap" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "hasNoMargin" : {
                       "type" : "JSON_LITERAL",
                       "value" : true
                     }
@@ -607,7 +593,7 @@
                   "eventMappings" : [ ],
                   "slot" : "Row 2",
                   "definition" : {
-                    "id" : "4d537db98a05adaf55f9e219c50d1358",
+                    "id" : "1f6e0643eca7a637e36bd7833549ec9e",
                     "type" : "MACROPONENT"
                   },
                   "overrides" : null,
@@ -617,9 +603,40 @@
                   },
                   "isNonDestructive" : false,
                   "styles" : {
-                    "position" : "relative",
-                    "top" : "11px"
+                    "padding-top" : "14px"
                   }
+                }, {
+                  "elementId" : "stylized_text_2",
+                  "elementLabel" : "Stylized text 2",
+                  "propertyValues" : {
+                    "text" : {
+                      "type" : "DATA_OUTPUT_BINDING",
+                      "binding" : {
+                        "address" : [ "self_report_summary_1", "output", "emergencyDetails" ]
+                      }
+                    },
+                    "tag" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "p"
+                    },
+                    "css" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "* { \n    font-size: 1rem;\n    margin: 0px;\n}"
+                    }
+                  },
+                  "eventMappings" : [ ],
+                  "slot" : "Row 2",
+                  "definition" : {
+                    "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null,
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : ""
+                  },
+                  "isNonDestructive" : false,
+                  "styles" : { }
                 } ],
                 "layout" : {
                   "default" : {
@@ -1391,13 +1408,13 @@
         <sys_created_by>raviteja</sys_created_by>
         <sys_created_on>2020-11-18 10:24:02</sys_created_on>
         <sys_id>38908c71dbe02010a92f5a75dc9619e5</sys_id>
-        <sys_mod_count>255</sys_mod_count>
+        <sys_mod_count>265</sys_mod_count>
         <sys_name>Report Summary</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_ux_macroponent_38908c71dbe02010a92f5a75dc9619e5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-15 10:49:53</sys_updated_on>
+        <sys_updated_on>2021-01-20 13:08:39</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

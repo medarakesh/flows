@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <name>Self Reports</name>
+        <source_table>x_snc_emergency_al_status_report</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 11:45:12</sys_created_on>
+        <sys_id>c04f248ee1792010f877665293b91b90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self Reports</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_search_source_c04f248ee1792010f877665293b91b90</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 11:45:12</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=c04f248ee1792010f877665293b91b90"/>
+</record_update>

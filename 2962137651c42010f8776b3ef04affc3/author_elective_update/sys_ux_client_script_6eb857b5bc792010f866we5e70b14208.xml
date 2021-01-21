@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ux_client_script action="DELETE">
+<includes/>
+<macroponent display_value="Record">16b81b75bc792010f877ff5e70b1426a</macroponent>
+<name>Conditionally refresh special handing notes data broker</name>
+<required_translations>[ ]</required_translations>
+<script><![CDATA[function handler({ api, event, helpers, imports }) {
+    const { name } = event.payload;
+    if (name != 'activityLogs')
+        return;
+
+    const activityLogsMap = api.context.props.activityLogs;
+    if (activityLogsMap.size === 0)
+        return;
+
+    var activityEntries = Array.from(activityLogsMap.values());
+
+    //Only fetch the lastest activity entry
+    const activityEntry = activityEntries[activityEntries.length - 1];
+    const activityArray = activityEntry.activities.get('crud');
+    if (activityArray.length === 0)
+        return;
+
+    const SHNDisplayed = api.state.specialHandlingNotesDisplayed;
+    const isActiveScreen = api.context.props.screen.isActive;
+    //Refresh Special Handing Notes only when it's not displayed before and current screen is active
+    if (SHNDisplayed || !isActiveScreen)
+        return;
+
+    //Only fetch the lastest operation
+    const { operation } = activityArray[activityArray.length - 1];
+    if (operation === 'inserted' || operation === 'updated') {
+        api.data.get_special_handling_notes.refresh();
+    }
+}]]></script>
+<script_api_version>2.0.0</script_api_version>
+<sys_class_name>sys_ux_client_script</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-01-20 05:26:55</sys_created_on>
+<sys_id>6eb857b5bc792010f866we5e70b14208</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Conditionally refresh special handing notes data broker</sys_name>
+<sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+<sys_policy/>
+<sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+<sys_update_name>sys_ux_client_script_6eb857b5bc792010f866we5e70b14208</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-01-20 05:36:56</sys_updated_on>
+</sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>0f84593d90212010adfc9c8867c4d2ab</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_client_script_6eb857b5bc792010f866we5e70b14208</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;
+&lt;includes/&gt;
+&lt;macroponent display_value="Record"&gt;16b81b75bc792010f877ff5e70b1426a&lt;/macroponent&gt;
+&lt;name&gt;Conditionally refresh special handing notes data broker&lt;/name&gt;
+&lt;required_translations&gt;[ ]&lt;/required_translations&gt;
+&lt;script&gt;&lt;![CDATA[function handler({ api, event, helpers, imports }) {
+    const { name } = event.payload;
+    if (name != 'activityLogs')
+        return;
+
+    const activityLogsMap = api.context.props.activityLogs;
+    if (activityLogsMap.size === 0)
+        return;
+
+    var activityEntries = Array.from(activityLogsMap.values());
+
+    //Only fetch the lastest activity entry
+    const activityEntry = activityEntries[activityEntries.length - 1];
+    const activityArray = activityEntry.activities.get('crud');
+    if (activityArray.length === 0)
+        return;
+
+    const SHNDisplayed = api.state.specialHandlingNotesDisplayed;
+    const isActiveScreen = api.context.props.screen.isActive;
+    //Refresh Special Handing Notes only when it's not displayed before and current screen is active
+    if (SHNDisplayed || !isActiveScreen)
+        return;
+
+    //Only fetch the lastest operation
+    const { operation } = activityArray[activityArray.length - 1];
+    if (operation === 'inserted' || operation === 'updated') {
+        api.data.get_special_handling_notes.refresh();
+    }
+}]]&gt;&lt;/script&gt;
+&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;
+&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;
+&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+&lt;sys_created_on&gt;2021-01-20 05:26:55&lt;/sys_created_on&gt;
+&lt;sys_id&gt;6eb857b5bc792010f866we5e70b14208&lt;/sys_id&gt;
+&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+&lt;sys_name&gt;Conditionally refresh special handing notes data broker&lt;/sys_name&gt;
+&lt;sys_package display_value="Emergency Alert" source="x_snc_emergency_al"&gt;2962137651c42010f8776b3ef04affc3&lt;/sys_package&gt;
+&lt;sys_policy/&gt;
+&lt;sys_scope display_value="Emergency Alert"&gt;2962137651c42010f8776b3ef04affc3&lt;/sys_scope&gt;
+&lt;sys_update_name&gt;sys_ux_client_script_6eb857b5bc792010f866we5e70b14208&lt;/sys_update_name&gt;
+&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+&lt;sys_updated_on&gt;2021-01-20 05:36:56&lt;/sys_updated_on&gt;
+&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1683380427</payload_hash>
+        <record_name>Conditionally refresh special handing notes data broker</record_name>
+        <reverted_from/>
+        <source>f531f335bcb92010f877ff5e70b14251</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-01-20 07:16:13</sys_created_on>
+        <sys_id>f3b173b5bcb92010f877ff5e70b14216</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1771ea6a5e00000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-01-20 07:16:13</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>3fb173b534b9201009f36180a7e5b215</update_guid>
+        <update_guid_history>3fb173b534b9201009f36180a7e5b215:1683380427</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-01-20 07:36:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0018196eacce445a800238e4d05153b1</sys_id>
+        <sys_metadata>6eb857b5bc792010f866we5e70b14208</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conditionally refresh special handing notes data broker</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_6eb857b5bc792010f866we5e70b14208</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_6eb857b5bc792010f866we5e70b14208">f3b173b5bcb92010f877ff5e70b14216</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-01-20 07:36:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
