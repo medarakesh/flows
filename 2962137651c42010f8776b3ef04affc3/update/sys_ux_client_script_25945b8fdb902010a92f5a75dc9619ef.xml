@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="contentportallanding">8acc2ff251082010f8776b3ef04aff3c</macroponent>
+        <name>Navigation</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+   api.emit('NAV_ITEM_SELECTED', { route: 'reportemergency', fields:{ sysId: '-1'}, multiInstField: 'sysId' });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-11-10 12:47:02</sys_created_on>
+        <sys_id>25945b8fdb902010a92f5a75dc9619ef</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Navigation</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_client_script_25945b8fdb902010a92f5a75dc9619ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-19 17:07:28</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

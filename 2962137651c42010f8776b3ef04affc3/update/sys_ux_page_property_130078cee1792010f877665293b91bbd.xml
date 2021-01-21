@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_property">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
     <sys_ux_page_property action="INSERT_OR_UPDATE">
         <choices/>
         <description>sys_search_context_config&#13;
 f00f608ee1792010f877665293b91b93</description>
         <name>globalSearchDataConfigId</name>
         <page display_value="Emergency Workspace">4efbb889dbc52010945cf9c31d9619e9</page>
+        <required_translations>[]</required_translations>
+        <route/>
         <suffix/>
         <sys_class_name>sys_ux_page_property</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-20 11:49:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
         <sys_id>130078cee1792010f877665293b91bbd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>globalSearchDataConfigId</sys_name>

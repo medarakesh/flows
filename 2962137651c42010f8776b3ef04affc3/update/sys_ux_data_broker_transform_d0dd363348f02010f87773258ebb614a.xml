@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_emergency_al.knowledgearticles</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>knowledgearticles</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+  "name": "table",&#13;
+  "label": "Table",&#13;
+  "description": "Table to look up",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "table_name",&#13;
+  "mandatory": true&#13;
+},&#13;
+{&#13;
+  "name": "recordId",&#13;
+  "label": "Record",&#13;
+  "description": "Record to look up (sys_id or display value)",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": true,&#13;
+  "defaultValue": ""&#13;
+}&#13;
+]</props>
+        <required_translations>[{"message":"Table","comment":""},{"message":"Table to look up","comment":""},{"message":"Record","comment":""},{"message":"Record to look up (sys_id or display value)","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    var newAlert = new GlideRecord(input["table"]);
+    if (!newAlert.get(input["recordId"]))
+        return {};
+	var obj = {
+		
+	};
+    var articleDetails = {
+        "articleHTML": "<p>"+newAlert.getValue("emergency_alert_message")+"</p>",
+        "articleSysId": newAlert.getValue('kb_article'),
+        "templateFieldData": [],
+        "articleInfo": {
+            "author": newAlert.getDisplayValue('sys_created_by'),
+            "displayAttachments": false,
+            "kbCategory": null,
+            "workflowState": "published",
+            "kbKnowledgeBase": null,
+            "number": null,
+            "shortDescription": newAlert.emergency_alert_title.getDisplayValue(),
+            "sysId": "471ee81eff6002009b20ffffffffff34",
+            "sysUpdatedOn": null,
+            "sysViewCount": null,
+            "rating": null,
+            "revisedBy": null,
+            "baseVersion": null,
+            "isExpired": false
+        }
+		
+    };
+	obj.articleDetails = articleDetails;
+	return obj;
+
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-07 15:39:28</sys_created_on>
+        <sys_id>d0dd363348f02010f87773258ebb614a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>knowledgearticles</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_d0dd363348f02010f87773258ebb614a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-07 16:00:09</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=d0dd363348f02010f87773258ebb614a"/>
+</record_update>

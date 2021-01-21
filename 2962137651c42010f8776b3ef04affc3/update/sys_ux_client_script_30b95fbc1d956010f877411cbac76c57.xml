@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="contentportallanding">8acc2ff251082010f8776b3ef04aff3c</macroponent>
+        <name>ReportSummaryPage</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    const currentSysId = event.payload.sysId;
+    var items = api.data.evam_emergency_alert_composite_databroker_1.compositeDataViews.items;
+    var status = false;
+    items.forEach(function(property){
+        if(property.propValues.model.sysId== currentSysId && property.propValues.model.status =="Status requested" ){
+            status = true;
+        }
+    });
+ if (!status){
+    helpers.navigate.to("report",{
+        "table":event.payload.table,
+        "sysId":event.payload.sysId
+    }); 
+}
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-23 06:25:51</sys_created_on>
+        <sys_id>30b95fbc1d956010f877411cbac76c57</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>ReportSummaryPage</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_client_script_30b95fbc1d956010f877411cbac76c57</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-12 13:42:58</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>
