@@ -569,8 +569,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create a Task When Self Report is created">3b705a52db812410945cf9c31d9619bc</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>4</order>
@@ -599,8 +598,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create a Task When Self Report is created">3b705a52db812410945cf9c31d9619bc</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -643,8 +641,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create a Task When Self Report is created">3b705a52db812410945cf9c31d9619bc</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>3</order>
@@ -673,8 +670,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create a Task When Self Report is created">3b705a52db812410945cf9c31d9619bc</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>8</order>
@@ -703,8 +699,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create a Task When Self Report is created">3b705a52db812410945cf9c31d9619bc</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1397,8 +1392,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create a Task When Self Report is created">08f0d256db812410945cf9c31d9619fd</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1441,8 +1435,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create a Task When Self Report is created">08f0d256db812410945cf9c31d9619fd</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1485,8 +1478,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create a Task When Self Report is created">08f0d256db812410945cf9c31d9619fd</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>3</order>
@@ -1515,8 +1507,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create a Task When Self Report is created">08f0d256db812410945cf9c31d9619fd</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>8</order>
@@ -1545,8 +1536,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create a Task When Self Report is created">08f0d256db812410945cf9c31d9619fd</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>4</order>

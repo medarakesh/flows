@@ -6,7 +6,6 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-trackapptemplates-12-11-2020</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -533,7 +532,7 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=392d9075892d2010f877dcd2f1eecc2e^sys_idNOT INf67d5875892d2010f877dcd2f1eecc21"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"f67d5875892d2010f877dcd2f1eecc21","name":"plan"}}</plan>
+        <plan>com.snc.process_flow.engine.ProcessPlan@1e80ab7</plan>
         <plan_id>392d9075892d2010f877dcd2f1eecc2e</plan_id>
         <snapshot>055de3e9bc312010f877ff5e70b14236</snapshot>
         <sys_created_by>admin</sys_created_by>

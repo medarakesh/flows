@@ -369,8 +369,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Status Report Request for Others Affected">0709ad3195252010f8771bdb51b3590b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>4</order>
@@ -399,8 +398,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Status Report Request for Others Affected">0709ad3195252010f8771bdb51b3590b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -443,8 +441,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Status Report Request for Others Affected">0709ad3195252010f8771bdb51b3590b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>7</order>
@@ -473,8 +470,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Status Report Request for Others Affected">0709ad3195252010f8771bdb51b3590b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>5</order>
@@ -863,8 +859,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Status Report Request for Others Affected">93ca61b195252010f8771bdb51b359f3</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>5</order>
@@ -893,8 +888,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Status Report Request for Others Affected">93ca61b195252010f8771bdb51b359f3</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -937,8 +931,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Status Report Request for Others Affected">93ca61b195252010f8771bdb51b359f3</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>7</order>
@@ -967,8 +960,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Status Report Request for Others Affected">93ca61b195252010f8771bdb51b359f3</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>4</order>

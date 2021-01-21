@@ -585,8 +585,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self report">70f057381d956010f877411cbac76c0a</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -629,8 +628,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self report">70f057381d956010f877411cbac76c0a</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1246,8 +1244,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self report">ecc35bb81d956010f877411cbac76c41</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -1290,8 +1287,7 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self report">ecc35bb81d956010f877411cbac76c41</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
