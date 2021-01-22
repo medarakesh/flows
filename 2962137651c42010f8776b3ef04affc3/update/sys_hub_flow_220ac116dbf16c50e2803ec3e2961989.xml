@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>220ac116dbf16c50e2803ec3e2961989</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Create App Self Reports</sys_name>
         <sys_overrides/>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_hub_flow_220ac116dbf16c50e2803ec3e2961989</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:33</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:33</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=220ac116dbf16c50e2803ec3e2961989"/>
@@ -71,29 +71,40 @@
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"d14865dadb356c50e2803ec3e2961976","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"a173fe26dbb1ac50e2803ec3e2961960","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>220ac116dbf16c50e2803ec3e2961989</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-21 10:32:32</sys_created_on>
-        <sys_id>d14865dadb356c50e2803ec3e2961976</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2021-01-22 10:39:32</sys_created_on>
+        <sys_id>a173fe26dbb1ac50e2803ec3e2961960</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:32</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:32</sys_updated_on>
         <trigger display_value="">aaa18cb1b9b12010f8776c0e321b5f7e</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>d14865dadb356c50e2803ec3e2961976</document_id>
+        <document_id>a173fe26dbb1ac50e2803ec3e2961960</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-21 10:32:32</sys_created_on>
-        <sys_id>594865dadb356c50e2803ec3e2961976</sys_id>
+        <sys_created_on>2021-01-22 10:39:32</sys_created_on>
+        <sys_id>2d73fe26dbb1ac50e2803ec3e2961961</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=220ac116dbf16c50e2803ec3e2961989^sys_idNOT INd14865dadb356c50e2803ec3e2961976"/>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MiZGWoTYkAEFVsdC0N1iY2oY+KyjnmaXU2XzUPPEWAtljKEIqH749EIigd31JfG/42XNK+wHxPKN7oYAAAA=</data>
+        <document_id>a173fe26dbb1ac50e2803ec3e2961960</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-22 10:39:32</sys_created_on>
+        <sys_id>6973fe26dbb1ac50e2803ec3e2961960</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=220ac116dbf16c50e2803ec3e2961989^sys_idNOT INa173fe26dbb1ac50e2803ec3e2961960"/>
     <sys_hub_flow_component action="delete_multiple" query="flow=220ac116dbf16c50e2803ec3e2961989^sys_idNOT IN14bbc956dbf16c50e2803ec3e2961920,50bbc956dbf16c50e2803ec3e296192a,5cbbc956dbf16c50e2803ec3e2961915,9cbbc956dbf16c50e2803ec3e2961923"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -110,10 +121,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 08:27:40</sys_created_on>
         <sys_id>14bbc956dbf16c50e2803ec3e2961920</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:33</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:33</sys_updated_on>
         <ui_id>df289075-0cf0-4b16-ac33-38e71c1041aa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=14bbc956dbf16c50e2803ec3e2961920"/>
@@ -145,6 +156,20 @@
         <value>1</value>
         <variable display_value="">ceab42a673110010d70877186bf6a74f</variable>
     </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>14bbc956dbf16c50e2803ec3e2961920</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-22 10:39:12</sys_created_on>
+        <sys_id>e4633e26dbb1ac50e2803ec3e2961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-22 10:39:12</sys_updated_on>
+        <value>sort_desc</value>
+        <variable display_value="">5d09f99587003300663ca1bb36cb0bb1</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=14bbc956dbf16c50e2803ec3e2961920"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>conditions</field>
@@ -157,6 +182,18 @@
         <sys_updated_on>2021-01-21 08:27:40</sys_updated_on>
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
         <value>name={{bfcf919f-cb84-429a-bd15-4165fa896614.item}}^status_report_request={{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_type</field>
+        <id>14bbc956dbf16c50e2803ec3e2961920</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-22 10:39:12</sys_created_on>
+        <sys_id>ec633e26dbb1ac50e2803ec3e2961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-22 10:39:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
@@ -197,10 +234,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 08:27:41</sys_created_on>
         <sys_id>50bbc956dbf16c50e2803ec3e296192a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:33</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:33</sys_updated_on>
         <ui_id>84b14c7c-6bba-4fea-a3c6-41370c55737d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=50bbc956dbf16c50e2803ec3e296192a"/>
@@ -263,10 +300,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 08:27:40</sys_created_on>
         <sys_id>5cbbc956dbf16c50e2803ec3e2961915</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:33</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:33</sys_updated_on>
         <ui_id>bfcf919f-cb84-429a-bd15-4165fa896614</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -305,10 +342,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 08:27:41</sys_created_on>
         <sys_id>9cbbc956dbf16c50e2803ec3e2961923</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:33</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:33</sys_updated_on>
         <ui_id>4a8600d0-45fc-41f0-9913-c4bf7340bd03</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -337,10 +374,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 08:27:40</sys_created_on>
         <sys_id>8cbbc956dbf16c50e2803ec3e2961911</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:33</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:33</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -464,14 +501,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 08:27:40</sys_created_on>
         <sys_id>40bbc956dbf16c50e2803ec3e296190b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:32</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -487,7 +524,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD994865daca356c5071be4c1aa3a6b185,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD3c73be266fb1ac50be294f65e55a4996,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -545,14 +582,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 08:27:40</sys_created_on>
         <sys_id>4cbbc956dbf16c50e2803ec3e2961905</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:33</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -626,14 +663,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 08:27:39</sys_created_on>
         <sys_id>80bbc956dbf16c50e2803ec3e2961900</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:33</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -661,10 +698,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 08:27:40</sys_created_on>
         <sys_id>14bbc956dbf16c50e2803ec3e2961920</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:33</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:33</sys_updated_on>
         <ui_id>df289075-0cf0-4b16-ac33-38e71c1041aa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=14bbc956dbf16c50e2803ec3e2961920"/>
@@ -696,6 +733,20 @@
         <value>1</value>
         <variable display_value="">ceab42a673110010d70877186bf6a74f</variable>
     </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>14bbc956dbf16c50e2803ec3e2961920</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-22 10:39:12</sys_created_on>
+        <sys_id>e4633e26dbb1ac50e2803ec3e2961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-22 10:39:12</sys_updated_on>
+        <value>sort_desc</value>
+        <variable display_value="">5d09f99587003300663ca1bb36cb0bb1</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=14bbc956dbf16c50e2803ec3e2961920"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>conditions</field>
@@ -708,6 +759,18 @@
         <sys_updated_on>2021-01-21 08:27:40</sys_updated_on>
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
         <value>name={{bfcf919f-cb84-429a-bd15-4165fa896614.item}}^status_report_request={{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_type</field>
+        <id>14bbc956dbf16c50e2803ec3e2961920</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-22 10:39:12</sys_created_on>
+        <sys_id>ec633e26dbb1ac50e2803ec3e2961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-22 10:39:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
@@ -748,10 +811,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 08:27:41</sys_created_on>
         <sys_id>50bbc956dbf16c50e2803ec3e296192a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:33</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:33</sys_updated_on>
         <ui_id>84b14c7c-6bba-4fea-a3c6-41370c55737d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=50bbc956dbf16c50e2803ec3e296192a"/>
@@ -815,10 +878,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 08:27:40</sys_created_on>
         <sys_id>5cbbc956dbf16c50e2803ec3e2961915</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:33</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:33</sys_updated_on>
         <ui_id>bfcf919f-cb84-429a-bd15-4165fa896614</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -857,10 +920,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 08:27:41</sys_created_on>
         <sys_id>9cbbc956dbf16c50e2803ec3e2961923</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:33</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:33</sys_updated_on>
         <ui_id>4a8600d0-45fc-41f0-9913-c4bf7340bd03</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -995,7 +1058,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9c4825dadb356c50e2803ec3e29619bd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1003,7 +1066,7 @@
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:28</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:30</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=9c4825dadb356c50e2803ec3e29619bd"/>
@@ -1024,10 +1087,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 10:32:30</sys_created_on>
         <sys_id>344865dadb356c50e2803ec3e296192c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:30</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:30</sys_updated_on>
         <ui_id>df289075-0cf0-4b16-ac33-38e71c1041aa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=344865dadb356c50e2803ec3e296192c"/>
@@ -1044,6 +1107,20 @@
         <sys_updated_on>2021-01-21 10:32:30</sys_updated_on>
         <value>x_snc_emergency_al_status_report</value>
         <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>344865dadb356c50e2803ec3e296192c</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-22 10:39:28</sys_created_on>
+        <sys_id>b073be26dbb1ac50e2803ec3e296197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-22 10:39:28</sys_updated_on>
+        <value>sort_desc</value>
+        <variable display_value="">5d09f99587003300663ca1bb36cb0bb1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1071,6 +1148,18 @@
         <sys_updated_on>2021-01-21 10:32:30</sys_updated_on>
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
         <value>name={{bfcf919f-cb84-429a-bd15-4165fa896614.item}}^status_report_request={{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_type</field>
+        <id>344865dadb356c50e2803ec3e296192c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-22 10:39:28</sys_created_on>
+        <sys_id>3073be26dbb1ac50e2803ec3e296197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-22 10:39:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
@@ -1116,10 +1205,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 10:32:29</sys_created_on>
         <sys_id>644865dadb356c50e2803ec3e2961920</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:29</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:30</sys_updated_on>
         <ui_id>4a8600d0-45fc-41f0-9913-c4bf7340bd03</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1153,10 +1242,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 10:32:30</sys_created_on>
         <sys_id>744865dadb356c50e2803ec3e2961934</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:30</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:30</sys_updated_on>
         <ui_id>84b14c7c-6bba-4fea-a3c6-41370c55737d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=744865dadb356c50e2803ec3e2961934"/>
@@ -1219,10 +1308,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 10:32:29</sys_created_on>
         <sys_id>e44865dadb356c50e2803ec3e296191c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:29</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:30</sys_updated_on>
         <ui_id>bfcf919f-cb84-429a-bd15-4165fa896614</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1251,10 +1340,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 10:32:30</sys_created_on>
         <sys_id>f04865dadb356c50e2803ec3e2961936</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:32</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:32</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1320,7 +1409,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1378,14 +1467,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 10:32:29</sys_created_on>
         <sys_id>6c4865dadb356c50e2803ec3e2961902</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:29</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1401,7 +1490,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1418,8 +1507,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -1459,14 +1548,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 10:32:28</sys_created_on>
         <sys_id>d04825dadb356c50e2803ec3e29619c2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:28</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1482,7 +1571,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD104825dae4356c50ecb82a12dcc5bdc0,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD3c73be266fb1ac50be294f65e55a4996,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1540,14 +1629,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 10:32:29</sys_created_on>
         <sys_id>e84825dadb356c50e2803ec3e29619f8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:29</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1575,10 +1664,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 10:32:30</sys_created_on>
         <sys_id>344865dadb356c50e2803ec3e296192c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:30</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:30</sys_updated_on>
         <ui_id>df289075-0cf0-4b16-ac33-38e71c1041aa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=344865dadb356c50e2803ec3e296192c"/>
@@ -1595,6 +1684,20 @@
         <sys_updated_on>2021-01-21 10:32:30</sys_updated_on>
         <value>x_snc_emergency_al_status_report</value>
         <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>344865dadb356c50e2803ec3e296192c</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-22 10:39:28</sys_created_on>
+        <sys_id>b073be26dbb1ac50e2803ec3e296197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-22 10:39:28</sys_updated_on>
+        <value>sort_desc</value>
+        <variable display_value="">5d09f99587003300663ca1bb36cb0bb1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1622,6 +1725,18 @@
         <sys_updated_on>2021-01-21 10:32:30</sys_updated_on>
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
         <value>name={{bfcf919f-cb84-429a-bd15-4165fa896614.item}}^status_report_request={{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_type</field>
+        <id>344865dadb356c50e2803ec3e296192c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-22 10:39:28</sys_created_on>
+        <sys_id>3073be26dbb1ac50e2803ec3e296197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-22 10:39:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
@@ -1662,10 +1777,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 10:32:30</sys_created_on>
         <sys_id>744865dadb356c50e2803ec3e2961934</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:30</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:30</sys_updated_on>
         <ui_id>84b14c7c-6bba-4fea-a3c6-41370c55737d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=744865dadb356c50e2803ec3e2961934"/>
@@ -1729,10 +1844,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 10:32:29</sys_created_on>
         <sys_id>644865dadb356c50e2803ec3e2961920</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:29</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:30</sys_updated_on>
         <ui_id>4a8600d0-45fc-41f0-9913-c4bf7340bd03</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1771,10 +1886,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-21 10:32:29</sys_created_on>
         <sys_id>e44865dadb356c50e2803ec3e296191c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 10:32:29</sys_updated_on>
+        <sys_updated_on>2021-01-22 10:39:30</sys_updated_on>
         <ui_id>bfcf919f-cb84-429a-bd15-4165fa896614</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
