@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="List">fba29116dbcda010945cf9c31d961980</macroponent>
+        <name>New client script 1</name>
+        <required_translations/>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-28 07:10:12</sys_created_on>
+        <sys_id>5bc359a21d516410f877411cbac76c9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_client_script_5bc359a21d516410f877411cbac76c9f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-28 07:10:12</sys_updated_on>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>60cf090fd0012010adfc9c0fe0a9419b</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_client_script_5bc359a21d516410f877411cbac76c9f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="List"&gt;fba29116dbcda010945cf9c31d961980&lt;/macroponent&gt;&lt;name&gt;New client script 1&lt;/name&gt;&lt;required_translations/&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-28 07:10:12&lt;/sys_created_on&gt;&lt;sys_id&gt;5bc359a21d516410f877411cbac76c9f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;New client script 1&lt;/sys_name&gt;&lt;sys_package display_value="Emergency Alert" source="x_snc_emergency_al"&gt;2962137651c42010f8776b3ef04affc3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Emergency Alert"&gt;2962137651c42010f8776b3ef04affc3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_5bc359a21d516410f877411cbac76c9f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-28 07:10:12&lt;/sys_updated_on&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-309052144</payload_hash>
+        <record_name>New client script 1</record_name>
+        <reverted_from/>
+        <source>a51d38261d116410f877411cbac76cd6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-28 07:10:12</sys_created_on>
+        <sys_id>93c359a21d516410f877411cbac76ca7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176a82eddd10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-28 07:10:12</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>1fc359a2dc516410bd8bff9a212524a6</update_guid>
+        <update_guid_history>1fc359a2dc516410bd8bff9a212524a6:-309052144</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-29 13:20:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>413055ed123e4bc1a4b0ebd25a4fbc19</sys_id>
+        <sys_metadata>5bc359a21d516410f877411cbac76c9f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_5bc359a21d516410f877411cbac76c9f</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_5bc359a21d516410f877411cbac76c9f">93c359a21d516410f877411cbac76ca7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-29 13:20:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

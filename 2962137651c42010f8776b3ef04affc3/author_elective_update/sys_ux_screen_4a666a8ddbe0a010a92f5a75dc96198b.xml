@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Emergency Alert - admin">07c21b7651c42010f8776b3ef04afff2</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Update Your Status">79666a8ddbe0a010a92f5a75dc961987</macroponent>
+        <macroponent_config>{
+  "table" : "",
+  "sysId" : "",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Update Your Status Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Portal AppShell">9533bf435b130010b913cbd59b81c7c6</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Update Your Status">3d666a8ddbe0a010a92f5a75dc961981</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>rakesh</sys_created_by>
+        <sys_created_on>2020-11-16 14:33:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4a666a8ddbe0a010a92f5a75dc96198b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Update Your Status Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_screen_4a666a8ddbe0a010a92f5a75dc96198b</sys_update_name>
+        <sys_updated_by>rakesh</sys_updated_by>
+        <sys_updated_on>2020-11-16 14:38:57</sys_updated_on>
+    </sys_ux_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>77918959db406c50c6e711f84896196b</instance_id>
+        <instance_name>emergencydevportal</instance_name>
+        <name>sys_ux_screen_4a666a8ddbe0a010a92f5a75dc96198b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Emergency Alert - admin">07c21b7651c42010f8776b3ef04afff2</app_config><description/><event_mappings>[ ]</event_mappings><macroponent display_value="Update Your Status">79666a8ddbe0a010a92f5a75dc961987</macroponent><macroponent_config>{
+  "table" : "",
+  "sysId" : "",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config><name>Update Your Status Default</name><order>0</order><parent_macroponent display_value="UXR Portal AppShell">9533bf435b130010b913cbd59b81c7c6</parent_macroponent><required_translations>[]</required_translations><screen_condition/><screen_type display_value="Update Your Status">3d666a8ddbe0a010a92f5a75dc961981</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>rakesh</sys_created_by><sys_created_on>2020-11-16 14:33:07</sys_created_on><sys_domain>global</sys_domain><sys_id>4a666a8ddbe0a010a92f5a75dc96198b</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Update Your Status Default</sys_name><sys_overrides/><sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package><sys_policy/><sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope><sys_update_name>sys_ux_screen_4a666a8ddbe0a010a92f5a75dc96198b</sys_update_name><sys_updated_by>rakesh</sys_updated_by><sys_updated_on>2020-11-16 14:38:57</sys_updated_on></sys_ux_screen></record_update>]]></payload>
+        <payload_hash>-1062389034</payload_hash>
+        <record_name>Update Your Status Default</record_name>
+        <reverted_from/>
+        <source>91ed6751db1820105de6f9751d961952</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rakesh</sys_created_by>
+        <sys_created_on>2020-11-16 14:38:57</sys_created_on>
+        <sys_id>efb7e6cddbe0a010a92f5a75dc9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175d17e9dd60000001</sys_recorded_at>
+        <sys_updated_by>rakesh</sys_updated_by>
+        <sys_updated_on>2020-11-16 14:38:57</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>2bb7e6cd19e0a0107c1b2b4c430904d0</update_guid>
+        <update_guid_history>2bb7e6cd19e0a0107c1b2b4c430904d0:-1062389034,d1966e8d80e0a0109fb0543d0c43b1e5:539587264,4e66ea8ddde0a01053175ad74295fefb:758650930</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-11-18 10:22:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>0ed4123644364de496845272b5c6cfc4</sys_id>
+        <sys_metadata>4a666a8ddbe0a010a92f5a75dc96198b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Your Status Default</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_4a666a8ddbe0a010a92f5a75dc96198b</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_4a666a8ddbe0a010a92f5a75dc96198b">efb7e6cddbe0a010a92f5a75dc9619d0</sys_update_version>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-11-18 10:22:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_chart_color">
+    <sys_report_chart_color action="INSERT_OR_UPDATE">
+        <color/>
+        <color_name display_value="Emergency#E79C66">e4de711c4cfd6010f8773379defef70f</color_name>
+        <display>background-color:#e79c66</display>
+        <element>status_matrix</element>
+        <name>x_snc_emergency_al_status_report</name>
+        <sys_class_name>sys_report_chart_color</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 06:08:28</sys_created_on>
+        <sys_id>2c12d1e70975a010f8772b3e8e9c5d11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_emergency_al_status_report</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_report_chart_color_2c12d1e70975a010f8772b3e8e9c5d11</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 06:08:28</sys_updated_on>
+        <value>2</value>
+    </sys_report_chart_color>
+</record_update>

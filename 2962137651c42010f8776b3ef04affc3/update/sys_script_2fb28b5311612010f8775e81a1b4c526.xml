@@ -37,12 +37,12 @@
     var workStatus = current.your_work_status;
 
     if (healthStatus == 'in_danger') {
-        current.setValue('status_matrix', 'danger');
+        current.setValue('status_matrix', 3);
     } else if (healthStatus == 'injured' || healthStatus == 'sick') {
-        current.setValue('status_matrix', 'warning');
+        current.setValue('status_matrix', 2);
     } else if (healthStatus == 'healthy_safe' && current.end_date != '') {
         if ((workStatus == 'at_work' || workStatus == 'returned') && current.end_date < new GlideDate()) {
-            current.setValue('status_matrix', 'ok');
+            current.setValue('status_matrix', 1);
         }
     }
 
@@ -53,7 +53,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2fb28b5311612010f8775e81a1b4c526</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Populate Status Matrix</sys_name>
         <sys_overrides/>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_script_2fb28b5311612010f8775e81a1b4c526</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-12 09:28:34</sys_updated_on>
+        <sys_updated_on>2021-01-25 06:08:55</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

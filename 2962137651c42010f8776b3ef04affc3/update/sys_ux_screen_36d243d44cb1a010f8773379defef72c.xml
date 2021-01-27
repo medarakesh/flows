@@ -100,7 +100,7 @@
         <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[]</required_translations>
         <screen_condition/>
-        <screen_type display_value="Manager List">eed2cb944cb1a010f8773379defef743</screen_type>
+        <screen_type/>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-15 12:00:27</sys_created_on>

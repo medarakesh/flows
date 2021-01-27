@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>Record</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-15 06:58:53</sys_created_on>
+        <sys_id>72849ed2dbc12410945cf9c31d9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_screen_type_72849ed2dbc12410945cf9c31d9619ed</sys_update_name>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-15 06:58:53</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="DELETE" query="documentkey=72849ed2dbc12410945cf9c31d9619ed"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>0f84593d90212010adfc9c8867c4d2ab</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_screen_type_72849ed2dbc12410945cf9c31d9619ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Record</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-15 06:58:53</sys_created_on>
+        <sys_id>72849ed2dbc12410945cf9c31d9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_screen_type_72849ed2dbc12410945cf9c31d9619ed</sys_update_name>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-15 06:58:53</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=72849ed2dbc12410945cf9c31d9619ed"/>
+</record_update>]]></payload>
+        <payload_hash>930298723</payload_hash>
+        <record_name>Record</record_name>
+        <reverted_from/>
+        <source>a936e7e1bc312010f877ff5e70b142e4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-19 11:48:43</sys_created_on>
+        <sys_id>a9866b65bc312010f877ff5e70b142fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1771a79c1c50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-19 11:48:43</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>69866b651531201063a810c2600087fa</update_guid>
+        <update_guid_history>69866b651531201063a810c2600087fa:930298723</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 05:52:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>3d8efcdf57bf4cd4a8d4ca1f6ed3f490</sys_id>
+        <sys_metadata>72849ed2dbc12410945cf9c31d9619ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_72849ed2dbc12410945cf9c31d9619ed</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_72849ed2dbc12410945cf9c31d9619ed">a9866b65bc312010f877ff5e70b142fa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 05:52:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

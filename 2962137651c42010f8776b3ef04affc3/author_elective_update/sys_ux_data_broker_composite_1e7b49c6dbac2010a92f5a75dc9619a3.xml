@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_composite">
+    <sys_ux_data_broker_composite action="DELETE">
+        <api_name>x_snc_emergency_al.EVAM update emergency alert composite databroker</api_name>
+        <data_drivers>{&#13;
+  "recordQuery": {&#13;
+    "definition" : {&#13;
+      "id" : "54e9c8d25310101024e5ddeeff7b12db",&#13;
+      "type" : "GRAPHQL"&#13;
+    },&#13;
+    "elementId" : "recordQuery",&#13;
+    "inputValues" : {&#13;
+      "table" : {&#13;
+        "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "table"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+     "recordId" : {&#13;
+        "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "recordId"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+     "returnFields" : {&#13;
+        "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "returnFields"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+     "returnTableMetadata" : {&#13;
+         "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "returnTableMetadata"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+     "returnFieldMetadata" : {&#13;
+         "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "returnFieldMetadata"&#13;
+          ]&#13;
+        }&#13;
+      }&#13;
+    },&#13;
+    "elementLabel" : "Record Query"&#13;
+  },&#13;
+  "result": {&#13;
+    "definition" : {&#13;
+      "id" : "49595ad153131010c495ddeeff7b1225",&#13;
+      "type" : "SCRIPTLET"&#13;
+    },&#13;
+    "elementId" : "result",&#13;
+    "inputValues" : {&#13;
+      "query" : {&#13;
+        "type": "BROKER_INTERNAL_STATE_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "recordQuery",&#13;
+            "output"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+     "first" : {&#13;
+        "type": "JSON_LITERAL",&#13;
+        "value": true&#13;
+      }&#13;
+    },&#13;
+    "elementLabel" : "Result"&#13;
+  }&#13;
+}</data_drivers>
+        <description/>
+        <name>EVAM update emergency alert composite databroker</name>
+        <operations/>
+        <output_properties>[&#13;
+{&#13;
+    "name": "result",&#13;
+    "label": "Result",&#13;
+    "description": "Result",&#13;
+    "origin": {&#13;
+       "type": "data",&#13;
+       "id": "result"&#13;
+    }&#13;
+  }&#13;
+]</output_properties>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+  "name": "table",&#13;
+  "label": "Table",&#13;
+  "description": "Table to look up",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "table_name",&#13;
+  "mandatory": true&#13;
+},&#13;
+{&#13;
+  "name": "recordId",&#13;
+  "label": "Record",&#13;
+  "description": "Record to look up (sys_id or display value)",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": true,&#13;
+  "defaultValue": ""&#13;
+},&#13;
+{&#13;
+  "name": "returnFields",&#13;
+  "label": "Return fields",&#13;
+  "description": "Returned field values",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "field_list",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": "",&#13;
+  "typeMetadata": {&#13;
+        "table": "@table"&#13;
+  }&#13;
+}&#13;
+]</props>
+        <required_translations>[{"message":"Table","comment":""},{"message":"Table to look up","comment":""},{"message":"Returned field values","comment":""},{"message":"Record","comment":""},{"message":"Record to look up (sys_id or display value)","comment":""},{"message":"Return fields","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_data_broker_composite</sys_class_name>
+        <sys_created_by>rakesh</sys_created_by>
+        <sys_created_on>2020-11-19 10:30:07</sys_created_on>
+        <sys_id>1e7b49c6dbac2010a92f5a75dc9619a3</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>EVAM update emergency alert composite databroker</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_data_broker_composite_1e7b49c6dbac2010a92f5a75dc9619a3</sys_update_name>
+        <sys_updated_by>rakesh</sys_updated_by>
+        <sys_updated_on>2020-11-20 07:01:56</sys_updated_on>
+    </sys_ux_data_broker_composite>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>77918959db406c50c6e711f84896196b</instance_id>
+        <instance_name>emergencydevportal</instance_name>
+        <name>sys_ux_data_broker_composite_1e7b49c6dbac2010a92f5a75dc9619a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_composite"><sys_ux_data_broker_composite action="INSERT_OR_UPDATE"><api_name>x_snc_emergency_al.EVAM update emergency alert composite databroker</api_name><data_drivers>{&#13;
+  "recordQuery": {&#13;
+    "definition" : {&#13;
+      "id" : "54e9c8d25310101024e5ddeeff7b12db",&#13;
+      "type" : "GRAPHQL"&#13;
+    },&#13;
+    "elementId" : "recordQuery",&#13;
+    "inputValues" : {&#13;
+      "table" : {&#13;
+        "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "table"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+     "recordId" : {&#13;
+        "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "recordId"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+     "returnFields" : {&#13;
+        "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "returnFields"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+     "returnTableMetadata" : {&#13;
+         "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "returnTableMetadata"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+     "returnFieldMetadata" : {&#13;
+         "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "returnFieldMetadata"&#13;
+          ]&#13;
+        }&#13;
+      }&#13;
+    },&#13;
+    "elementLabel" : "Record Query"&#13;
+  },&#13;
+  "result": {&#13;
+    "definition" : {&#13;
+      "id" : "49595ad153131010c495ddeeff7b1225",&#13;
+      "type" : "SCRIPTLET"&#13;
+    },&#13;
+    "elementId" : "result",&#13;
+    "inputValues" : {&#13;
+      "query" : {&#13;
+        "type": "BROKER_INTERNAL_STATE_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "recordQuery",&#13;
+            "output"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+     "first" : {&#13;
+        "type": "JSON_LITERAL",&#13;
+        "value": true&#13;
+      }&#13;
+    },&#13;
+    "elementLabel" : "Result"&#13;
+  }&#13;
+}</data_drivers><description/><name>EVAM update emergency alert composite databroker</name><operations/><output_properties>[&#13;
+{&#13;
+    "name": "result",&#13;
+    "label": "Result",&#13;
+    "description": "Result",&#13;
+    "origin": {&#13;
+       "type": "data",&#13;
+       "id": "result"&#13;
+    }&#13;
+  }&#13;
+]</output_properties><private>false</private><props>[&#13;
+  {&#13;
+  "name": "table",&#13;
+  "label": "Table",&#13;
+  "description": "Table to look up",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "table_name",&#13;
+  "mandatory": true&#13;
+},&#13;
+{&#13;
+  "name": "recordId",&#13;
+  "label": "Record",&#13;
+  "description": "Record to look up (sys_id or display value)",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": true,&#13;
+  "defaultValue": ""&#13;
+},&#13;
+{&#13;
+  "name": "returnFields",&#13;
+  "label": "Return fields",&#13;
+  "description": "Returned field values",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "field_list",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": "",&#13;
+  "typeMetadata": {&#13;
+        "table": "@table"&#13;
+  }&#13;
+}&#13;
+]</props><required_translations>[{"message":"Table","comment":""},{"message":"Table to look up","comment":""},{"message":"Returned field values","comment":""},{"message":"Record","comment":""},{"message":"Record to look up (sys_id or display value)","comment":""},{"message":"Return fields","comment":""}]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_data_broker_composite</sys_class_name><sys_created_by>rakesh</sys_created_by><sys_created_on>2020-11-19 10:30:07</sys_created_on><sys_id>1e7b49c6dbac2010a92f5a75dc9619a3</sys_id><sys_mod_count>14</sys_mod_count><sys_name>EVAM update emergency alert composite databroker</sys_name><sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package><sys_policy/><sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope><sys_update_name>sys_ux_data_broker_composite_1e7b49c6dbac2010a92f5a75dc9619a3</sys_update_name><sys_updated_by>rakesh</sys_updated_by><sys_updated_on>2020-11-20 07:01:56</sys_updated_on></sys_ux_data_broker_composite></record_update>]]></payload>
+        <payload_hash>-534481239</payload_hash>
+        <record_name>EVAM update emergency alert composite databroker</record_name>
+        <reverted_from/>
+        <source>91ed6751db1820105de6f9751d961952</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rakesh</sys_created_by>
+        <sys_created_on>2020-11-20 07:01:57</sys_created_on>
+        <sys_id>4c8561d2dba82010a92f5a75dc9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175e475a68d0000001</sys_recorded_at>
+        <sys_updated_by>rakesh</sys_updated_by>
+        <sys_updated_on>2020-11-20 07:01:57</sys_updated_on>
+        <type>Composite Data Broker</type>
+        <update_guid>848561d29aa82010bffff161c4012ecd</update_guid>
+        <update_guid_history>848561d29aa82010bffff161c4012ecd:-534481239,28c4e99275a82010d8490212a78e698a:-1266645705,ff52a552d5a820108984596093ae5ef9:-534481239,bc9169127da820103a59d44ca7d650ee:-2064014599,206065de3368201004631cc72fb82593:-1461379260,a849dddae16820102f201572d98c7691:-2064014599,d53346c65ba020108ae9668395d80053:-983701689,ac71c686cda020102ce9ebcef4e7c6f2:880734529,7ddefd0646a0201023897ef73aa0fff7:-1721300856,d0bd7506dfa0201093a11a636c7f313e:-1544378890,68ac7d82a4a020101e234b0e7c26f18b:-1335758056,16eb7d82d8a02010bb7ab43777ba4887:-1260244489,3ce6f50282a02010d248e5f5864471a6:119976425,5e6c850a91ac2010b0ff4dfee4d149d0:1193914692,a78b8dc68cac20107a470a80447631f7:-1987006056</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rakesh</sys_created_by>
+        <sys_created_on>2020-11-27 09:43:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_data_broker_composite">sys_ux_data_broker_composite</sys_db_object>
+        <sys_id>0fe7007f7d2f45f0bd6e595c2a2420d9</sys_id>
+        <sys_metadata>1e7b49c6dbac2010a92f5a75dc9619a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EVAM update emergency alert composite databroker</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_ux_data_broker_composite_1e7b49c6dbac2010a92f5a75dc9619a3</sys_update_name>
+        <sys_update_version display_value="sys_ux_data_broker_composite_1e7b49c6dbac2010a92f5a75dc9619a3">4c8561d2dba82010a92f5a75dc9619cd</sys_update_version>
+        <sys_updated_by>rakesh</sys_updated_by>
+        <sys_updated_on>2020-11-27 09:43:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

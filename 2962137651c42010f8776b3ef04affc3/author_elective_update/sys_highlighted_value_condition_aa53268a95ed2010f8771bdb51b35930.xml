@@ -54,7 +54,7 @@
 </record_update>]]></payload>
         <payload_hash>-1049427773</payload_hash>
         <record_name/>
-        <reverted_from display_value="sys_highlighted_value_condition_aa53268a95ed2010f8771bdb51b35930">869b7739e1f52010f877665293b91b43</reverted_from>
+        <reverted_from display_value="">869b7739e1f52010f877665293b91b43</reverted_from>
         <source>517bb7f5e1f52010f877665293b91be9</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>

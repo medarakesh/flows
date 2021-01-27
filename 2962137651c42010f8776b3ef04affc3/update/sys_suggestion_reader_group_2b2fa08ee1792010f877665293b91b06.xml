@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group">
     <sys_suggestion_reader_group action="INSERT_OR_UPDATE">
         <click_in_mode>true</click_in_mode>
-        <context_config_id display_value="Emergency Alert Search Context Config">f00f608ee1792010f877665293b91b93</context_config_id>
+        <context_config_id display_value="">f00f608ee1792010f877665293b91b93</context_config_id>
         <limit>5</limit>
         <order>100</order>
         <section_header>Recent Searches</section_header>

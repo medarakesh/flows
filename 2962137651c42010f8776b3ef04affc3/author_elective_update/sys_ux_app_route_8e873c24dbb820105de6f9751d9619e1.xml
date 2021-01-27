@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Emergency Alert - admin">07c21b7651c42010f8776b3ef04afff2</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>custom404</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Portal AppShell">9533bf435b130010b913cbd59b81c7c6</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>custom404</route_type>
+        <screen_type display_value="custom404">fd87b824dbb820105de6f9751d96196e</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-27 03:27:27</sys_created_on>
+        <sys_id>8e873c24dbb820105de6f9751d9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>custom404</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_app_route_8e873c24dbb820105de6f9751d9619e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-27 03:27:27</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>77918959db406c50c6e711f84896196b</instance_id>
+        <instance_name>emergencydevportal</instance_name>
+        <name>sys_ux_app_route_8e873c24dbb820105de6f9751d9619e1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Emergency Alert - admin">07c21b7651c42010f8776b3ef04afff2</app_config><description/><fields/><icon/><name>custom404</name><optional_parameters/><order>0</order><parent_macroponent display_value="UXR Portal AppShell">9533bf435b130010b913cbd59b81c7c6</parent_macroponent><parent_macroponent_composition_element_id/><route_type>custom404</route_type><screen_type display_value="custom404">fd87b824dbb820105de6f9751d96196e</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-27 03:27:27</sys_created_on><sys_id>8e873c24dbb820105de6f9751d9619e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>custom404</sys_name><sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package><sys_policy/><sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope><sys_update_name>sys_ux_app_route_8e873c24dbb820105de6f9751d9619e1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-27 03:27:27</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>-1380648960</payload_hash>
+        <record_name>custom404</record_name>
+        <reverted_from/>
+        <source>91ed6751db1820105de6f9751d961952</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-27 03:27:27</sys_created_on>
+        <sys_id>c2873c24dbb820105de6f9751d9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17607bdcae00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-27 03:27:27</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>0e873c24d8b8201052ae15bf3de836e3</update_guid>
+        <update_guid_history>0e873c24d8b8201052ae15bf3de836e3:-1380648960</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-27 03:30:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>a3d532bcb2e84566afa51e9041197981</sys_id>
+        <sys_metadata>8e873c24dbb820105de6f9751d9619e1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>custom404</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_8e873c24dbb820105de6f9751d9619e1</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_8e873c24dbb820105de6f9751d9619e1">c2873c24dbb820105de6f9751d9619e4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-27 03:30:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

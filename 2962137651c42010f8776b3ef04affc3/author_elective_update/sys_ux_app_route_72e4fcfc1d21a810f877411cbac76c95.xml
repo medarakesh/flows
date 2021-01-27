@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Emergency Workspace">894cbc89dbc52010945cf9c31d96192e</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>admin_list</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>admin_list</route_type>
+        <screen_type display_value="admin_list">d2e47cfc1d21a810f877411cbac76cc2</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-01-04 04:41:35</sys_created_on>
+        <sys_id>72e4fcfc1d21a810f877411cbac76c95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>admin_list</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_app_route_72e4fcfc1d21a810f877411cbac76c95</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-01-04 04:41:35</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=72e4fcfc1d21a810f877411cbac76c95"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>63217b2c2d312010adfc7c088a9051a5</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_app_route_72e4fcfc1d21a810f877411cbac76c95</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Emergency Workspace">894cbc89dbc52010945cf9c31d96192e</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>admin_list</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>admin_list</route_type>
+        <screen_type display_value="admin_list">d2e47cfc1d21a810f877411cbac76cc2</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-01-04 04:41:35</sys_created_on>
+        <sys_id>72e4fcfc1d21a810f877411cbac76c95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>admin_list</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_app_route_72e4fcfc1d21a810f877411cbac76c95</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-01-04 04:41:35</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=72e4fcfc1d21a810f877411cbac76c95"/>
+</record_update>]]></payload>
+        <payload_hash>2072137118</payload_hash>
+        <record_name>admin_list</record_name>
+        <reverted_from/>
+        <source>5106419585312010f877f2a813a62d89</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-18 05:29:58</sys_created_on>
+        <sys_id>3f36c9d585312010f877f2a813a62d20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17713f8a4f80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-18 05:29:58</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>fb36c9d5bc312010ff6825e71788cf20</update_guid>
+        <update_guid_history>fb36c9d5bc312010ff6825e71788cf20:2072137118</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-18 08:28:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>36a8ddde03a24c9c9303feb4e9bbec04</sys_id>
+        <sys_metadata>72e4fcfc1d21a810f877411cbac76c95</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>admin_list</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_72e4fcfc1d21a810f877411cbac76c95</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_72e4fcfc1d21a810f877411cbac76c95">3f36c9d585312010f877f2a813a62d20</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-18 08:28:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

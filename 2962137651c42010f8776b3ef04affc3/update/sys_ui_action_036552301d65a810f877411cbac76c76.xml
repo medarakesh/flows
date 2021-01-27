@@ -34,7 +34,7 @@
     try {
         var inputs = {};
         inputs['self_report'] = current; // GlideRecord of table: x_snc_emergency_al_status_report 
-        var result = sn_fd.FlowAPI.getRunner().subflow('x_snc_emergency_al.create_status_report_request_for_others_affected').inForeground().withInputs(inputs).run();
+        var result = sn_fd.FlowAPI.getRunner().subflow('x_snc_emergency_al.create_status_report_requests_for_affected').inForeground().withInputs(inputs).run();
         var outputs = result.getOutputs();
         current.work_notes = gs.getMessage('Self report is requested for other effected by {0}', gs.getUser().getDisplayName());
         current.update();

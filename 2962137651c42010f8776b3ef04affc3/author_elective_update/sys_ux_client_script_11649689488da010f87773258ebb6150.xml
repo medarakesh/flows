@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="emergency-info">715ece4edba02010a92f5a75dc961974</macroponent>
+        <name>On Comment Submitted</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+
+    console.log('-->' + JSON.stringify(event.payload));
+    api.data.insert_knowledge_comment_1.execute({
+        "content":event.payload.content,
+        "articleId":api.context.props.kbSysId,
+        "parentId":event.payload.parentId
+    });
+
+    api.data.retrieve_knowledge_comments_1.refesh();
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-11 09:45:49</sys_created_on>
+        <sys_id>11649689488da010f87773258ebb6150</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>On Comment Submitted</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_client_script_11649689488da010f87773258ebb6150</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-11 10:13:50</sys_updated_on>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>529a3b0e103020101d9a6857eca91861</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_client_script_11649689488da010f87773258ebb6150</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="emergency-info"&gt;715ece4edba02010a92f5a75dc961974&lt;/macroponent&gt;&lt;name&gt;On Comment Submitted&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+
+    console.log('--&gt;' + JSON.stringify(event.payload));
+    api.data.insert_knowledge_comment_1.execute({
+        "content":event.payload.content,
+        "articleId":api.context.props.kbSysId,
+        "parentId":event.payload.parentId
+    });
+
+    api.data.retrieve_knowledge_comments_1.refesh();
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-11 09:45:49&lt;/sys_created_on&gt;&lt;sys_id&gt;11649689488da010f87773258ebb6150&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;On Comment Submitted&lt;/sys_name&gt;&lt;sys_package display_value="Emergency Alert" source="x_snc_emergency_al"&gt;2962137651c42010f8776b3ef04affc3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Emergency Alert"&gt;2962137651c42010f8776b3ef04affc3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_11649689488da010f87773258ebb6150&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-11 10:13:50&lt;/sys_updated_on&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-709575182</payload_hash>
+        <record_name>On Comment Submitted</record_name>
+        <reverted_from/>
+        <source>f3aa3d7748302010f87773258ebb61d9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-11 10:13:50</sys_created_on>
+        <sys_id>27ca9e4d488da010f87773258ebb61d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176514ae0b70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-11 10:13:50</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>6fca9e4da38da010b79ef16f549e66cf</update_guid>
+        <update_guid_history>6fca9e4da38da010b79ef16f549e66cf:-709575182,3af9d24dd38da0102ac5e82d4f92e31d:-362980342,7a39564df68da010b1c06c1c2e9244ea:-719764172,1a88d689ef8da0104719c28dd8e72c55:1105283217,cf27920db48da0108039855d8d8b493a:-1764402279,2db51689638da010250a1325e07fccde:1572260737,d56496891f8da010d3aca66fc9b12e53:1058786151</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-11 10:18:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>c7ec0dd1910b476a89fd6a5a305c9ca4</sys_id>
+        <sys_metadata>11649689488da010f87773258ebb6150</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On Comment Submitted</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_11649689488da010f87773258ebb6150</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_11649689488da010f87773258ebb6150">27ca9e4d488da010f87773258ebb61d0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-11 10:18:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

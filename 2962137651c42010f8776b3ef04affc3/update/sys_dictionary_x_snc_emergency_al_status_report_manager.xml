@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2021-01-04 05:26:59</sys_created_on>
-        <sys_id>145b9f1589212010f877dcd2f1eecc29</sys_id>
+        <sys_id>02902be23d312010f87709c3a01465cc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Manager</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_emergency_al_status_report_manager</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-06 06:05:47</sys_updated_on>
+        <sys_updated_on>2021-01-22 13:57:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

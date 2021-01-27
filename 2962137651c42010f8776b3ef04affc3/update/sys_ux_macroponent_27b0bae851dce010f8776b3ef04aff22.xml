@@ -3,461 +3,177 @@
         <associated_types/>
         <category>page</category>
         <component_dependencies/>
-        <composition>[ {
-  "elementId" : "container_1",
-  "elementLabel" : "Container 1",
-  "propertyValues" : { },
-  "eventMappings" : [ ],
-  "slot" : "Main",
-  "definition" : {
-    "id" : "d356d14b6e293a3020a244b63d278d8f",
-    "type" : "MACROPONENT"
-  },
-  "overrides" : {
-    "composition" : [ {
-      "elementId" : "container_2",
-      "elementLabel" : "Container 2",
-      "propertyValues" : { },
-      "eventMappings" : [ ],
-      "slot" : "Main",
-      "definition" : {
-        "id" : "d356d14b6e293a3020a244b63d278d8f",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : {
-        "composition" : [ {
-          "elementId" : "container_3",
-          "elementLabel" : "Container 3",
-          "propertyValues" : { },
-          "eventMappings" : [ ],
-          "slot" : "Main",
-          "definition" : {
-            "id" : "d356d14b6e293a3020a244b63d278d8f",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : {
-            "composition" : [ {
-              "elementId" : "stylized_text_1",
-              "elementLabel" : "Stylized text 1",
-              "propertyValues" : {
-                "text" : {
-                  "type" : "TRANSLATION_LITERAL",
-                  "value" : {
-                    "message" : " Manage emergencies and",
-                    "comment" : ""
-                  }
-                },
-                "tag" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "span"
-                },
-                "css" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : ""
-                }
-              },
-              "eventMappings" : [ ],
-              "slot" : "Main",
-              "definition" : {
-                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
-                "type" : "MACROPONENT"
-              },
-              "overrides" : null,
-              "isHidden" : {
-                "type" : "JSON_LITERAL",
-                "value" : ""
-              },
-              "isNonDestructive" : false,
-              "styles" : {
-                "text-align" : "center",
-                "font-family" : "\"Cabin\"",
-                "font-weight" : "bold",
-                "font-size" : "70px",
-                "letter-spacing" : "0px",
-                "line-height" : "80px"
-              }
-            }, {
-              "elementId" : "stylized_text_2",
-              "elementLabel" : "Stylized text 2",
-              "propertyValues" : {
-                "text" : {
-                  "type" : "TRANSLATION_LITERAL",
-                  "value" : {
-                    "message" : "unexpected time off",
-                    "comment" : ""
-                  }
-                },
-                "tag" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "span"
-                },
-                "css" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : ""
-                }
-              },
-              "eventMappings" : [ ],
-              "slot" : "Main",
-              "definition" : {
-                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
-                "type" : "MACROPONENT"
-              },
-              "overrides" : null,
-              "isHidden" : {
-                "type" : "JSON_LITERAL",
-                "value" : ""
-              },
-              "isNonDestructive" : false,
-              "styles" : {
-                "text-align" : "center",
-                "font-family" : "\"Cabin\"",
-                "font-weight" : "bold",
-                "font-size" : "70px",
-                "letter-spacing" : "0px",
-                "line-height" : "80px"
-              }
-            } ],
-            "layout" : {
-              "default" : {
-                "children" : null,
-                "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
-                "root" : null,
-                "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
-                "styles" : null,
-                "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-                "type" : "grid"
-              }
-            }
-          },
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isNonDestructive" : false,
-          "styles" : { }
-        } ],
-        "layout" : {
-          "default" : {
-            "children" : null,
-            "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","padding":"32px"}}],
-            "root" : null,
-            "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
-            "styles" : null,
-            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-            "type" : "grid"
-          }
-        }
-      },
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : ""
-      },
-      "isNonDestructive" : false,
-      "styles" : { }
-    }, {
-      "elementId" : "container_5",
-      "elementLabel" : "Container 5",
-      "propertyValues" : { },
-      "eventMappings" : [ ],
-      "slot" : "Main",
-      "definition" : {
-        "id" : "d356d14b6e293a3020a244b63d278d8f",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : {
-        "composition" : [ {
-          "elementId" : "container_7",
-          "elementLabel" : "Container 7",
-          "propertyValues" : { },
-          "eventMappings" : [ ],
-          "slot" : "Column 1",
-          "definition" : {
-            "id" : "d356d14b6e293a3020a244b63d278d8f",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : {
-            "composition" : [ ],
-            "layout" : {
-              "default" : {
-                "children" : null,
-                "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
-                "root" : null,
-                "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
-                "styles" : null,
-                "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-                "type" : "grid"
-              }
-            }
-          },
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isNonDestructive" : false,
-          "styles" : {
-            "width" : "100%",
-            "height" : "70px"
-          }
-        }, {
-          "elementId" : "image_1",
-          "elementLabel" : "Image 1",
-          "propertyValues" : {
-            "alt" : {
-              "type" : "JSON_LITERAL",
-              "value" : ""
-            },
-            "src" : {
-              "type" : "JSON_LITERAL",
-              "value" : "/loginleft.svg"
-            },
-            "fit" : {
-              "type" : "JSON_LITERAL",
-              "value" : "cover"
-            },
-            "position" : {
-              "type" : "JSON_LITERAL",
-              "value" : "center center"
-            },
-            "height" : {
-              "type" : "JSON_LITERAL",
-              "value" : null
-            }
-          },
-          "eventMappings" : [ ],
-          "slot" : "Column 1",
-          "definition" : {
-            "id" : "15fe506403f8a98575b6df59008ea8f1",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : null,
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isNonDestructive" : false,
-          "styles" : { }
-        }, {
-          "elementId" : "container_8",
-          "elementLabel" : "Container 8",
-          "propertyValues" : { },
-          "eventMappings" : [ ],
-          "slot" : "Column 3",
-          "definition" : {
-            "id" : "d356d14b6e293a3020a244b63d278d8f",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : {
-            "composition" : [ ],
-            "layout" : {
-              "default" : {
-                "children" : null,
-                "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
-                "root" : null,
-                "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
-                "styles" : null,
-                "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-                "type" : "grid"
-              }
-            }
-          },
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isNonDestructive" : false,
-          "styles" : {
-            "width" : "100%",
-            "height" : "70px"
-          }
-        }, {
-          "elementId" : "image_2",
-          "elementLabel" : "Image 2",
-          "propertyValues" : {
-            "alt" : {
-              "type" : "JSON_LITERAL",
-              "value" : ""
-            },
-            "src" : {
-              "type" : "JSON_LITERAL",
-              "value" : "/loginright.svg"
-            },
-            "fit" : {
-              "type" : "JSON_LITERAL",
-              "value" : "cover"
-            },
-            "position" : {
-              "type" : "JSON_LITERAL",
-              "value" : "center center"
-            },
-            "height" : {
-              "type" : "JSON_LITERAL",
-              "value" : null
-            }
-          },
-          "eventMappings" : [ ],
-          "slot" : "Column 3",
-          "definition" : {
-            "id" : "15fe506403f8a98575b6df59008ea8f1",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : null,
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isNonDestructive" : false,
-          "styles" : { }
-        }, {
-          "elementId" : "container_10",
-          "elementLabel" : "Container 10",
-          "propertyValues" : { },
-          "eventMappings" : [ ],
-          "slot" : "Column 2",
-          "definition" : {
-            "id" : "d356d14b6e293a3020a244b63d278d8f",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : {
-            "composition" : [ ],
-            "layout" : {
-              "default" : {
-                "children" : null,
-                "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
-                "root" : null,
-                "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
-                "styles" : null,
-                "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-                "type" : "grid"
-              }
-            }
-          },
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isNonDestructive" : false,
-          "styles" : {
-            "width" : "25%",
-            "background-color" : "#C4D1D3"
-          }
-        }, {
-          "elementId" : "login_1",
-          "elementLabel" : "Login 1",
-          "propertyValues" : {
-            "logoUrl" : {
-              "type" : "JSON_LITERAL",
-              "value" : null
-            },
-            "heading" : {
-              "type" : "TRANSLATION_LITERAL",
-              "value" : {
-                "message" : "Sign in to continue",
-                "comment" : ""
-              }
-            },
-            "ssoLabel" : {
-              "type" : "TRANSLATION_LITERAL",
-              "value" : {
-                "message" : "null",
-                "comment" : ""
-              }
-            },
-            "destinationUrl" : {
-              "type" : "JSON_LITERAL",
-              "value" : "now/emergency/home"
-            }
-          },
-          "eventMappings" : [ ],
-          "slot" : "Column 2",
-          "definition" : {
-            "id" : "b149d22fc772967dcde6c861d5e67397",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : null,
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isNonDestructive" : false,
-          "styles" : {
-            "background-color" : "#fff",
-            "padding" : "60px",
-            "padding-right" : "60px",
-            "height" : "75%"
-          }
-        }, {
-          "elementId" : "container_9",
-          "elementLabel" : "Container 9",
-          "propertyValues" : { },
-          "eventMappings" : [ ],
-          "slot" : "Column 2",
-          "definition" : {
-            "id" : "d356d14b6e293a3020a244b63d278d8f",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : {
-            "composition" : [ ],
-            "layout" : {
-              "default" : {
-                "children" : null,
-                "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","width":"90%"}}],
-                "root" : null,
-                "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
-                "styles" : null,
-                "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-                "type" : "grid"
-              }
-            }
-          },
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isNonDestructive" : false,
-          "styles" : {
-            "width" : "10%",
-            "background-color" : "#C4D1D3"
-          }
-        } ],
-        "layout" : {
-          "default" : {
-            "children" : null,
-            "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"display":"flex","flex-direction":"column","margin-right":"40px"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"display":"flex","flex-direction":"row","background-color":"#C4D1D3"}},{"slotName":"Column 3","rules":{"grid-area":"column3"},"styles":{"display":"flex","flex-direction":"column","margin-left":"40px"}}],
-            "root" : null,
-            "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr 1fr 1fr","grid-template-areas":"\"column1 column2 column3\"","grid-gap":"1rem","height":"100%"},
-            "styles" : null,
-            "templateId" : "4105f10153071010e6bcddeeff7b121e",
-            "type" : "grid"
-          }
-        }
-      },
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : ""
-      },
-      "isNonDestructive" : false,
-      "styles" : { }
-    } ],
-    "layout" : {
-      "default" : {
-        "children" : null,
-        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
-        "root" : null,
-        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
-        "styles" : null,
-        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-        "type" : "grid"
-      }
-    }
-  },
-  "isHidden" : {
-    "type" : "JSON_LITERAL",
-    "value" : ""
-  },
-  "isNonDestructive" : false,
-  "styles" : {
-    "height" : "100%"
-  }
+        <composition>[ {&#13;
+  "elementId" : "container_1",&#13;
+  "elementLabel" : "Container 1",&#13;
+  "propertyValues" : { },&#13;
+  "eventMappings" : [ ],&#13;
+  "slot" : "Main",&#13;
+  "definition" : {&#13;
+    "id" : "d356d14b6e293a3020a244b63d278d8f",&#13;
+    "type" : "MACROPONENT"&#13;
+  },&#13;
+  "overrides" : {&#13;
+    "composition" : [ {&#13;
+      "elementId" : "container_5",&#13;
+      "elementLabel" : "Container 5",&#13;
+      "propertyValues" : { },&#13;
+      "eventMappings" : [ ],&#13;
+      "slot" : "Row 2",&#13;
+      "definition" : {&#13;
+        "id" : "d356d14b6e293a3020a244b63d278d8f",&#13;
+        "type" : "MACROPONENT"&#13;
+      },&#13;
+      "overrides" : {&#13;
+        "composition" : [ {&#13;
+          "elementId" : "login_1",&#13;
+          "elementLabel" : "Login 1",&#13;
+          "propertyValues" : {&#13;
+            "logoUrl" : {&#13;
+              "type" : "JSON_LITERAL",&#13;
+              "value" : null&#13;
+            },&#13;
+            "heading" : {&#13;
+              "type" : "TRANSLATION_LITERAL",&#13;
+              "value" : {&#13;
+                "message" : "Sign in to continue",&#13;
+                "comment" : ""&#13;
+              }&#13;
+            },&#13;
+            "ssoLabel" : {&#13;
+              "type" : "TRANSLATION_LITERAL",&#13;
+              "value" : {&#13;
+                "message" : "null",&#13;
+                "comment" : ""&#13;
+              }&#13;
+            },&#13;
+            "destinationUrl" : {&#13;
+              "type" : "JSON_LITERAL",&#13;
+              "value" : "now/emergency/home"&#13;
+            }&#13;
+          },&#13;
+          "eventMappings" : [ ],&#13;
+          "slot" : "Main",&#13;
+          "definition" : {&#13;
+            "id" : "b149d22fc772967dcde6c861d5e67397",&#13;
+            "type" : "MACROPONENT"&#13;
+          },&#13;
+          "overrides" : null,&#13;
+          "isHidden" : {&#13;
+            "type" : "JSON_LITERAL",&#13;
+            "value" : ""&#13;
+          },&#13;
+          "isNonDestructive" : false,&#13;
+          "styles" : {&#13;
+            "background-color" : "#fff",&#13;
+            "padding" : "3rem"&#13;
+          }&#13;
+        } ],&#13;
+        "layout" : {&#13;
+          "default" : {&#13;
+            "children" : null,&#13;
+            "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"min-width":"280px","max-width":"360px","margin":"0 auto","display":"grid"}}],&#13;
+            "root" : null,&#13;
+            "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},&#13;
+            "styles" : null,&#13;
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",&#13;
+            "type" : "grid"&#13;
+          }&#13;
+        }&#13;
+      },&#13;
+      "isHidden" : {&#13;
+        "type" : "JSON_LITERAL",&#13;
+        "value" : ""&#13;
+      },&#13;
+      "isNonDestructive" : false,&#13;
+      "styles" : { }&#13;
+    }, {&#13;
+      "elementId" : "container_3",&#13;
+      "elementLabel" : "Container 3",&#13;
+      "propertyValues" : { },&#13;
+      "eventMappings" : [ ],&#13;
+      "slot" : "Row 1",&#13;
+      "definition" : {&#13;
+        "id" : "d356d14b6e293a3020a244b63d278d8f",&#13;
+        "type" : "MACROPONENT"&#13;
+      },&#13;
+      "overrides" : {&#13;
+        "composition" : [ {&#13;
+          "elementId" : "stylized_text_1",&#13;
+          "elementLabel" : "Stylized text 1",&#13;
+          "propertyValues" : {&#13;
+            "text" : {&#13;
+              "type" : "TRANSLATION_LITERAL",&#13;
+              "value" : {&#13;
+                "message" : " Manage emergencies and unexpected time off",&#13;
+                "comment" : ""&#13;
+              }&#13;
+            },&#13;
+            "tag" : {&#13;
+              "type" : "JSON_LITERAL",&#13;
+              "value" : "div"&#13;
+            },&#13;
+            "css" : {&#13;
+              "type" : "JSON_LITERAL",&#13;
+              "value" : ""&#13;
+            }&#13;
+          },&#13;
+          "eventMappings" : [ ],&#13;
+          "slot" : "Main",&#13;
+          "definition" : {&#13;
+            "id" : "4335ba6dca80378f7ba7a67cd6667bec",&#13;
+            "type" : "MACROPONENT"&#13;
+          },&#13;
+          "overrides" : null,&#13;
+          "isHidden" : {&#13;
+            "type" : "JSON_LITERAL",&#13;
+            "value" : ""&#13;
+          },&#13;
+          "isNonDestructive" : false,&#13;
+          "styles" : {&#13;
+            "text-align" : "center",&#13;
+            "font-family" : "\"Cabin\"",&#13;
+            "font-weight" : "bold",&#13;
+            "font-size" : "4rem"&#13;
+          }&#13;
+        } ],&#13;
+        "layout" : {&#13;
+          "default" : {&#13;
+            "children" : null,&#13;
+            "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","margin":"1.5rem auto","max-width":"43rem","height":"auto"}}],&#13;
+            "root" : null,&#13;
+            "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},&#13;
+            "styles" : null,&#13;
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",&#13;
+            "type" : "grid"&#13;
+          }&#13;
+        }&#13;
+      },&#13;
+      "isHidden" : {&#13;
+        "type" : "JSON_LITERAL",&#13;
+        "value" : ""&#13;
+      },&#13;
+      "isNonDestructive" : false,&#13;
+      "styles" : { }&#13;
+    } ],&#13;
+    "layout" : {&#13;
+      "default" : {&#13;
+        "children" : null,&#13;
+        "items" : [{"slotName":"Row 1","rules":{"grid-area":"row1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Row 2","rules":{"grid-area":"row2"},"styles":{"display":"flex","flex-direction":"column","height":"100%"}}],&#13;
+        "root" : null,&#13;
+        "rules" : {"grid-template-rows":"auto 1fr","grid-template-columns":"100%","grid-template-areas":"\"row1\" \"row2\"","grid-gap":"1rem","height":"100%"},&#13;
+        "styles" : null,&#13;
+        "templateId" : "f348f94153071010e6bcddeeff7b12dd",&#13;
+        "type" : "grid"&#13;
+      }&#13;
+    }&#13;
+  },&#13;
+  "isHidden" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : ""&#13;
+  },&#13;
+  "isNonDestructive" : false,&#13;
+  "styles" : { }&#13;
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
@@ -467,21 +183,21 @@
         <interactions/>
         <interfaces/>
         <internal_event_mappings>{ }</internal_event_mappings>
-        <layout>{
-  "default" : {
-    "children" : null,
-    "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","background-color":"#C4D1D3","overflow-y":"auto"}}],
-    "root" : null,
-    "rules" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
-    "styles" : null,
-    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
-    "type" : "grid"
-  }
+        <layout>{&#13;
+  "default" : {&#13;
+    "children" : null,&#13;
+    "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","background-color":"#C4D1D3","background-image":"url(/loginleft.svg), url(/loginright.svg)","background-position":"left 1rem bottom, right 1rem bottom","background-repeat":"no-repeat","background-size":"30% 60%, 30% 70%"}}],&#13;
+    "root" : null,&#13;
+    "rules" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},&#13;
+    "styles" : null,&#13;
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",&#13;
+    "type" : "grid"&#13;
+  }&#13;
 }</layout>
         <macroponent_dependencies/>
         <name>login</name>
         <props>[ ]</props>
-        <required_translations>[{"message":"unexpected time off","comment":""},{"message":"Sign in to continue","comment":""},{"message":" Manage emergencies and","comment":""},{"message":"null","comment":""}]</required_translations>
+        <required_translations>[{"message":"Sign in to continue","comment":""},{"message":"null","comment":""},{"message":" Manage emergencies and unexpected time off","comment":""}]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
@@ -491,13 +207,13 @@
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2020-11-02 15:45:37</sys_created_on>
         <sys_id>27b0bae851dce010f8776b3ef04aff22</sys_id>
-        <sys_mod_count>88</sys_mod_count>
+        <sys_mod_count>89</sys_mod_count>
         <sys_name>login</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_ux_macroponent_27b0bae851dce010f8776b3ef04aff22</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 04:13:12</sys_updated_on>
+        <sys_updated_on>2021-01-23 04:49:37</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

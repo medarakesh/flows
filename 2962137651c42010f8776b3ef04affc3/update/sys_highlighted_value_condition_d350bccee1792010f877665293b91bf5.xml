@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value_condition">
     <sys_highlighted_value_condition action="INSERT_OR_UPDATE">
-        <conditions table="x_snc_emergency_al_status_report">status_matrix=danger^EQ<item display_value="Danger" endquery="false" field="status_matrix" goto="false" newquery="false" operator="=" or="false" value="danger"/>
+        <conditions table="x_snc_emergency_al_status_report">status_matrix=danger^EQ<item display_value="danger" endquery="false" field="status_matrix" goto="false" newquery="false" operator="=" or="false" value="danger"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <highlighted_value display_value="status_matrix">e94078cee1792010f877665293b91b9b</highlighted_value>

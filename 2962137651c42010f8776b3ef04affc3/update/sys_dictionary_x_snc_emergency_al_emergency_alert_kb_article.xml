@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>amitkumar.shukla@snc</sys_created_by>
         <sys_created_on>2020-12-02 16:29:18</sys_created_on>
-        <sys_id>083a59d6db742010a92f5a75dc96199a</sys_id>
+        <sys_id>a9902be23d312010f87709c3a0146571</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>KB Article</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_emergency_al_emergency_alert_kb_article</sys_update_name>
-        <sys_updated_by>amitkumar.shukla@snc</sys_updated_by>
-        <sys_updated_on>2020-12-02 16:29:18</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-22 13:57:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

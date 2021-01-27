@@ -6,7 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-       
+        <compiler_build>glide-quebec-12-09-2020__patch0-hotfix2-01-08-2021</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description>This will create a task and assigned to manager for approval</description>
@@ -576,7 +576,7 @@
     <sys_flow_trigger_plan action="DELETE" query="plan_id=98a97119db242010a92f5a75dc96195d^sys_idNOT IN8eabb959db242010a92f5a75dc96193d"/>
     <sys_flow_trigger_plan action="DELETE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan></plan>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"8eabb959db242010a92f5a75dc96193d","name":"plan"}}</plan>
         <plan_id>98a97119db242010a92f5a75dc96195d</plan_id>
         <snapshot>2e9c1329b9312010f8776c0e321b5fdf</snapshot>
         <sys_created_by>raviteja</sys_created_by>
@@ -1071,7 +1071,7 @@
         &lt;annotation/&gt;
         &lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;
         &lt;category/&gt;
-        &lt;compiler_build&gt;&lt;/compiler_build&gt;
+        &lt;compiler_build&gt;glide-quebec-12-09-2020__patch0-hotfix2-01-08-2021&lt;/compiler_build&gt;
         &lt;copied_from/&gt;
         &lt;copied_from_name/&gt;
         &lt;description&gt;This will create a task and assigned to manager for approval&lt;/description&gt;
@@ -1641,7 +1641,7 @@
     &lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=98a97119db242010a92f5a75dc96195d^sys_idNOT IN8eabb959db242010a92f5a75dc96193d"/&gt;
     &lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;
         &lt;binding_strategy&gt;com.snc.process_flow.engine.binding.OncePerRecord&lt;/binding_strategy&gt;
-        &lt;plan&gt;&lt;/plan&gt;
+        &lt;plan&gt;{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"8eabb959db242010a92f5a75dc96193d","name":"plan"}}&lt;/plan&gt;
         &lt;plan_id&gt;98a97119db242010a92f5a75dc96195d&lt;/plan_id&gt;
         &lt;snapshot&gt;2e9c1329b9312010f8776c0e321b5fdf&lt;/snapshot&gt;
         &lt;sys_created_by&gt;raviteja&lt;/sys_created_by&gt;

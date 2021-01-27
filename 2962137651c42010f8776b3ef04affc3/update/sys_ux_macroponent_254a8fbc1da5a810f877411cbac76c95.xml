@@ -39,7 +39,7 @@
         },
         "hasNoMargin" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         }
       },
       "eventMappings" : [ ],
@@ -54,10 +54,7 @@
         "value" : ""
       },
       "isNonDestructive" : false,
-      "styles" : {
-        "position" : "relative",
-        "top" : "10px"
-      }
+      "styles" : { }
     }, {
       "elementId" : "button_2",
       "elementLabel" : "Button 2",
@@ -280,7 +277,9 @@
   },
   "isNonDestructive" : false,
   "styles" : {
-    "width" : "100%"
+    "width" : "100%",
+    "padding-bottom" : "31px",
+    "padding-top" : "7px"
   }
 }, {
   "elementId" : "container_8",
@@ -441,7 +440,89 @@
                       "value" : ""
                     }
                   },
-                  "eventMappings" : [ ],
+                  "eventMappings" : [ {
+                    "eventMappingId" : "ckkhhvddyaaraaaabbeddghhwggccjihhcciff",
+                    "isConfiguration" : false,
+                    "offRowStorageId" : null,
+                    "sourceEventApiName" : "sn_uxf_viz_connect.ITEM_SELECTED",
+                    "sourceEventDefinition" : {
+                      "apiName" : "sn_uxf_viz_connect.ITEM_SELECTED",
+                      "id" : null,
+                      "type" : "UXEVENT"
+                    },
+                    "sourceEventSysId" : null,
+                    "targets" : [ {
+                      "broker" : null,
+                      "clientScript" : null,
+                      "declarativeAction" : null,
+                      "event" : {
+                        "apiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_254a8fbc1da5a810f877411cbac76c95",
+                        "payload" : {
+                          "type" : "MAP_CONTAINER",
+                          "container" : {
+                            "route" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : "dynamic-list"
+                            },
+                            "fields" : {
+                              "type" : "MAP_CONTAINER",
+                              "container" : {
+                                "table" : {
+                                  "type" : "EVENT_PAYLOAD_BINDING",
+                                  "binding" : {
+                                    "address" : [ "params", "table" ]
+                                  }
+                                }
+                              }
+                            },
+                            "params" : {
+                              "type" : "MAP_CONTAINER",
+                              "container" : {
+                                "query" : {
+                                  "type" : "EVENT_PAYLOAD_BINDING",
+                                  "binding" : {
+                                    "address" : [ "params", "query" ]
+                                  }
+                                },
+                                "listTitle" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : "Need your attention"
+                                }
+                              }
+                            },
+                            "redirect" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : null
+                            },
+                            "passiveNavigation" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : null
+                            },
+                            "title" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : null
+                            },
+                            "multiInstField" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : null
+                            },
+                            "targetRoute" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : "current"
+                            },
+                            "external" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : null
+                            }
+                          }
+                        },
+                        "sysId" : "732c43301de5a810f877411cbac76c79"
+                      },
+                      "operation" : null,
+                      "targetId" : "ckkhhvddyaaraaaabbfddghhwggfxttkccf",
+                      "type" : "EVENT"
+                    } ]
+                  } ],
                   "slot" : "Main",
                   "definition" : {
                     "id" : "67cf18a377c70010cb834a2a6910619a",
@@ -635,7 +716,7 @@
                                 "params" : {
                                   "listTitle" : "Active reports",
                                   "query" : "status!=closed",
-                                  "column" : "emergency_details,name, your_health_status,your_work_status,status, type_of_emergency"
+                                  "column" : "number,emergency_details,name, your_health_status,your_work_status,status, type_of_emergency"
                                 },
                                 "redirect" : null,
                                 "passiveNavigation" : null,
@@ -794,14 +875,96 @@
                         },
                         "hideHeader" : {
                           "type" : "JSON_LITERAL",
-                          "value" : false
+                          "value" : true
                         },
                         "refreshFrequency" : {
                           "type" : "JSON_LITERAL",
                           "value" : ""
                         }
                       },
-                      "eventMappings" : [ ],
+                      "eventMappings" : [ {
+                        "eventMappingId" : "ckkhhviijjnccaaaabbnddghhwoeejjowazdd",
+                        "isConfiguration" : false,
+                        "offRowStorageId" : null,
+                        "sourceEventApiName" : "sn_uxf_viz_connect.ITEM_SELECTED",
+                        "sourceEventDefinition" : {
+                          "apiName" : "sn_uxf_viz_connect.ITEM_SELECTED",
+                          "id" : null,
+                          "type" : "UXEVENT"
+                        },
+                        "sourceEventSysId" : null,
+                        "targets" : [ {
+                          "broker" : null,
+                          "clientScript" : null,
+                          "declarativeAction" : null,
+                          "event" : {
+                            "apiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_254a8fbc1da5a810f877411cbac76c95",
+                            "payload" : {
+                              "type" : "MAP_CONTAINER",
+                              "container" : {
+                                "route" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : "dynamic-list"
+                                },
+                                "fields" : {
+                                  "type" : "MAP_CONTAINER",
+                                  "container" : {
+                                    "table" : {
+                                      "type" : "EVENT_PAYLOAD_BINDING",
+                                      "binding" : {
+                                        "address" : [ "params", "table" ]
+                                      }
+                                    }
+                                  }
+                                },
+                                "params" : {
+                                  "type" : "MAP_CONTAINER",
+                                  "container" : {
+                                    "listTitle" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : "This year"
+                                    },
+                                    "query" : {
+                                      "type" : "EVENT_PAYLOAD_BINDING",
+                                      "binding" : {
+                                        "address" : [ "params", "query" ]
+                                      }
+                                    }
+                                  }
+                                },
+                                "redirect" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "passiveNavigation" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "title" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "multiInstField" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "targetRoute" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : "current"
+                                },
+                                "external" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                }
+                              }
+                            },
+                            "sysId" : "732c43301de5a810f877411cbac76c79"
+                          },
+                          "operation" : null,
+                          "targetId" : "ckkhhviijjnccaaaabboddghhwfyffoaaiaff",
+                          "type" : "EVENT"
+                        } ]
+                      } ],
                       "slot" : "Main",
                       "definition" : {
                         "id" : "67cf18a377c70010cb834a2a6910619a",
@@ -876,14 +1039,96 @@
                         },
                         "hideHeader" : {
                           "type" : "JSON_LITERAL",
-                          "value" : false
+                          "value" : true
                         },
                         "refreshFrequency" : {
                           "type" : "JSON_LITERAL",
                           "value" : ""
                         }
                       },
-                      "eventMappings" : [ ],
+                      "eventMappings" : [ {
+                        "eventMappingId" : "ckkhhvjjqnuaaaabbpddghhwwcclwijjhhe",
+                        "isConfiguration" : false,
+                        "offRowStorageId" : null,
+                        "sourceEventApiName" : "sn_uxf_viz_connect.ITEM_SELECTED",
+                        "sourceEventDefinition" : {
+                          "apiName" : "sn_uxf_viz_connect.ITEM_SELECTED",
+                          "id" : null,
+                          "type" : "UXEVENT"
+                        },
+                        "sourceEventSysId" : null,
+                        "targets" : [ {
+                          "broker" : null,
+                          "clientScript" : null,
+                          "declarativeAction" : null,
+                          "event" : {
+                            "apiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_254a8fbc1da5a810f877411cbac76c95",
+                            "payload" : {
+                              "type" : "MAP_CONTAINER",
+                              "container" : {
+                                "route" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : "dynamic-list"
+                                },
+                                "fields" : {
+                                  "type" : "MAP_CONTAINER",
+                                  "container" : {
+                                    "table" : {
+                                      "type" : "EVENT_PAYLOAD_BINDING",
+                                      "binding" : {
+                                        "address" : [ "params", "table" ]
+                                      }
+                                    }
+                                  }
+                                },
+                                "params" : {
+                                  "type" : "MAP_CONTAINER",
+                                  "container" : {
+                                    "listTitle" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : "Lapsed 30 days"
+                                    },
+                                    "query" : {
+                                      "type" : "EVENT_PAYLOAD_BINDING",
+                                      "binding" : {
+                                        "address" : [ "params", "query" ]
+                                      }
+                                    }
+                                  }
+                                },
+                                "redirect" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "passiveNavigation" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "title" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "multiInstField" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "targetRoute" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : "current"
+                                },
+                                "external" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                }
+                              }
+                            },
+                            "sysId" : "732c43301de5a810f877411cbac76c79"
+                          },
+                          "operation" : null,
+                          "targetId" : "ckkhhvjjqnuaaaabbqddghhweebffhhuslt",
+                          "type" : "EVENT"
+                        } ]
+                      } ],
                       "slot" : "Main",
                       "definition" : {
                         "id" : "67cf18a377c70010cb834a2a6910619a",
@@ -912,7 +1157,7 @@
                         },
                         "dataConfigurations" : {
                           "type" : "JSON_LITERAL",
-                          "value" : "[{\"__viz_config_id\":\"dGFibGV4X3NuY19lbWVyZ2VuY3lfYWxfc3RhdHVzX3JlcG9ydDE2MDk3ODI3MzY1OTk=\",\"__viz_config_label\":\"Self Report\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"managerISEMPTY\",\"display_zero\":true,\"chart_settings\":{\"main_series_label\":\"Without manager\"},\"source_type\":\"table\",\"source_id\":\"x_snc_emergency_al_status_report\"}]"
+                          "value" : "[{\"__viz_config_id\":\"dGFibGV4X3NuY19lbWVyZ2VuY3lfYWxfc3RhdHVzX3JlcG9ydDE2MDk3ODI3MzY1OTk=\",\"__viz_config_label\":\"Self Report\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"name.managerISEMPTY\",\"display_zero\":true,\"chart_settings\":{\"main_series_label\":\"Without manager\"},\"source_type\":\"table\",\"source_id\":\"x_snc_emergency_al_status_report\"}]"
                         },
                         "styleConfigurations" : {
                           "type" : "JSON_LITERAL",
@@ -958,14 +1203,96 @@
                         },
                         "hideHeader" : {
                           "type" : "JSON_LITERAL",
-                          "value" : false
+                          "value" : true
                         },
                         "refreshFrequency" : {
                           "type" : "JSON_LITERAL",
                           "value" : ""
                         }
                       },
-                      "eventMappings" : [ ],
+                      "eventMappings" : [ {
+                        "eventMappingId" : "ckkhhvasgaaaaabbrddghhwqnddlylxc",
+                        "isConfiguration" : false,
+                        "offRowStorageId" : null,
+                        "sourceEventApiName" : "sn_uxf_viz_connect.ITEM_SELECTED",
+                        "sourceEventDefinition" : {
+                          "apiName" : "sn_uxf_viz_connect.ITEM_SELECTED",
+                          "id" : null,
+                          "type" : "UXEVENT"
+                        },
+                        "sourceEventSysId" : null,
+                        "targets" : [ {
+                          "broker" : null,
+                          "clientScript" : null,
+                          "declarativeAction" : null,
+                          "event" : {
+                            "apiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_254a8fbc1da5a810f877411cbac76c95",
+                            "payload" : {
+                              "type" : "MAP_CONTAINER",
+                              "container" : {
+                                "route" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : "dynamic-list"
+                                },
+                                "fields" : {
+                                  "type" : "MAP_CONTAINER",
+                                  "container" : {
+                                    "table" : {
+                                      "type" : "EVENT_PAYLOAD_BINDING",
+                                      "binding" : {
+                                        "address" : [ "params", "table" ]
+                                      }
+                                    }
+                                  }
+                                },
+                                "params" : {
+                                  "type" : "MAP_CONTAINER",
+                                  "container" : {
+                                    "listTitle" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : "Without manager"
+                                    },
+                                    "query" : {
+                                      "type" : "EVENT_PAYLOAD_BINDING",
+                                      "binding" : {
+                                        "address" : [ "params", "query" ]
+                                      }
+                                    }
+                                  }
+                                },
+                                "redirect" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "passiveNavigation" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "title" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "multiInstField" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "targetRoute" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : "current"
+                                },
+                                "external" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                }
+                              }
+                            },
+                            "sysId" : "732c43301de5a810f877411cbac76c79"
+                          },
+                          "operation" : null,
+                          "targetId" : "ckkhhvasgaaaaabbsddghhwccukhcnjl",
+                          "type" : "EVENT"
+                        } ]
+                      } ],
                       "slot" : "Main",
                       "definition" : {
                         "id" : "67cf18a377c70010cb834a2a6910619a",
@@ -1127,7 +1454,7 @@
                 },
                 "limit" : {
                   "type" : "JSON_LITERAL",
-                  "value" : "10"
+                  "value" : "12"
                 },
                 "maxColumns" : {
                   "type" : "JSON_LITERAL",
@@ -1530,7 +1857,7 @@
           "isNonDestructive" : false,
           "styles" : {
             "width" : "auto",
-            "padding" : "10px 22px 22px 16px"
+            "padding" : "10px 16px 22px 16px"
           }
         } ],
         "layout" : {
@@ -1632,7 +1959,7 @@
             },
             "styleConfigurations" : {
               "type" : "JSON_LITERAL",
-              "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"xAxisConfig\":{\"title\":\"Month\"},\"yAxisConfig\":{\"title\":\"Self reports\",\"orientation\":\"left\"},\"seriesConfig\":{\"data_0_0\":{\"axis\":\"primary\"}},\"extents\":{\"y\":[\"50\",\"300\"]},\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\",\"type\":\"peakValley\"},\"hideRegister\":true,\"registerConfig\":{\"legendOnly\":true},\"registerPosition\":\"bottom\"}"
+              "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"xAxisConfig\":{\"title\":\"Month\"},\"yAxisConfig\":{\"title\":\"Self reports\",\"orientation\":\"left\"},\"seriesConfig\":{\"data_0_0\":{\"axis\":\"primary\"}},\"extents\":{\"y\":[\"20\",\"120\"]},\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\",\"type\":\"peakValley\"},\"hideRegister\":true,\"registerConfig\":{\"legendOnly\":true},\"registerPosition\":\"bottom\"}"
             },
             "isRealtime" : {
               "type" : "JSON_LITERAL",
@@ -1717,7 +2044,8 @@
       "styles" : {
         "width" : "100%",
         "background-color" : "rgb(244, 244, 244)",
-        "margin-top" : "8px"
+        "margin-top" : "8px",
+        "margin-bottom" : "24px"
       }
     } ],
     "layout" : {
@@ -1794,7 +2122,18 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Home</name>
-        <props>[ ]</props>
+        <props>[ {
+  "name" : "table",
+  "label" : "Table",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "",
+  "readOnly" : false,
+  "selectable" : false
+} ]</props>
         <required_translations>[{"message":"Latest emergency alert","comment":""},{"message":"Timeline","comment":""},{"message":"Self reports over 1 year","comment":""},{"message":"Company summary","comment":""},{"message":"Employee status dashboard","comment":""},{"message":"Send emergency alert","comment":""},{"message":"Enter a label","comment":""},{"message":"Request a report","comment":""},{"message":"Emergency status reports","comment":""},{"message":"Reports without a manager","comment":""}]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
@@ -1805,13 +2144,13 @@
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2021-01-04 15:34:08</sys_created_on>
         <sys_id>254a8fbc1da5a810f877411cbac76c95</sys_id>
-        <sys_mod_count>170</sys_mod_count>
+        <sys_mod_count>193</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_ux_macroponent_254a8fbc1da5a810f877411cbac76c95</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-20 11:10:40</sys_updated_on>
+        <sys_updated_on>2021-01-25 08:07:10</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

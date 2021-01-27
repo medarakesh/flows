@@ -104,7 +104,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">131af2c91deda810f877411cbac76c98</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -270,7 +271,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">131af2c91deda810f877411cbac76c98</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>5</order>
@@ -549,7 +551,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">131af2c91deda810f877411cbac76c98</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>7</order>
@@ -578,7 +581,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">131af2c91deda810f877411cbac76c98</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>4</order>
@@ -1300,7 +1304,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">131af2c91deda810f877411cbac76c98</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1343,7 +1348,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">131af2c91deda810f877411cbac76c98</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>5</order>
@@ -1372,7 +1378,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">131af2c91deda810f877411cbac76c98</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>7</order>
@@ -1401,7 +1408,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">131af2c91deda810f877411cbac76c98</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>4</order>
@@ -1560,7 +1568,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">c84303811d21e810f877411cbac76cb2</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>5</order>
@@ -1737,7 +1746,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">c84303811d21e810f877411cbac76cb2</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1780,7 +1790,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">c84303811d21e810f877411cbac76cb2</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>7</order>
@@ -1932,7 +1943,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">c84303811d21e810f877411cbac76cb2</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>4</order>
@@ -2552,7 +2564,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">c84303811d21e810f877411cbac76cb2</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>5</order>
@@ -2581,7 +2594,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">c84303811d21e810f877411cbac76cb2</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -2624,7 +2638,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">c84303811d21e810f877411cbac76cb2</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>7</order>
@@ -2653,7 +2668,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="Create Self Report for others Affected">c84303811d21e810f877411cbac76cb2</flow>
-        
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>4</order>

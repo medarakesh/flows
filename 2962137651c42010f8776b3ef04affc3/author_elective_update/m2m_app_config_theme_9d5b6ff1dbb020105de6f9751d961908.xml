@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-01 13:45:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9d5b6ff1dbb020105de6f9751d961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>m2m_app_config_theme_9d5b6ff1dbb020105de6f9751d961908</sys_update_name>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-01 13:45:24</sys_updated_on>
+        <theme display_value="Logo Theme">044babf1dbb020105de6f9751d961903</theme>
+        <ux_app_configuration display_value="Emergency Alert - admin">07c21b7651c42010f8776b3ef04afff2</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>77918959db406c50c6e711f84896196b</instance_id>
+        <instance_name>emergencydevportal</instance_name>
+        <name>m2m_app_config_theme_9d5b6ff1dbb020105de6f9751d961908</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>raviteja</sys_created_by><sys_created_on>2020-12-01 13:45:24</sys_created_on><sys_domain>global</sys_domain><sys_id>9d5b6ff1dbb020105de6f9751d961908</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package><sys_policy/><sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope><sys_update_name>m2m_app_config_theme_9d5b6ff1dbb020105de6f9751d961908</sys_update_name><sys_updated_by>raviteja</sys_updated_by><sys_updated_on>2020-12-01 13:45:24</sys_updated_on><theme display_value="Logo Theme">044babf1dbb020105de6f9751d961903</theme><ux_app_configuration display_value="Emergency Alert - admin">07c21b7651c42010f8776b3ef04afff2</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>-1965497648</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>91ed6751db1820105de6f9751d961952</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-01 13:45:25</sys_created_on>
+        <sys_id>155b6ff1dbb020105de6f9751d96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1761e8cfd7b0000001</sys_recorded_at>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-01 13:45:25</sys_updated_on>
+        <type>UX App Theme</type>
+        <update_guid>5d5b6ff1c1b02010aa77f8f0e7d7e90a</update_guid>
+        <update_guid_history>5d5b6ff1c1b02010aa77f8f0e7d7e90a:-1965497648</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">746ca735dbb020105de6f9751d9619c3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>raviteja</sys_created_by>
+        <sys_created_on>2020-12-01 13:50:01</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>70fe94b905714645bec7042ebfaa5b39</sys_id>
+        <sys_metadata>9d5b6ff1dbb020105de6f9751d961908</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_9d5b6ff1dbb020105de6f9751d961908</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_9d5b6ff1dbb020105de6f9751d961908">155b6ff1dbb020105de6f9751d96190b</sys_update_version>
+        <sys_updated_by>raviteja</sys_updated_by>
+        <sys_updated_on>2020-12-01 13:50:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

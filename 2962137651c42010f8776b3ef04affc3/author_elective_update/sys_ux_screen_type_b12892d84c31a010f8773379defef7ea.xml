@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>Manager List</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-15 08:53:53</sys_created_on>
+        <sys_id>b12892d84c31a010f8773379defef7ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manager List</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_ux_screen_type_b12892d84c31a010f8773379defef7ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-15 08:53:53</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="DELETE" query="documentkey=b12892d84c31a010f8773379defef7ea"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>0f84593d90212010adfc9c8867c4d2ab</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_screen_type_b12892d84c31a010f8773379defef7ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>Manager List</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-15 08:53:53</sys_created_on><sys_id>b12892d84c31a010f8773379defef7ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Manager List</sys_name><sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package><sys_policy/><sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope><sys_update_name>sys_ux_screen_type_b12892d84c31a010f8773379defef7ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-15 08:53:53</sys_updated_on></sys_ux_screen_type><sys_translated_text action="delete_multiple" query="documentkey=b12892d84c31a010f8773379defef7ea"/></record_update>]]></payload>
+        <payload_hash>-1935466973</payload_hash>
+        <record_name>Manager List</record_name>
+        <reverted_from/>
+        <source>c93dd06b4c612010f8773379defef764</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-15 08:53:53</sys_created_on>
+        <sys_id>312892d84c31a010f8773379defef7ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177054044bc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-15 08:53:53</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>792892d89831a01080168c901459d8eb</update_guid>
+        <update_guid_history>792892d89831a01080168c901459d8eb:-1935466973</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-15 11:59:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>174d30fdc6884d0ea1660802e406b1a4</sys_id>
+        <sys_metadata>b12892d84c31a010f8773379defef7ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manager List</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_b12892d84c31a010f8773379defef7ea</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_b12892d84c31a010f8773379defef7ea">312892d84c31a010f8773379defef7ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-15 11:59:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
