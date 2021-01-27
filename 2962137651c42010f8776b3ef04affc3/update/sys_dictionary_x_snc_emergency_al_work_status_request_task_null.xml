@@ -47,13 +47,13 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>8</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-10 09:07:22</sys_created_on>
-        <sys_id>6df7db2209b12010f8772b3e8e9c5db4</sys_id>
+        <sys_id>41a69d14b1022010f877a7f109a24936</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_emergency_al_work_status_request_task</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_emergency_al_work_status_request_task_NULL</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-25 15:06:53</sys_updated_on>
+        <sys_updated_on>2021-01-27 14:23:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>true</text_index>
         <unique>false</unique>

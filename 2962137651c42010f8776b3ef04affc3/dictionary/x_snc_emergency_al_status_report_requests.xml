@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Status Report Request" max_length="40" name="x_snc_emergency_al_status_report_requests" sizeclass="0" text_index="true" type="collection">
+    <element label="Status Report Request" max_length="40" name="x_snc_emergency_al_status_report_requests" text_index="true" type="collection">
         <element label="Emergency details" max_length="4000" name="emergency_details" type="string"/>
         <element label="Emergency end" max_length="40" name="emergency_end" type="glide_date"/>
         <element label="Emergency start" max_length="40" name="emergency_start" type="glide_date"/>
