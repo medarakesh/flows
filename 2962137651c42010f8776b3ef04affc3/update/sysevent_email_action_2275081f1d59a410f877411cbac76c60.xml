@@ -49,7 +49,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>sys_updated_by</recipient_fields>
+        <recipient_fields>name</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -64,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2275081f1d59a410f877411cbac76c60</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Employee emergency report request submit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
@@ -72,7 +72,7 @@
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sysevent_email_action_2275081f1d59a410f877411cbac76c60</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-08 10:17:48</sys_updated_on>
+        <sys_updated_on>2021-01-28 03:08:16</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Emergency alert self report">3c7e2f4f1d19a410f877411cbac76c45</template>
         <type>email</type>

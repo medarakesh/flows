@@ -130,7 +130,7 @@
         <update_guid_history>7618976249b12010f6ed82b13a3908f6:147444214</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="EM Green - Orange - red (3)">bf3199a70975a010f8772b3e8e9c5df5</sys_audit_delete>
+        <sys_audit_delete display_value="">bf3199a70975a010f8772b3e8e9c5df5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-25 06:04:20</sys_created_on>
