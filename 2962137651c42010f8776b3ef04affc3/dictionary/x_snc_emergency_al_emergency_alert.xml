@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Emergency alert" max_length="40" name="x_snc_emergency_al_emergency_alert" text_index="true" type="collection">
+    <element label="Emergency alert" max_length="40" name="x_snc_emergency_al_emergency_alert" sizeclass="0" text_index="true" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Emergency alert message" max_length="8000" name="emergency_alert_message" type="string"/>
         <element display="true" label="Emergency alert title" max_length="200" name="emergency_alert_title" type="string"/>

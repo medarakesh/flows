@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Self Report" max_length="40" name="x_snc_emergency_al_status_report" text_index="true" type="collection">
+    <element audit="true" label="Self Report" max_length="40" name="x_snc_emergency_al_status_report" sizeclass="15" text_index="true" type="collection">
         <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
         <element label="Emergency details" mandatory="true" max_length="4000" name="emergency_details" type="string"/>
         <element label="Emergency Start/End" max_length="40" name="emergency_start_end" type="glide_duration"/>
