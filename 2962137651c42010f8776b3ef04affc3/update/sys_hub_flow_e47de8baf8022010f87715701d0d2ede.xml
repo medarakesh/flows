@@ -69,31 +69,6 @@
         <sys_updated_on>2021-01-21 10:32:57</sys_updated_on>
         <table>x_snc_emergency_al_status_report</table>
     </sys_flow_record_trigger>
-    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"849decbaf8022010f87715701d0d2eab","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
-        <identifier>e47de8baf8022010f87715701d0d2ede</identifier>
-        <runner>FDTriggerRunner</runner>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-04 05:48:42</sys_created_on>
-        <sys_id>849decbaf8022010f87715701d0d2eab</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-04 05:48:42</sys_updated_on>
-        <trigger display_value="">135869dadb356c50e2803ec3e296192c</trigger>
-    </sys_trigger_runner_mapping>
-    <sys_json_chunk action="INSERT_OR_UPDATE">
-        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>849decbaf8022010f87715701d0d2eab</document_id>
-        <field>trigger_runner</field>
-        <length>144</length>
-        <position>0</position>
-        <source_table>sys_trigger_runner_mapping</source_table>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-04 05:48:42</sys_created_on>
-        <sys_id>089decbaf8022010f87715701d0d2eab</sys_id>
-    </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=e47de8baf8022010f87715701d0d2ede^sys_idNOT IN849decbaf8022010f87715701d0d2eab"/>
     <sys_hub_flow_component action="delete_multiple" query="flow=e47de8baf8022010f87715701d0d2ede^sys_idNOT IN3c7d2cbaf8022010f87715701d0d2e0c,707de8baf8022010f87715701d0d2efb,747d2cbaf8022010f87715701d0d2e26,b07d2cbaf8022010f87715701d0d2e0a,b87de8baf8022010f87715701d0d2ef7,f47d2cbaf8022010f87715701d0d2e1a,fc7d2cbaf8022010f87715701d0d2e0f,fc7d2cbaf8022010f87715701d0d2e20"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">b47d2cbaf8022010f87715701d0d2e0c</block>
@@ -1235,24 +1210,6 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e47de8baf8022010f87715701d0d2ede^sys_idNOT IN0c9decbaf8022010f87715701d0d2eab"/>
-    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
-        <plan/>
-        <plan_id>e47de8baf8022010f87715701d0d2ede</plan_id>
-        <snapshot>9f8dacbaf8022010f87715701d0d2ee2</snapshot>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-04 05:48:43</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>0c9decbaf8022010f87715701d0d2eab</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-04 05:48:43</sys_updated_on>
-        <trigger display_value="">135869dadb356c50e2803ec3e296192c</trigger>
-    </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
