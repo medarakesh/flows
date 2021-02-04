@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_snc_emergency_al_status_report</name>
+        <name>x_snc_emergency_al_emergency_alert</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-11-09 10:59:33</sys_created_on>
-        <sys_id>6467af1a80022010f877a8bfa9454d25</sys_id>
+        <sys_created_on>2020-11-09 10:30:24</sys_created_on>
+        <sys_id>bb89acf2f8022010f87715701d0d2e3e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_emergency_al_status_report</sys_name>
+        <sys_name>x_snc_emergency_al_emergency_alert</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
-        <sys_update_name>ua_table_licensing_config_6467af1a80022010f877a8bfa9454d25</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_bb89acf2f8022010f87715701d0d2e3e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 10:59:33</sys_updated_on>
+        <sys_updated_on>2020-11-09 10:30:24</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
