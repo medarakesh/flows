@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>emergency_alert_app__create_status_report_requests_for_affected</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Emergency Alert App - Create Status Report Requests for Affected</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-04 10:35:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>404fe13e31022010f877f64c6f83aa81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Alert App - Create Status Report Requests for Affected</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_update_name>sys_hub_flow_404fe13e31022010f877f64c6f83aa81</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-04 10:35:41</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=404fe13e31022010f877f64c6f83aa81"/>
+    <sys_variable_value action="DELETE" query="document_key=404fe13e31022010f877f64c6f83aa81"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=404fe13e31022010f877f64c6f83aa81^sys_idNOT IN8c4fe13e31022010f877f64c6f83aa83"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>404fe13e31022010f877f64c6f83aa81</id>
+        <name>Emergency Alert App - Create Status Report Requests for Affected</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-04 10:35:41</sys_created_on>
+        <sys_id>8c4fe13e31022010f877f64c6f83aa83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-04 10:35:41</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</application>
+        <file_path/>
+        <instance_id>443f4b0d940220100acb297ad7e5dee7</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_hub_flow_404fe13e31022010f877f64c6f83aa81</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><internal_name>emergency_alert_app__create_status_report_requests_for_affected</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Emergency Alert App - Create Status Report Requests for Affected</name><natlang/><outputs/><remote_trigger_id/><run_as>system</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-04 10:35:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>404fe13e31022010f877f64c6f83aa81</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Emergency Alert App - Create Status Report Requests for Affected</sys_name><sys_overrides/><sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package><sys_policy>read</sys_policy><sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope><sys_update_name>sys_hub_flow_404fe13e31022010f877f64c6f83aa81</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-04 10:35:41</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=404fe13e31022010f877f64c6f83aa81"/><sys_variable_value action="delete_multiple" query="document_key=404fe13e31022010f877f64c6f83aa81"/><sys_flow_cat_variable_model action="delete_multiple" query="id=404fe13e31022010f877f64c6f83aa81^sys_idNOT IN8c4fe13e31022010f877f64c6f83aa83"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>404fe13e31022010f877f64c6f83aa81</id><name>Emergency Alert App - Create Status Report Requests for Affected</name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-04 10:35:41</sys_created_on><sys_id>8c4fe13e31022010f877f64c6f83aa83</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-04 10:35:41</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>-787812339</payload_hash>
+        <record_name>Emergency Alert App - Create Status Report Requests for Affected</record_name>
+        <reverted_from/>
+        <source>f9c5a13231022010f877f64c6f83aa74</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-04 10:35:41</sys_created_on>
+        <sys_id>c04fe13e31022010f877f64c6f83aa88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1776c9ca60d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-04 10:35:41</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>0c4fe13eaa02201013a12a2f28fd8887</update_guid>
+        <update_guid_history>0c4fe13eaa02201013a12a2f28fd8887:-787812339</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-04 11:06:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>89424bc8fd5d4a2e950921b74f7cfac4</sys_id>
+        <sys_metadata>404fe13e31022010f877f64c6f83aa81</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Alert App - Create Status Report Requests for Affected</sys_name>
+        <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+        <sys_scope_delete display_value="">357fd6ace0af4fe48adcb3448b39e990</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_404fe13e31022010f877f64c6f83aa81</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_404fe13e31022010f877f64c6f83aa81">c04fe13e31022010f877f64c6f83aa88</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-04 11:06:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
