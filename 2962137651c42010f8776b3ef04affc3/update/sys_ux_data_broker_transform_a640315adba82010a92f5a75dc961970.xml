@@ -29,6 +29,14 @@
         <required_translations>[{"message":"Table","comment":""},{"message":"Table to look up","comment":""},{"message":"Record","comment":""},{"message":"Record to look up (sys_id or display value)","comment":""}]</required_translations>
         <schema_version>1.0.0</schema_version>
         <script><![CDATA[function transform(input) {
+	var status = '';
+	var workStatus = new GlideRecord('x_snc_emergency_al_work_status_request_task');
+	workStatus.addQuery('self_report',input["recordId"]);
+	workStatus.query();
+	if(workStatus.next()){
+		status = workStatus.getDisplayValue('state');
+	}
+	
     var selfReport = new GlideRecord(input["table"]);
     if (!selfReport.get(input["recordId"]))
         return {};
@@ -83,7 +91,8 @@
             "label": gs.getMessage("Work status request"),
             "value": {
                 "type": "string",
-                "value": selfReport.getDisplayValue("status")
+               // "value": selfReport.getDisplayValue("status")
+                "value": status
             }
         }
     ];
@@ -100,7 +109,7 @@
             "label": gs.getMessage("Affected"),
             "value": {
                 "type": "string",
-                "value": gs.getMessage(selfReport.getValue("who_else_was_affected").split(",").length + " coworkers")
+                "value": selfReport.getValue("who_else_was_affected").split(",").length + gs.getMessage(" coworkers")
             }
         });
     } else {
@@ -131,7 +140,7 @@
             "label": gs.getMessage("Highlighted value"),
             "value": {
                 "type": "highlighted-value",
-                "label": gs.getMessage(selfReport.getDisplayValue("status")),
+                "label": gs.getMessage("{0}", selfReport.getDisplayValue("status")),
                 "status": statesColors[selfReport.getDisplayValue("status")],
                 "showIcon": selfReport.getDisplayValue("status") == "Submitted" || selfReport.getDisplayValue("status") == "At risk" ? false : true
             }
@@ -145,8 +154,8 @@
         "status": selfReport.status.getDisplayValue(),
         "dontShowSubmitIcon": selfReport.getDisplayValue("status") == "Submitted" ? false : true,
         "dontShowRiskIcon": selfReport.getDisplayValue("status") == "At risk" ? false : true,
-		"dontShowClosedIcon": selfReport.getDisplayValue("status") == "Closed" ? false : true,
-		"dontShowStatusRequestedIcon": selfReport.getDisplayValue("status") == "Status requested" ? false : true,
+        "dontShowClosedIcon": selfReport.getDisplayValue("status") == "Closed" ? false : true,
+        "dontShowStatusRequestedIcon": selfReport.getDisplayValue("status") == "Status requested" ? false : true,
         "emergencyType": selfReport.type_of_emergency.getDisplayValue(),
         "emergencyDetails": selfReport.getValue('emergency_details'),
         "emergencyUpdate": [{
@@ -169,14 +178,14 @@
         <sys_created_by>rakesh</sys_created_by>
         <sys_created_on>2020-11-20 07:49:46</sys_created_on>
         <sys_id>a640315adba82010a92f5a75dc961970</sys_id>
-        <sys_mod_count>69</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_name>Self report Summary</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_ux_data_broker_transform_a640315adba82010a92f5a75dc961970</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-25 15:42:15</sys_updated_on>
+        <sys_updated_on>2021-02-01 13:16:00</sys_updated_on>
     </sys_ux_data_broker_transform>
     <sys_translated_text action="delete_multiple" query="documentkey=a640315adba82010a92f5a75dc961970"/>
 </record_update>

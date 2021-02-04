@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_snc_emergency_al_status_report" element="NULL" name="x_snc_emergency_al_status_report" parent="NULL" relationship="NULL" sys_domain="global" view="6ee76352213120100acbcc0ab44e19c3">87d2c2dddb242010a92f5a75dc96199f</list_id>
+            <list_id display_value="x_snc_emergency_al_status_report" element="NULL" name="x_snc_emergency_al_status_report" parent="NULL" relationship="NULL" sys_domain="global" view="b7f44152e8022010adfc16f941d8f5b7">87d2c2dddb242010a92f5a75dc96199f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_snc_emergency_al_status_report" element="NULL" name="x_snc_emergency_al_status_report" parent="NULL" relationship="NULL" sys_domain="global" view="6ee76352213120100acbcc0ab44e19c3">87d2c2dddb242010a92f5a75dc96199f</list_id>
+            <list_id display_value="x_snc_emergency_al_status_report" element="NULL" name="x_snc_emergency_al_status_report" parent="NULL" relationship="NULL" sys_domain="global" view="b7f44152e8022010adfc16f941d8f5b7">87d2c2dddb242010a92f5a75dc96199f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -55,7 +55,7 @@
             <sys_updated_by>rakesh</sys_updated_by>
             <sys_updated_on>2020-11-17 06:36:17</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">6ee76352213120100acbcc0ab44e19c3</view>
+            <view display_value="Reference List" name="sys_ref_list">b7f44152e8022010adfc16f941d8f5b7</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

@@ -392,7 +392,7 @@
                 "header" : {
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
-                    "message" : "New Community Alert",
+                    "message" : "New community alert",
                     "comment" : ""
                   }
                 },
@@ -913,7 +913,7 @@
                     "header" : {
                       "type" : "TRANSLATION_LITERAL",
                       "value" : {
-                        "message" : "New Community Alert",
+                        "message" : "New community alert",
                         "comment" : ""
                       }
                     },
@@ -1789,7 +1789,7 @@
   "readOnly" : true,
   "selectable" : false
 } ]</props>
-        <required_translations>[{"message":"You have new alert from your community","comment":""},{"message":"Report an emergency ","comment":""},{"message":"You successfully submitted this emergency report.","comment":""},{"message":"Report an emergency","comment":""},{"message":"Your manager is requesting your emergency status update from you","comment":""},{"message":"Community alerts","comment":""},{"message":"Update your emergency status","comment":""},{"message":"Emergency report submitted","comment":""},{"message":"New Community Alert","comment":""},{"message":"Your status reports","comment":""},{"message":"No status updates yet","comment":""},{"message":"No content to display","comment":""},{"message":"You successfully submitted this status update","comment":""},{"message":"Status updated","comment":""}]</required_translations>
+        <required_translations>[{"message":"You have new alert from your community","comment":""},{"message":"Report an emergency ","comment":""},{"message":"New community alert","comment":""},{"message":"You successfully submitted this emergency report.","comment":""},{"message":"Report an emergency","comment":""},{"message":"Your manager is requesting your emergency status update from you","comment":""},{"message":"Community alerts","comment":""},{"message":"Update your emergency status","comment":""},{"message":"Emergency report submitted","comment":""},{"message":"Your status reports","comment":""},{"message":"No status updates yet","comment":""},{"message":"No content to display","comment":""},{"message":"You successfully submitted this status update","comment":""},{"message":"Status updated","comment":""}]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
@@ -1876,13 +1876,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 09:38:34</sys_created_on>
         <sys_id>8acc2ff251082010f8776b3ef04aff3c</sys_id>
-        <sys_mod_count>418</sys_mod_count>
+        <sys_mod_count>419</sys_mod_count>
         <sys_name>contentportallanding</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_ux_macroponent_8acc2ff251082010f8776b3ef04aff3c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-25 09:19:21</sys_updated_on>
+        <sys_updated_on>2021-02-03 07:58:37</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

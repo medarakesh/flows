@@ -35,7 +35,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 18pt;"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18pt;"><strong>You </strong></span><span style="font-size: 24px;"><strong>successfully</strong></span><span style="font-size: 18pt;"><strong>&nbsp;submitted this request [to work from home] for time off</strong></span></span></span></p>
+        <message_html><![CDATA[<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 18pt;"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18pt;"><strong>You </strong></span><span style="font-size: 24px;"><strong>successfully</strong></span><span style="font-size: 18pt;"><strong>&nbsp;submitted this request ${mail_script:emergency_wfh_timeoff}</strong></span></span></span></p>
 <p style="text-align: center;"><br /></p>
 <p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #808080;">Your manager manager has been notified of your request. <br />you'll receive response within next few days</span></p>
 <p style="text-align: center;"><br /></p>
@@ -61,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>218d6c24b10a2010f877a7f109a2495b</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Request for WFH / Time off submitted</sys_name>
         <sys_overrides/>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
@@ -69,7 +69,7 @@
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sysevent_email_action_218d6c24b10a2010f877a7f109a2495b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 07:10:54</sys_updated_on>
+        <sys_updated_on>2021-02-02 05:19:06</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Emergency alert self report">3c7e2f4f1d19a410f877411cbac76c45</template>
         <type>email</type>

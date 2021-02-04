@@ -5,7 +5,7 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>true</action_update>
+        <action_update>false</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
@@ -30,12 +30,12 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
     var kbGr = new GlideRecord('kb_knowledge');
-	var description = current.getValue('emergency_alert_message');
-	kbGr.short_description = current.getValue('emergency_alert_title');
-	kbGr.text = description.replace(/\n/g,'<br/>');
-	current.kb_article = kbGr.insert();
-	current.setWorkflow(false);
-	current.update();
+    var description = current.getValue('emergency_alert_message');
+    kbGr.short_description = current.getValue('emergency_alert_title');
+    kbGr.text = description.replace(/\n/g, '<br/>');
+    current.kb_article = kbGr.insert();
+    current.setWorkflow(false);
+    current.update();
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -44,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2529a1addb7020105de6f9751d96196c</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Create KB article</sys_name>
         <sys_overrides/>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
@@ -52,7 +52,7 @@
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_script_2529a1addb7020105de6f9751d96196c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-20 13:40:05</sys_updated_on>
+        <sys_updated_on>2021-02-01 12:56:10</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

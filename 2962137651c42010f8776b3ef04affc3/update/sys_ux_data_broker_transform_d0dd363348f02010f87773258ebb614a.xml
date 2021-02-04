@@ -46,7 +46,7 @@
             "workflowState": "published",
             "kbKnowledgeBase": null,
             "number": null,
-            "shortDescription": gs.getMessage(newAlert.emergency_alert_title.getDisplayValue()),
+            "shortDescription": gs.getMessage("{0}",newAlert.emergency_alert_title.getDisplayValue()),
             "sysId": "471ee81eff6002009b20ffffffffff34",
             "sysUpdatedOn": null,
             "sysViewCount": null,
@@ -65,14 +65,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-07 15:39:28</sys_created_on>
         <sys_id>d0dd363348f02010f87773258ebb614a</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>knowledgearticles</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_ux_data_broker_transform_d0dd363348f02010f87773258ebb614a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-25 15:32:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 11:24:35</sys_updated_on>
     </sys_ux_data_broker_transform>
     <sys_translated_text action="delete_multiple" query="documentkey=d0dd363348f02010f87773258ebb614a"/>
 </record_update>

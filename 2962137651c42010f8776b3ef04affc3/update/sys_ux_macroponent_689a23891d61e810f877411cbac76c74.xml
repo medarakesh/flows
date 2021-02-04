@@ -1126,23 +1126,61 @@
                               "event" : {
                                 "apiName" : "x_snc_emergency_al.NAV_ITEM_SELECTED_RELAY_689a23891d61e810f877411cbac76c74",
                                 "payload" : {
-                                  "type" : "JSON_LITERAL",
-                                  "value" : {
-                                    "route" : "dynamic-list",
+                                  "type" : "MAP_CONTAINER",
+                                  "container" : {
+                                    "route" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : "dynamic-list"
+                                    },
                                     "fields" : {
-                                      "table" : "x_snc_emergency_al_status_report"
+                                      "type" : "JSON_LITERAL",
+                                      "value" : {
+                                        "table" : "x_snc_emergency_al_status_report"
+                                      }
                                     },
                                     "params" : {
-                                      "query" : "status_matrix!=null",
-                                      "listTitle" : "Severity of open requests",
-                                      "column" : "number,name,status_matrix, your_health_status"
+                                      "type" : "MAP_CONTAINER",
+                                      "container" : {
+                                        "query" : {
+                                          "type" : "EVENT_PAYLOAD_BINDING",
+                                          "binding" : {
+                                            "address" : [ "params", "query" ]
+                                          }
+                                        },
+                                        "listTitle" : {
+                                          "type" : "JSON_LITERAL",
+                                          "value" : "Severity of open requests"
+                                        },
+                                        "column" : {
+                                          "type" : "JSON_LITERAL",
+                                          "value" : "number,name,status_matrix, your_health_status"
+                                        }
+                                      }
                                     },
-                                    "redirect" : null,
-                                    "passiveNavigation" : null,
-                                    "title" : null,
-                                    "multiInstField" : null,
-                                    "targetRoute" : "current",
-                                    "external" : null
+                                    "redirect" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : null
+                                    },
+                                    "passiveNavigation" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : null
+                                    },
+                                    "title" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : null
+                                    },
+                                    "multiInstField" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : null
+                                    },
+                                    "targetRoute" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : "current"
+                                    },
+                                    "external" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : null
+                                    }
                                   }
                                 },
                                 "sysId" : "39aae3c51d61e810f877411cbac76cfe"
@@ -1461,7 +1499,7 @@
                         "color" : "gray",
                         "font-size" : "16px",
                         "padding-left" : "14px",
-                        "padding-bottom" : "31px",
+                        "padding-bottom" : "36px",
                         "background-color" : "white"
                       }
                     } ],
@@ -1696,7 +1734,7 @@
                         "color" : "gray",
                         "font-size" : "16px",
                         "padding-left" : "14px",
-                        "padding-bottom" : "31px",
+                        "padding-bottom" : "36px",
                         "background-color" : "white"
                       }
                     } ],
@@ -1843,7 +1881,7 @@
                 },
                 "limit" : {
                   "type" : "JSON_LITERAL",
-                  "value" : "10"
+                  "value" : "12"
                 },
                 "maxColumns" : {
                   "type" : "JSON_LITERAL",
@@ -2520,13 +2558,13 @@
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2021-01-05 12:33:43</sys_created_on>
         <sys_id>689a23891d61e810f877411cbac76c74</sys_id>
-        <sys_mod_count>120</sys_mod_count>
+        <sys_mod_count>123</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_ux_macroponent_689a23891d61e810f877411cbac76c74</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-25 12:15:35</sys_updated_on>
+        <sys_updated_on>2021-02-03 07:47:28</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

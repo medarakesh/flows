@@ -95,10 +95,10 @@
                     var gd = new GlideDate();
                     if (result["highlightedHeaderLabel"] == "Status requested") {
                         gd.setValue(propMap[propFieldMappings[prop]]);
-                        result[prop] = gs.getMessage("Requested " + gd.getByFormat("MM/dd/yyyy") || '');
+                        result[prop] = gs.getMessage("Requested ") + gd.getByFormat("MM/dd/yyyy") || '';
                     } else {
                         gd.setValue(propMap[propFieldMappings[prop]]);
-                        result[prop] = gs.getMessage("Updated " + gd.getByFormat("MM/dd/yyyy") || '');
+                        result[prop] = gs.getMessage("Updated ") + gd.getByFormat("MM/dd/yyyy") || '';
                     }
                 } else
                     result[prop] = propMap[propFieldMappings[prop]] || '';
@@ -225,7 +225,7 @@
         if (item["propValues"]["highlightedHeaderLabel"] != "Status requested") {
             var emStatus = new GlideRecord("x_snc_emergency_al_work_status_request_task");
             if (emStatus.get("self_report", item["propValues"]["model"]["sys_id"])) {
-                item["propValues"]["detailValueThree"] = gs.getMessage(emStatus.getDisplayValue("state").toString());
+                item["propValues"]["detailValueThree"] = gs.getMessage("{0}",emStatus.getDisplayValue("state").toString());
             }else{
 				item["propValues"]["detailValueThree"] = gs.getMessage("Requested");
 			}
@@ -248,14 +248,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-02 10:49:19</sys_created_on>
         <sys_id>2ebc25e4515ce010f8776b3ef04aff69</sys_id>
-        <sys_mod_count>90</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_name>Bind emergency alert data to component prop</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sys_ux_data_broker_transform_2ebc25e4515ce010f8776b3ef04aff69</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-25 15:24:47</sys_updated_on>
+        <sys_updated_on>2021-01-29 11:21:40</sys_updated_on>
     </sys_ux_data_broker_transform>
     <sys_translated_text action="delete_multiple" query="documentkey=2ebc25e4515ce010f8776b3ef04aff69"/>
 </record_update>

@@ -36,7 +36,7 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<center><img style="align: baseline;" title="" src="green-tick.png" alt="" width="40" height="40" align="baseline" border="" hspace="" vspace="" /></center>
-<p style="text-align: center;"><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 18pt;">Your work status request has been approved</span></strong></p>
+<p style="text-align: center;"><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 18pt;">Your work status request ${mail_script:emergency_approval_wfh_timeoff} has been approved</span></strong></p>
 <p style="text-align: center;"><br /></p>
 <p style="text-align: center;"><br /></p>
 <center>${mail_script:emergency_alert_button_report_self_rep}</center>]]></message_html>
@@ -61,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b33e845f1d59a410f877411cbac76c7f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Request for WFH approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
@@ -69,7 +69,7 @@
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
         <sys_update_name>sysevent_email_action_b33e845f1d59a410f877411cbac76c7f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-21 16:16:43</sys_updated_on>
+        <sys_updated_on>2021-02-02 05:46:06</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Emergency alert work status">44ef4c5f1d59a410f877411cbac76c23</template>
         <type>email</type>
