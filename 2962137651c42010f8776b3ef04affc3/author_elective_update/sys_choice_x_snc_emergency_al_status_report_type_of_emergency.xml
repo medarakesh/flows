@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type_of_emergency" table="x_snc_emergency_al_status_report" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type_of_emergency</element>
+            <name>x_snc_emergency_al_status_report</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-04 09:51:53</sys_created_on>
+            <sys_id>6e3525f231022010f877f64c6f83aab2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type_of_emergency</sys_name>
+            <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
+            <sys_update_name>sys_choice_x_snc_emergency_al_status_report_type_of_emergency</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-04 09:51:53</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_emergency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aliens</label>
+            <language>en</language>
+            <name>x_snc_emergency_al_status_report</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-04 09:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>223525f231022010f877f64c6f83aab2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-04 09:51:53</sys_updated_on>
+            <value>aliens</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_emergency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Blizzard</label>
+            <language>en</language>
+            <name>x_snc_emergency_al_status_report</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-04 09:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>623525f231022010f877f64c6f83aab2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-04 09:51:53</sys_updated_on>
+            <value>blizzard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_emergency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Earthquake</label>
+            <language>en</language>
+            <name>x_snc_emergency_al_status_report</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-04 09:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a23525f231022010f877f64c6f83aab2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-04 09:51:53</sys_updated_on>
+            <value>earthquake</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_emergency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Exposure to contagion</label>
+            <language>en</language>
+            <name>x_snc_emergency_al_status_report</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-04 09:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e23525f231022010f877f64c6f83aab2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-04 09:51:53</sys_updated_on>
+            <value>exposure_to_contagion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_emergency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fire</label>
+            <language>en</language>
+            <name>x_snc_emergency_al_status_report</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-04 09:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>263525f231022010f877f64c6f83aab2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-04 09:51:53</sys_updated_on>
+            <value>fire</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_emergency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flood</label>
+            <language>en</language>
+            <name>x_snc_emergency_al_status_report</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-04 09:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>663525f231022010f877f64c6f83aab2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-04 09:51:53</sys_updated_on>
+            <value>flood</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_emergency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hurricane</label>
+            <language>en</language>
+            <name>x_snc_emergency_al_status_report</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-04 09:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a63525f231022010f877f64c6f83aab2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-04 09:51:53</sys_updated_on>
+            <value>hurricane</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_emergency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Illness/injury</label>
+            <language>en</language>
+            <name>x_snc_emergency_al_status_report</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-04 09:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e63525f231022010f877f64c6f83aab2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-04 09:51:53</sys_updated_on>
+            <value>illness_injury</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_emergency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_snc_emergency_al_status_report</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-04 09:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a3525f231022010f877f64c6f83aab2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-04 09:51:53</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_emergency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tornado</label>
+            <language>en</language>
+            <name>x_snc_emergency_al_status_report</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-04 09:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a3525f231022010f877f64c6f83aab2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-04 09:51:53</sys_updated_on>
+            <value>tornado</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -24,13 +24,13 @@
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-09 10:30:19</sys_created_on>
-        <sys_id>dc1809f2e4022010f87733b9500787a2</sys_id>
+        <sys_id>b435e1f231022010f877f64c6f83aab7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Emergency alert</sys_name>
         <sys_package display_value="Emergency Alert" source="x_snc_emergency_al">2962137651c42010f8776b3ef04affc3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Emergency Alert">2962137651c42010f8776b3ef04affc3</sys_scope>
-        <sys_update_name>sys_db_object_dc1809f2e4022010f87733b9500787a2</sys_update_name>
+        <sys_update_name>sys_db_object_b435e1f231022010f877f64c6f83aab7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-09 10:30:19</sys_updated_on>
         <update_access>false</update_access>
